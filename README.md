@@ -1,6 +1,6 @@
 # periodic-table
 
-Periodic Table in concise JavaScript object format.
+Periodic Table chemical data, in concise JavaScript object format.
 
 Enhanced version of: https://github.com/Bowserinator/Periodic-Table-JSON
 
