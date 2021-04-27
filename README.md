@@ -4,3 +4,4 @@ Ultra detailed, comprehensive Periodic Table chemical data, in concise JavaScrip
 
 Enhanced and embellished version of: https://github.com/Bowserinator/Periodic-Table-JSON
 
+Used in this interactive Periodic Table: https://codepen.io/sweaver2112/full/bGedgoj
