@@ -4,7 +4,7 @@
 
 /* Collator: Scott Weaver @sweaver2112 */
 
-/* Data collated from many public sources, including those listed below */
+/* Data collated from public sources including: */
 
 /* https://github.com/Bowserinator/Periodic-Table-JSON */
 
