@@ -2,7 +2,7 @@
 
 powering http://ChemStudent.net
 
-The definitive data-set for chemical elements
+The definitive data-set for chemical elements.
 
 Collator: Scott Weaver @sweaver2112
 
@@ -10,11 +10,11 @@ Collator: Scott Weaver @sweaver2112
 
 https://github.com/Bowserinator/Periodic-Table-JSON
 
-wikipedia.com
+http://en.wikipedia.com
 
-ptable.com
+http://ptable.com
 
-periodictable.com
+http://periodictable.com
 
 # properties available
 
