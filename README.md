@@ -20,7 +20,7 @@ http://periodictable.com
 
 The PTable is an array of objects, each object representing one chemical element. 
 
-Thus, to find the universal abundance of Helium:
+Thus, to find, for example, the universal abundance of Helium:
 
 ```pTable[1].abundance.universe => 23```
 
@@ -28,9 +28,9 @@ to fetch an element by symbol:
 
 ```pTable.find(el=>el.symbol=="B")  => Boron object```
 
-Units are available via `pTableUnits`, an object with the same structure as the table.
+A unit map is available and is an object with the same structure as the table.
 
-To get the units for universal abundance, simply query the units object like so:
+This mean you can get the units by accessing the map with the same property name:
 
 ```pTableUnits.abundance.universe => "%"``` 
 
