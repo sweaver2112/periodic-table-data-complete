@@ -6,15 +6,19 @@ The definitive data-set for chemical elements.
 
 Collator: Scott Weaver @sweaver2112
 
-# acknowledgements
+## acknowledgements
 
-https://github.com/Bowserinator/Periodic-Table-JSON
-
-http://en.wikipedia.com
-
-http://ptable.com
-
+https://github.com/Bowserinator/Periodic-Table-JSON,
+http://en.wikipedia.com,
+http://ptable.com,
 http://periodictable.com
+
+## Notes
+
+1. The data is not flat - compound values are objects (Hardness, Abundance, Heat Of, Melting Point, Boiling Point, and many more)
+2. Numeric values are numbers, not strings
+3. Summary includes entire Wikipedia first section, consequently it retains the paragraph tags from the source: &lt;p&gt;summary text...&lt;/p&gt;
+5. Isomorphic units map is included (it has the same structure and names as the pTable)
 
 ## Usage
 
@@ -28,9 +32,7 @@ to fetch an element by symbol:
 
 ```pTable.find(el=>el.symbol=="B")  => Boron object```
 
-A unit map is available and is an object with the same structure as the table.
-
-This mean you can get the units by accessing the map with the same property name:
+You can get the units by accessing the map with the corresponding property name:
 
 ```pTableUnits.abundance.universe => "%"``` 
 
