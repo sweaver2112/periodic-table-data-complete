@@ -1,44 +1,5 @@
 {
-	"units":{
-        "atomic_mass": "amu",
-        "boiling_point": {
-            "celsius": "°",
-            "fahrenheit": "°",
-            "kelvin": "K"
-        },
-        "melting_point": {
-            "celsius": "°",
-            "fahrenheit": "°",
-            "kelvin": "K"
-        },
-        "electron_affinity": "kJ/mol",
-        "electronegativity_pauling": "kJ/mol",
-        "ionization_energies": "kJ/mol",
-        "hardness": {
-            "radius": "pm",
-            "vickers": "MPa",
-            "brinell": "MPa",
-            "mohs": "MPa"
-        },
-        "modulus": {
-            "bulk": "GPa"
-        },
-        "density": {
-            "shear": "GPa",
-            "young": "GPa",
-            "stp": "kg/m³",
-            "liquid": "kg/m³"
-        },
-        "conductivity": {
-            "thermal": "W/mK",
-            "electric": "MS/m"
-        },
-        "heat": {
-            "specific": "J/(kg K)",
-            "fusion": "kJ/mol",
-            "vaporization": "kJ/mol",
-            "molar": "J/K.mol"
-        },
+	"units":    {
         "abundance": {
             "universe": "%",
             "solar": "%",
@@ -46,24 +7,63 @@
             "crust": "%",
             "human": "%"
         },
+        "atomic_mass": "amu",
+        "boiling_point": {
+            "celsius": "°",
+            "fahrenheit": "°",
+            "kelvin": "K"
+        },
+        "conductivity": {
+            "thermal": "W/mK",
+            "electric": "MS/m"
+        },
+        "density": {
+            "shear": "GPa",
+            "young": "GPa",
+            "stp": "kg/m³",
+            "liquid": "kg/m³"
+        },
+        "discovered": "year",
+        "electron_affinity": "kJ/mol",
+        "electronegativity_pauling": "kJ/mol",
+        "energy_levels": "e⁻️",
+        "half-life": "year",
+        "hardness": {
+            "radius": "pm",
+            "vickers": "MPa",
+            "brinell": "MPa",
+            "mohs": "MPa"
+        },
+        "heat": {
+            "specific": "J/(kg K)",
+            "fusion": "kJ/mol",
+            "vaporization": "kJ/mol",
+            "molar": "J/K.mol"
+        },
+        "ionization_energies": "kJ/mol",
+        "lattice_constants": "pm",
+        "lifetime": "year",
+        "magnetic_susceptibility": {
+            "mass": "m³/Kg",
+            "molar": "m³/mol"
+        },
+        "melting_point": {
+            "celsius": "°",
+            "fahrenheit": "°",
+            "kelvin": "K"
+        },
+        "modulus": {
+            "bulk": "GPa"
+        },
         "radius": {
             "calculated": "pm",
             "empirical": "pm",
             "covalent": "pm",
             "vanderwaals": "pm"
         },
-        "discovered": "year",
-        "magnetic_susceptibility": {
-            "mass": "m³/Kg",
-            "molar": "m³/mol"
-        },
-        "speed_of_sound": "m/s",
         "resistivity": "m Ω",
-        "thermal_expansion": "K⁻¹",
-        "half-life": "year",
-        "lifetime": "year",
-        "energy_levels": "e⁻️",
-        "lattice_constants": "pm"
+        "speed_of_sound": "m/s",
+        "thermal_expansion": "K⁻¹"
     },
     "pTable": [{
 		"name": "Hydrogen",
