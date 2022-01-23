@@ -32,7 +32,7 @@ Thus, to find, for example, the universal abundance of Helium (noting that Heliu
 
 ```pTable[1].abundance.universe => 23```
 
-to fetch an element by symbol:
+more likely, you'll want to fetch an element by symbol:
 
 ```pTable.find(el=>el.symbol=="B")  => Boron object```
 
