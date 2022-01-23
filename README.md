@@ -12,7 +12,7 @@ https://github.com/Bowserinator/Periodic-Table-JSON,
 
 http://en.wikipedia.com,
 
-http://ptable.com,
+http://pTable.com,
 
 http://periodictable.com
 
