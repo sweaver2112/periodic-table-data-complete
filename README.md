@@ -9,9 +9,13 @@ Collator: Scott Weaver @sweaver2112
 ## acknowledgements
 
 https://github.com/Bowserinator/Periodic-Table-JSON,
+
 http://en.wikipedia.com,
+
 http://ptable.com,
+
 http://periodictable.com
+
 
 ## Notes
 
@@ -24,7 +28,7 @@ http://periodictable.com
 
 The PTable is an array of objects, each object representing one chemical element. 
 
-Thus, to find, for example, the universal abundance of Helium:
+Thus, to find, for example, the universal abundance of Helium (noting that Helium is the 2nd element by atomic number) :
 
 ```pTable[1].abundance.universe => 23```
 
