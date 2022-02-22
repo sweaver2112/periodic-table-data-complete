@@ -138,7 +138,7 @@ pTable = [
         "isotopes_stable": "¹H, ²H",
         "isotopic_abundances": "¹H: 99.9885%, ²H: 0.0115%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "470, 470, 340 pm",
+        "lattice_constants": "470, 470, 340",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -2.48e-8,
@@ -229,7 +229,7 @@ pTable = [
         "isotopes_stable": "³He, ⁴He",
         "isotopic_abundances": "³He: 0.000137%, ⁴He: 99.999863%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "424.2, 424.2, 424.2 pm",
+        "lattice_constants": "424.2, 424.2, 424.2",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -5.9e-9,
@@ -328,7 +328,7 @@ pTable = [
         "isotopes_stable": "⁶Li, ⁷Li",
         "isotopic_abundances": "⁶Li: 7.59%, ⁷Li: 92.41%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "351, 351, 351 pm",
+        "lattice_constants": "351, 351, 351",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.56e-8,
@@ -435,7 +435,7 @@ pTable = [
         "isotopes_stable": "⁹Be",
         "isotopic_abundances": "⁹Be: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "228.58, 228.58, 358.43 pm",
+        "lattice_constants": "228.58, 228.58, 358.43",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.26e-8,
@@ -543,7 +543,7 @@ pTable = [
         "isotopes_stable": "¹⁰B, ¹¹B",
         "isotopic_abundances": "¹⁰B: 19.9%, ¹¹B: 80.1%",
         "lattice_angles": "1.01334, 1.01334, 1.01334",
-        "lattice_constants": "506, 506, 506 pm",
+        "lattice_constants": "506, 506, 506",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -8.7e-9,
@@ -646,7 +646,7 @@ pTable = [
         "isotopes_stable": "¹²C, ¹³C",
         "isotopic_abundances": "¹²C: 98.93%, ¹³C: 1.07%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "246.4, 246.4, 671.1 pm",
+        "lattice_constants": "246.4, 246.4, 671.1",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -6.2e-9,
@@ -752,7 +752,7 @@ pTable = [
         "isotopes_stable": "¹⁴N, ¹⁵N",
         "isotopic_abundances": "¹⁴N: 99.632%, ¹⁵N: 0.368%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "386.1, 386.1, 626.5 pm",
+        "lattice_constants": "386.1, 386.1, 626.5",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -5.4e-9,
@@ -853,7 +853,7 @@ pTable = [
         "isotopes_stable": "¹⁶O, ¹⁷O, ¹⁸O",
         "isotopic_abundances": "¹⁶O: 99.757%, ¹⁷O: 0.038%, ¹⁸O: 0.205%",
         "lattice_angles": "π/2, 2.313085, π/2",
-        "lattice_constants": "540.3, 342.9, 508.6 pm",
+        "lattice_constants": "540.3, 342.9, 508.6",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.000001335,
@@ -955,7 +955,7 @@ pTable = [
         "isotopes_stable": "¹⁹F",
         "isotopic_abundances": "¹⁹F: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "550, 328, 728 pm",
+        "lattice_constants": "550, 328, 728",
         "lifetime": "Stable",
         "melting_point": 53.48,
         "molar_volume": 0.011202,
@@ -1048,7 +1048,7 @@ pTable = [
         "isotopes_stable": "²⁰Ne, ²¹Ne, ²²Ne",
         "isotopic_abundances": "²⁰Ne: 90.48%, ²¹Ne: 0.27%, ²²Ne: 9.25%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "442.9, 442.9, 442.9 pm",
+        "lattice_constants": "442.9, 442.9, 442.9",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4.1e-9,
@@ -1158,7 +1158,7 @@ pTable = [
         "isotopes_stable": "²³Na",
         "isotopic_abundances": "²³Na: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "429.06, 429.06, 429.06 pm",
+        "lattice_constants": "429.06, 429.06, 429.06",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 8.8e-9,
@@ -1273,7 +1273,7 @@ pTable = [
         "isotopes_stable": "²⁴Mg, ²⁵Mg, ²⁶Mg",
         "isotopic_abundances": "²⁴Mg: 78.99%, ²⁵Mg: 10%, ²⁶Mg: 11.01%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "320.94, 320.94, 521.08 pm",
+        "lattice_constants": "320.94, 320.94, 521.08",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6.9e-9,
@@ -1392,7 +1392,7 @@ pTable = [
         "isotopes_stable": "²⁷Al",
         "isotopic_abundances": "²⁷Al: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "404.95, 404.95, 404.95 pm",
+        "lattice_constants": "404.95, 404.95, 404.95",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 7.8e-9,
@@ -1510,7 +1510,7 @@ pTable = [
         "isotopes_stable": "²⁸Si, ²⁹Si, ³⁰Si",
         "isotopic_abundances": "²⁸Si: 92.2297%, ²⁹Si: 4.6832%, ³⁰Si: 3.0872%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "543.09, 543.09, 543.09 pm",
+        "lattice_constants": "543.09, 543.09, 543.09",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.6e-9,
@@ -1624,7 +1624,7 @@ pTable = [
         "isotopes_stable": "³¹P",
         "isotopic_abundances": "³¹P: 100%",
         "lattice_angles": "1.25384, 1.57725, 1.24896",
-        "lattice_constants": "1145, 550.3, 1126.1 pm",
+        "lattice_constants": "1145, 550.3, 1126.1",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.13e-8,
@@ -1741,7 +1741,7 @@ pTable = [
         "isotopes_stable": "³²S, ³³S, ³⁴S, ³⁶S",
         "isotopic_abundances": "³²S: 94.93%, ³³S: 0.76%, ³⁴S: 4.29%, ³⁶S: 0.02%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "1043.7, 1284.5, 2436.9 pm",
+        "lattice_constants": "1043.7, 1284.5, 2436.9",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -6.2e-9,
@@ -1856,7 +1856,7 @@ pTable = [
         "isotopes_stable": "³⁵Cl, ³⁷Cl",
         "isotopic_abundances": "³⁵Cl: 75.78%, ³⁷Cl: 24.22%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "622.35, 445.61, 817.85 pm",
+        "lattice_constants": "622.35, 445.61, 817.85",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -7.2e-9,
@@ -1969,7 +1969,7 @@ pTable = [
         "isotopes_stable": "³⁶Ar, ³⁸Ar, ⁴⁰Ar",
         "isotopic_abundances": "³⁶Ar: 0.3365%, ³⁸Ar: 0.0632%, ⁴⁰Ar: 99.6003%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "525.6, 525.6, 525.6 pm",
+        "lattice_constants": "525.6, 525.6, 525.6",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -6e-9,
@@ -2089,7 +2089,7 @@ pTable = [
         "isotopes_stable": "³⁹K, ⁴¹K",
         "isotopic_abundances": "³⁹K: 93.2581%, ⁴⁰K: 0.0117%, ⁴¹K: 6.7302%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "532.8, 532.8, 532.8 pm",
+        "lattice_constants": "532.8, 532.8, 532.8",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6.7e-9,
@@ -2210,7 +2210,7 @@ pTable = [
         "isotopes_stable": "⁴⁰Ca, ⁴²Ca, ⁴³Ca, ⁴⁴Ca, ⁴⁶Ca",
         "isotopic_abundances": "⁴⁰Ca: 96.941%, ⁴²Ca: 0.647%, ⁴³Ca: 0.135%, ⁴⁴Ca: 2.086%, ⁴⁶Ca: 0.004%, ⁴⁸Ca: 0.187%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "558.84, 558.84, 558.84 pm",
+        "lattice_constants": "558.84, 558.84, 558.84",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.38e-8,
@@ -2333,7 +2333,7 @@ pTable = [
         "isotopes_stable": "⁴⁵Sc",
         "isotopic_abundances": "⁴⁵Sc: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "330.9, 330.9, 527.33 pm",
+        "lattice_constants": "330.9, 330.9, 527.33",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 8.8e-8,
@@ -2459,7 +2459,7 @@ pTable = [
         "isotopes_stable": "⁴⁶Ti, ⁴⁷Ti, ⁴⁸Ti, ⁴⁹Ti, ⁵⁰Ti",
         "isotopic_abundances": "⁴⁶Ti: 8.25%, ⁴⁷Ti: 7.44%, ⁴⁸Ti: 73.72%, ⁴⁹Ti: 5.41%, ⁵⁰Ti: 5.18%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "295.08, 295.08, 468.55 pm",
+        "lattice_constants": "295.08, 295.08, 468.55",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.01e-8,
@@ -2588,7 +2588,7 @@ pTable = [
         "isotopes_stable": "⁵¹V",
         "isotopic_abundances": "⁵⁰V: 0.25%, ⁵¹V: 99.75%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "303, 303, 303 pm",
+        "lattice_constants": "303, 303, 303",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6.28e-8,
@@ -2719,7 +2719,7 @@ pTable = [
         "isotopes_stable": "⁵⁰Cr, ⁵²Cr, ⁵³Cr, ⁵⁴Cr",
         "isotopic_abundances": "⁵⁰Cr: 4.345%, ⁵²Cr: 83.789%, ⁵³Cr: 9.501%, ⁵⁴Cr: 2.365%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "291, 291, 291 pm",
+        "lattice_constants": "291, 291, 291",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.45e-8,
@@ -2849,7 +2849,7 @@ pTable = [
         "isotopes_stable": "⁵⁵Mn",
         "isotopic_abundances": "⁵⁵Mn: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "891.25, 891.25, 891.25 pm",
+        "lattice_constants": "891.25, 891.25, 891.25",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.21e-7,
@@ -2981,7 +2981,7 @@ pTable = [
         "isotopes_stable": "⁵⁴Fe, ⁵⁶Fe, ⁵⁷Fe, ⁵⁸Fe",
         "isotopic_abundances": "⁵⁴Fe: 5.845%, ⁵⁶Fe: 91.754%, ⁵⁷Fe: 2.119%, ⁵⁸Fe: 0.282%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "286.65, 286.65, 286.65 pm",
+        "lattice_constants": "286.65, 286.65, 286.65",
         "lifetime": "Stable",
         "magnetic_type": "ferromagnetic",
         "melting_point": 1811,
@@ -3110,7 +3110,7 @@ pTable = [
         "isotopes_stable": "⁵⁹Co",
         "isotopic_abundances": "⁵⁹Co: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "250.71, 250.71, 406.95 pm",
+        "lattice_constants": "250.71, 250.71, 406.95",
         "lifetime": "Stable",
         "magnetic_type": "ferromagnetic",
         "melting_point": 1768,
@@ -3240,7 +3240,7 @@ pTable = [
         "isotopes_stable": "⁵⁸Ni, ⁶⁰Ni, ⁶¹Ni, ⁶²Ni, ⁶⁴Ni",
         "isotopic_abundances": "⁵⁸Ni: 68.0769%, ⁶⁰Ni: 26.2231%, ⁶¹Ni: 1.1399%, ⁶²Ni: 3.6345%, ⁶⁴Ni: 0.9256%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "352.4, 352.4, 352.4 pm",
+        "lattice_constants": "352.4, 352.4, 352.4",
         "lifetime": "Stable",
         "magnetic_type": "ferromagnetic",
         "melting_point": 1728,
@@ -3371,7 +3371,7 @@ pTable = [
         "isotopes_stable": "⁶³Cu, ⁶⁵Cu",
         "isotopic_abundances": "⁶³Cu: 69.17%, ⁶⁵Cu: 30.83%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "361.49, 361.49, 361.49 pm",
+        "lattice_constants": "361.49, 361.49, 361.49",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.08e-9,
@@ -3498,7 +3498,7 @@ pTable = [
         "isotopes_stable": "⁶⁴Zn, ⁶⁶Zn, ⁶⁷Zn, ⁶⁸Zn, ⁷⁰Zn",
         "isotopic_abundances": "⁶⁴Zn: 48.63%, ⁶⁶Zn: 27.9%, ⁶⁷Zn: 4.1%, ⁶⁸Zn: 18.75%, ⁷⁰Zn: 0.62%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "266.49, 266.49, 494.68 pm",
+        "lattice_constants": "266.49, 266.49, 494.68",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -2.21e-9,
@@ -3609,7 +3609,7 @@ pTable = [
         "isotopes_stable": "⁶⁹Ga, ⁷¹Ga",
         "isotopic_abundances": "⁶⁹Ga: 60.108%, ⁷¹Ga: 39.892%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "451.97, 766.33, 452.6 pm",
+        "lattice_constants": "451.97, 766.33, 452.6",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -3e-9,
@@ -3713,7 +3713,7 @@ pTable = [
         "isotopes_stable": "⁷⁰Ge, ⁷²Ge, ⁷³Ge, ⁷⁴Ge",
         "isotopic_abundances": "⁷⁰Ge: 20.84%, ⁷²Ge: 27.54%, ⁷³Ge: 7.73%, ⁷⁴Ge: 36.28%, ⁷⁶Ge: 7.61%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "565.75, 565.75, 565.75 pm",
+        "lattice_constants": "565.75, 565.75, 565.75",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.5e-9,
@@ -3817,7 +3817,7 @@ pTable = [
         "isotopes_stable": "⁷⁵As",
         "isotopic_abundances": "⁷⁵As: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "375.98, 375.98, 1054.75 pm",
+        "lattice_constants": "375.98, 375.98, 1054.75",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -3.9e-9,
@@ -3927,7 +3927,7 @@ pTable = [
         "isotopes_stable": "⁷⁴Se, ⁷⁶Se, ⁷⁷Se, ⁷⁸Se, ⁸⁰Se",
         "isotopic_abundances": "⁷⁴Se: 0.89%, ⁷⁶Se: 9.37%, ⁷⁷Se: 7.63%, ⁷⁸Se: 23.77%, ⁸⁰Se: 49.61%, ⁸²Se: 8.73%",
         "lattice_angles": "π/2, 1.58493, π/2",
-        "lattice_constants": "905.4, 908.3, 1160.1 pm",
+        "lattice_constants": "905.4, 908.3, 1160.1",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4e-9,
@@ -4036,7 +4036,7 @@ pTable = [
         "isotopes_stable": "⁷⁹Br, ⁸¹Br",
         "isotopic_abundances": "⁷⁹Br: 50.69%, ⁸¹Br: 49.31%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "672.65, 464.51, 870.23 pm",
+        "lattice_constants": "672.65, 464.51, 870.23",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4.9e-9,
@@ -4161,7 +4161,7 @@ pTable = [
         "isotopes_stable": "⁷⁸Kr, ⁸⁰Kr, ⁸²Kr, ⁸³Kr, ⁸⁴Kr, ⁸⁶Kr",
         "isotopic_abundances": "⁷⁸Kr: 0.35%, ⁸⁰Kr: 2.28%, ⁸²Kr: 11.58%, ⁸³Kr: 11.49%, ⁸⁴Kr: 57%, ⁸⁶Kr: 17.3%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "570.6, 570.6, 570.6 pm",
+        "lattice_constants": "570.6, 570.6, 570.6",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4.4e-9,
@@ -4272,7 +4272,7 @@ pTable = [
         "isotopes_stable": "⁸⁵Rb",
         "isotopic_abundances": "⁸⁵Rb: 72.17%, ⁸⁷Rb: 27.83%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "558.5, 558.5, 558.5 pm",
+        "lattice_constants": "558.5, 558.5, 558.5",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.6e-9,
@@ -4383,7 +4383,7 @@ pTable = [
         "isotopes_stable": "⁸⁴Sr, ⁸⁶Sr, ⁸⁷Sr, ⁸⁸Sr",
         "isotopic_abundances": "⁸⁴Sr: 0.56%, ⁸⁶Sr: 9.86%, ⁸⁷Sr: 7%, ⁸⁸Sr: 82.58%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "608.49, 608.49, 608.49 pm",
+        "lattice_constants": "608.49, 608.49, 608.49",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.32e-9,
@@ -4496,7 +4496,7 @@ pTable = [
         "isotopes_stable": "⁸⁹Y",
         "isotopic_abundances": "⁸⁹Y: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "364.74, 364.74, 573.06 pm",
+        "lattice_constants": "364.74, 364.74, 573.06",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6.66e-8,
@@ -4609,7 +4609,7 @@ pTable = [
         "isotopes_stable": "⁹⁰Zr, ⁹¹Zr, ⁹²Zr, ⁹⁴Zr",
         "isotopic_abundances": "⁹⁰Zr: 51.45%, ⁹¹Zr: 11.22%, ⁹²Zr: 17.15%, ⁹⁴Zr: 17.38%, ⁹⁶Zr: 2.8%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "323.2, 323.2, 514.7 pm",
+        "lattice_constants": "323.2, 323.2, 514.7",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.68e-8,
@@ -4720,7 +4720,7 @@ pTable = [
         "isotopes_stable": "⁹³Nb",
         "isotopic_abundances": "⁹³Nb: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "330.04, 330.04, 330.04 pm",
+        "lattice_constants": "330.04, 330.04, 330.04",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.76e-8,
@@ -4858,7 +4858,7 @@ pTable = [
         "isotopes_stable": "⁹²Mo, ⁹⁴Mo, ⁹⁵Mo, ⁹⁶Mo, ⁹⁷Mo, ⁹⁸Mo",
         "isotopic_abundances": "¹⁰⁰Mo: 9.63%, ⁹²Mo: 14.84%, ⁹⁴Mo: 9.25%, ⁹⁵Mo: 15.92%, ⁹⁶Mo: 16.68%, ⁹⁷Mo: 9.55%, ⁹⁸Mo: 24.13%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "314.7, 314.7, 314.7 pm",
+        "lattice_constants": "314.7, 314.7, 314.7",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.17e-8,
@@ -4959,7 +4959,7 @@ pTable = [
         "isotopes_known": "⁸⁵Tc, ⁸⁶Tc, ⁸⁷Tc, ⁸⁸Tc, ⁸⁹Tc, ⁹⁰Tc, ⁹¹Tc, ⁹²Tc, ⁹³Tc, ⁹⁴Tc, ⁹⁵Tc, ⁹⁶Tc, ⁹⁷Tc, ⁹⁸Tc, ⁹⁹Tc, ¹⁰⁰Tc, ¹⁰¹Tc, ¹⁰²Tc, ¹⁰³Tc, ¹⁰⁴Tc, ¹⁰⁵Tc, ¹⁰⁶Tc, ¹⁰⁷Tc, ¹⁰⁸Tc, ¹⁰⁹Tc, ¹¹⁰Tc, ¹¹¹Tc, ¹¹²Tc, ¹¹³Tc, ¹¹⁴Tc, ¹¹⁵Tc, ¹¹⁶Tc, ¹¹⁷Tc, ¹¹⁸Tc",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "273.5, 273.5, 438.8 pm",
+        "lattice_constants": "273.5, 273.5, 438.8",
         "lifetime": 6024860.476915,
         "magnetic_susceptibility": {
             "mass": 3.42e-8,
@@ -5058,7 +5058,7 @@ pTable = [
         "isotopes_stable": "¹⁰⁰Ru, ¹⁰¹Ru, ¹⁰²Ru, ¹⁰⁴Ru, ⁹⁶Ru, ⁹⁸Ru, ⁹⁹Ru",
         "isotopic_abundances": "¹⁰⁰Ru: 12.6%, ¹⁰¹Ru: 17.06%, ¹⁰²Ru: 31.55%, ¹⁰⁴Ru: 18.62%, ⁹⁶Ru: 5.54%, ⁹⁸Ru: 1.87%, ⁹⁹Ru: 12.76%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "270.59, 270.59, 428.15 pm",
+        "lattice_constants": "270.59, 270.59, 428.15",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 5.42e-9,
@@ -5167,7 +5167,7 @@ pTable = [
         "isotopes_stable": "¹⁰³Rh",
         "isotopic_abundances": "¹⁰³Rh: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "380.34, 380.34, 380.34 pm",
+        "lattice_constants": "380.34, 380.34, 380.34",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.36e-8,
@@ -5274,7 +5274,7 @@ pTable = [
         "isotopes_stable": "¹⁰²Pd, ¹⁰⁴Pd, ¹⁰⁵Pd, ¹⁰⁶Pd, ¹⁰⁸Pd, ¹¹⁰Pd",
         "isotopic_abundances": "¹⁰²Pd: 1.02%, ¹⁰⁴Pd: 11.14%, ¹⁰⁵Pd: 22.33%, ¹⁰⁶Pd: 27.33%, ¹⁰⁸Pd: 26.46%, ¹¹⁰Pd: 11.72%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "389.07, 389.07, 389.07 pm",
+        "lattice_constants": "389.07, 389.07, 389.07",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6.57e-8,
@@ -5381,7 +5381,7 @@ pTable = [
         "isotopes_stable": "¹⁰⁷Ag, ¹⁰⁹Ag",
         "isotopic_abundances": "¹⁰⁷Ag: 51.839%, ¹⁰⁹Ag: 48.161%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "408.53, 408.53, 408.53 pm",
+        "lattice_constants": "408.53, 408.53, 408.53",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -2.27e-9,
@@ -5491,7 +5491,7 @@ pTable = [
         "isotopes_stable": "¹⁰⁶Cd, ¹⁰⁸Cd, ¹¹⁰Cd, ¹¹¹Cd, ¹¹²Cd, ¹¹⁴Cd",
         "isotopic_abundances": "¹⁰⁶Cd: 1.25%, ¹⁰⁸Cd: 0.89%, ¹¹⁰Cd: 12.49%, ¹¹¹Cd: 12.8%, ¹¹²Cd: 24.13%, ¹¹³Cd: 12.22%, ¹¹⁴Cd: 28.73%, ¹¹⁶Cd: 7.49%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "297.94, 297.94, 561.86 pm",
+        "lattice_constants": "297.94, 297.94, 561.86",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -2.3e-9,
@@ -5602,7 +5602,7 @@ pTable = [
         "isotopes_stable": "¹¹³In",
         "isotopic_abundances": "¹¹³In: 4.29%, ¹¹⁵In: 95.71%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "325.23, 325.23, 494.61 pm",
+        "lattice_constants": "325.23, 325.23, 494.61",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.4e-9,
@@ -5711,7 +5711,7 @@ pTable = [
         "isotopes_stable": "¹¹²Sn, ¹¹⁴Sn, ¹¹⁵Sn, ¹¹⁶Sn, ¹¹⁷Sn, ¹¹⁸Sn, ¹¹⁹Sn, ¹²⁰Sn, ¹²²Sn, ¹²⁴Sn",
         "isotopic_abundances": "¹¹²Sn: 0.97%, ¹¹⁴Sn: 0.66%, ¹¹⁵Sn: 0.34%, ¹¹⁶Sn: 14.54%, ¹¹⁷Sn: 7.68%, ¹¹⁸Sn: 24.22%, ¹¹⁹Sn: 8.59%, ¹²⁰Sn: 32.58%, ¹²²Sn: 4.63%, ¹²⁴Sn: 5.79%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "583.18, 583.18, 318.19 pm",
+        "lattice_constants": "583.18, 583.18, 318.19",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -3.1e-9,
@@ -5823,7 +5823,7 @@ pTable = [
         "isotopes_stable": "¹²¹Sb, ¹²³Sb",
         "isotopic_abundances": "¹²¹Sb: 57.21%, ¹²³Sb: 42.79%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "430.7, 430.7, 1127.3 pm",
+        "lattice_constants": "430.7, 430.7, 1127.3",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.09e-8,
@@ -5931,7 +5931,7 @@ pTable = [
         "isotopes_stable": "¹²⁰Te, ¹²²Te, ¹²⁴Te, ¹²⁵Te, ¹²⁶Te",
         "isotopic_abundances": "¹²⁰Te: 0.09%, ¹²²Te: 2.55%, ¹²³Te: 0.89%, ¹²⁴Te: 4.74%, ¹²⁵Te: 7.07%, ¹²⁶Te: 18.84%, ¹²⁸Te: 31.74%, ¹³⁰Te: 34.08%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "445.72, 445.72, 592.9 pm",
+        "lattice_constants": "445.72, 445.72, 592.9",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -3.9e-9,
@@ -6036,7 +6036,7 @@ pTable = [
         "isotopes_stable": "¹²⁷I",
         "isotopic_abundances": "¹²⁷I: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "718.02, 471.02, 981.03 pm",
+        "lattice_constants": "718.02, 471.02, 981.03",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4.5e-9,
@@ -6134,7 +6134,7 @@ pTable = [
         "isotopes_stable": "¹²⁴Xe, ¹²⁶Xe, ¹²⁸Xe, ¹²⁹Xe, ¹³⁰Xe, ¹³¹Xe, ¹³²Xe, ¹³⁴Xe, ¹³⁶Xe",
         "isotopic_abundances": "¹²⁴Xe: 0.09%, ¹²⁶Xe: 0.09%, ¹²⁸Xe: 1.92%, ¹²⁹Xe: 26.44%, ¹³⁰Xe: 4.08%, ¹³¹Xe: 21.18%, ¹³²Xe: 26.89%, ¹³⁴Xe: 10.44%, ¹³⁶Xe: 8.87%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "620.23, 620.23, 620.23 pm",
+        "lattice_constants": "620.23, 620.23, 620.23",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -4.3e-9,
@@ -6240,7 +6240,7 @@ pTable = [
         "isotopes_stable": "¹³³Cs",
         "isotopic_abundances": "¹³³Cs: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "614.1, 614.1, 614.1 pm",
+        "lattice_constants": "614.1, 614.1, 614.1",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.8e-9,
@@ -6344,7 +6344,7 @@ pTable = [
         "isotopes_stable": "¹³⁰Ba, ¹³²Ba, ¹³⁴Ba, ¹³⁵Ba, ¹³⁶Ba, ¹³⁷Ba, ¹³⁸Ba",
         "isotopic_abundances": "¹³⁰Ba: 0.106%, ¹³²Ba: 0.101%, ¹³⁴Ba: 2.417%, ¹³⁵Ba: 6.592%, ¹³⁶Ba: 7.854%, ¹³⁷Ba: 11.232%, ¹³⁸Ba: 71.698%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "502.8, 502.8, 502.8 pm",
+        "lattice_constants": "502.8, 502.8, 502.8",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.13e-8,
@@ -6454,7 +6454,7 @@ pTable = [
         "isotopes_stable": "¹³⁹La",
         "isotopic_abundances": "¹³⁸La: 0.09%, ¹³⁹La: 99.91%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "377.2, 377.2, 1214.4 pm",
+        "lattice_constants": "377.2, 377.2, 1214.4",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.1e-8,
@@ -6472,7 +6472,7 @@ pTable = [
         "neutron_cross_section": 8.98,
         "neutron_mass_absorption": 0.0023,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.28,
         "quantum_numbers": "2D3/2",
@@ -6541,7 +6541,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 19, 9, 2",
-        "group": 4,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 270,
@@ -6566,7 +6566,7 @@ pTable = [
         "isotopes_stable": "¹³⁶Ce, ¹³⁸Ce, ¹⁴⁰Ce, ¹⁴²Ce",
         "isotopic_abundances": "¹³⁶Ce: 0.185%, ¹³⁸Ce: 0.251%, ¹⁴⁰Ce: 88.45%, ¹⁴²Ce: 11.114%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "362, 362, 599 pm",
+        "lattice_constants": "362, 362, 599",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.2e-7,
@@ -6585,7 +6585,7 @@ pTable = [
         "neutron_cross_section": 0.6,
         "neutron_mass_absorption": 0.00021,
         "oxidation_states": "2,3c,4c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.24,
         "quantum_numbers": "1G4",
@@ -6651,7 +6651,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 21, 8, 2",
-        "group": 5,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 400,
@@ -6674,7 +6674,7 @@ pTable = [
         "isotopes_stable": "¹⁴¹Pr",
         "isotopic_abundances": "¹⁴¹Pr: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "367.25, 367.25, 1183.54 pm",
+        "lattice_constants": "367.25, 367.25, 1183.54",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.23e-7,
@@ -6692,7 +6692,7 @@ pTable = [
         "neutron_cross_section": 11.4,
         "neutron_mass_absorption": 0.0029,
         "oxidation_states": "2,3c,4",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.28,
         "quantum_numbers": "4I9/2",
@@ -6759,7 +6759,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 22, 8, 2",
-        "group": 6,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 343,
@@ -6781,7 +6781,7 @@ pTable = [
         "isotopes_stable": "¹⁴²Nd, ¹⁴³Nd, ¹⁴⁵Nd, ¹⁴⁶Nd, ¹⁴⁸Nd",
         "isotopic_abundances": "¹⁴²Nd: 27.2%, ¹⁴³Nd: 12.2%, ¹⁴⁴Nd: 23.8%, ¹⁴⁵Nd: 8.3%, ¹⁴⁶Nd: 17.2%, ¹⁴⁸Nd: 5.7%, ¹⁵⁰Nd: 5.6%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "365.8, 365.8, 1179.9 pm",
+        "lattice_constants": "365.8, 365.8, 1179.9",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.8e-7,
@@ -6800,7 +6800,7 @@ pTable = [
         "neutron_cross_section": 49,
         "neutron_mass_absorption": 0.011,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.28,
         "quantum_numbers": "5I4",
@@ -6865,7 +6865,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 23, 8, 2",
-        "group": 7,
+        "group": 3,
         "half-life": 17.72577371892,
         "heat": {
             "vaporization": 290,
@@ -6889,7 +6889,7 @@ pTable = [
         "molar_volume": 0.00001996145374449,
         "neutron_cross_section": 8400,
         "oxidation_states": "3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.28,
         "quantum_numbers": "6H5/2",
@@ -6954,7 +6954,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 24, 8, 2",
-        "group": 8,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 412,
@@ -6976,7 +6976,7 @@ pTable = [
         "isotopes_stable": "¹⁴⁴Sm, ¹⁴⁹Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm",
         "isotopic_abundances": "¹⁴⁴Sm: 3.07%, ¹⁴⁷Sm: 14.99%, ¹⁴⁸Sm: 11.24%, ¹⁴⁹Sm: 13.82%, ¹⁵⁰Sm: 7.38%, ¹⁵²Sm: 26.75%, ¹⁵⁴Sm: 22.75%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "362.1, 362.1, 2625 pm",
+        "lattice_constants": "362.1, 362.1, 2625",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.11e-7,
@@ -6995,7 +6995,7 @@ pTable = [
         "neutron_cross_section": 5900,
         "neutron_mass_absorption": 4.7,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.27,
         "quantum_numbers": "7F0",
@@ -7060,7 +7060,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 25, 8, 2",
-        "group": 9,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 167
@@ -7081,7 +7081,7 @@ pTable = [
         "isotopes_stable": "¹⁵¹Eu, ¹⁵³Eu",
         "isotopic_abundances": "¹⁵¹Eu: 47.81%, ¹⁵³Eu: 52.19%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "458.1, 458.1, 458.1 pm",
+        "lattice_constants": "458.1, 458.1, 458.1",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 2.76e-7,
@@ -7100,7 +7100,7 @@ pTable = [
         "neutron_cross_section": 4570,
         "neutron_mass_absorption": 0.6,
         "oxidation_states": "2c,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.15,
         "quantum_numbers": "8S7/2",
@@ -7168,7 +7168,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 25, 9, 2",
-        "group": 10,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 570
@@ -7189,7 +7189,7 @@ pTable = [
         "isotopes_stable": "¹⁵⁴Gd, ¹⁵⁵Gd, ¹⁵⁶Gd, ¹⁵⁷Gd, ¹⁵⁸Gd, ¹⁶⁰Gd",
         "isotopic_abundances": "¹⁵²Gd: 0.2%, ¹⁵⁴Gd: 2.18%, ¹⁵⁵Gd: 14.8%, ¹⁵⁶Gd: 20.47%, ¹⁵⁷Gd: 15.65%, ¹⁵⁸Gd: 24.84%, ¹⁶⁰Gd: 21.86%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "363.6, 363.6, 578.26 pm",
+        "lattice_constants": "363.6, 363.6, 578.26",
         "lifetime": "Stable",
         "magnetic_type": "ferromagnetic",
         "melting_point": 1585,
@@ -7202,7 +7202,7 @@ pTable = [
         "neutron_cross_section": 49000,
         "neutron_mass_absorption": 7.3,
         "oxidation_states": "1,2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.26,
         "quantum_numbers": "9D2",
@@ -7269,7 +7269,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 27, 8, 2",
-        "group": 11,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 863,
@@ -7291,7 +7291,7 @@ pTable = [
         "isotopes_stable": "¹⁵⁹Tb",
         "isotopic_abundances": "¹⁵⁹Tb: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "360.1, 360.1, 569.36 pm",
+        "lattice_constants": "360.1, 360.1, 569.36",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.0000136,
@@ -7310,7 +7310,7 @@ pTable = [
         "neutron_cross_section": 23,
         "neutron_mass_absorption": 0.009,
         "oxidation_states": "1,3c,4",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.26,
         "quantum_numbers": "6H15/2",
@@ -7377,7 +7377,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 28, 8, 2",
-        "group": 12,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 540,
@@ -7399,7 +7399,7 @@ pTable = [
         "isotopes_stable": "¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, ¹⁶⁴Dy",
         "isotopic_abundances": "¹⁵⁶Dy: 0.06%, ¹⁵⁸Dy: 0.1%, ¹⁶⁰Dy: 2.34%, ¹⁶¹Dy: 18.91%, ¹⁶²Dy: 25.51%, ¹⁶³Dy: 24.9%, ¹⁶⁴Dy: 28.18%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "359.3, 359.3, 565.37 pm",
+        "lattice_constants": "359.3, 359.3, 565.37",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.00000545,
@@ -7418,7 +7418,7 @@ pTable = [
         "neutron_cross_section": 950,
         "neutron_mass_absorption": 0.2,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.25,
         "quantum_numbers": "5I8",
@@ -7487,7 +7487,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 29, 8, 2",
-        "group": 13,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 481,
@@ -7509,7 +7509,7 @@ pTable = [
         "isotopes_stable": "¹⁶⁵Ho",
         "isotopic_abundances": "¹⁶⁵Ho: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "357.73, 357.73, 561.58 pm",
+        "lattice_constants": "357.73, 357.73, 561.58",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.00000549,
@@ -7528,7 +7528,7 @@ pTable = [
         "neutron_cross_section": 64,
         "neutron_mass_absorption": 0.015,
         "oxidation_states": "3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.23,
         "quantum_numbers": "4I15/2",
@@ -7595,7 +7595,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 30, 8, 2",
-        "group": 14,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 589,
@@ -7617,7 +7617,7 @@ pTable = [
         "isotopes_stable": "¹⁶²Er, ¹⁶⁴Er, ¹⁶⁶Er, ¹⁶⁷Er, ¹⁶⁸Er, ¹⁷⁰Er",
         "isotopic_abundances": "¹⁶²Er: 0.14%, ¹⁶⁴Er: 1.61%, ¹⁶⁶Er: 33.61%, ¹⁶⁷Er: 22.93%, ¹⁶⁸Er: 26.78%, ¹⁷⁰Er: 14.93%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "355.88, 355.88, 558.74 pm",
+        "lattice_constants": "355.88, 355.88, 558.74",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.00000377,
@@ -7636,7 +7636,7 @@ pTable = [
         "neutron_cross_section": 165,
         "neutron_mass_absorption": 0.036,
         "oxidation_states": "3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.24,
         "quantum_numbers": "3H6",
@@ -7705,7 +7705,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 31, 8, 2",
-        "group": 15,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 520,
@@ -7727,7 +7727,7 @@ pTable = [
         "isotopes_stable": "¹⁶⁹Tm",
         "isotopic_abundances": "¹⁶⁹Tm: 100%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "353.75, 353.75, 555.46 pm",
+        "lattice_constants": "353.75, 353.75, 555.46",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 0.00000199,
@@ -7746,7 +7746,7 @@ pTable = [
         "neutron_cross_section": 105,
         "neutron_mass_absorption": 0.025,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.21,
         "quantum_numbers": "2F7/2",
@@ -7811,7 +7811,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 8, 2",
-        "group": 16,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 206,
@@ -7833,7 +7833,7 @@ pTable = [
         "isotopes_stable": "¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, ¹⁷⁶Yb",
         "isotopic_abundances": "¹⁶⁸Yb: 0.13%, ¹⁷⁰Yb: 3.04%, ¹⁷¹Yb: 14.28%, ¹⁷²Yb: 21.83%, ¹⁷³Yb: 16.13%, ¹⁷⁴Yb: 31.83%, ¹⁷⁶Yb: 12.76%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "548.47, 548.47, 548.47 pm",
+        "lattice_constants": "548.47, 548.47, 548.47",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 5.9e-9,
@@ -7851,7 +7851,7 @@ pTable = [
         "neutron_cross_section": 35,
         "neutron_mass_absorption": 0.0076,
         "oxidation_states": "2,3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.21,
         "quantum_numbers": "1S0",
@@ -7919,7 +7919,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 9, 2",
-        "group": 17,
+        "group": 3,
         "half-life": "Stable",
         "hardness": {
             "vickers": 1160,
@@ -7942,7 +7942,7 @@ pTable = [
         "isotopes_stable": "¹⁷⁵Lu",
         "isotopic_abundances": "¹⁷⁵Lu: 97.41%, ¹⁷⁶Lu: 2.59%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "350.31, 350.31, 555.09 pm",
+        "lattice_constants": "350.31, 350.31, 555.09",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.2e-9,
@@ -7960,7 +7960,7 @@ pTable = [
         "neutron_cross_section": 85,
         "neutron_mass_absorption": 0.022,
         "oxidation_states": "3c",
-        "period": 9,
+        "period": 6,
         "phase": "Solid",
         "poisson_ratio": 0.26,
         "quantum_numbers": "2D3/2",
@@ -8053,7 +8053,7 @@ pTable = [
         "isotopes_stable": "¹⁷⁶Hf, ¹⁷⁷Hf, ¹⁷⁸Hf, ¹⁷⁹Hf, ¹⁸⁰Hf",
         "isotopic_abundances": "¹⁷⁴Hf: 0.16%, ¹⁷⁶Hf: 5.26%, ¹⁷⁷Hf: 18.6%, ¹⁷⁸Hf: 27.28%, ¹⁷⁹Hf: 13.62%, ¹⁸⁰Hf: 35.08%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "319.64, 319.64, 505.11 pm",
+        "lattice_constants": "319.64, 319.64, 505.11",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 5.3e-9,
@@ -8162,7 +8162,7 @@ pTable = [
         "isotopes_stable": "¹⁸¹Ta",
         "isotopic_abundances": "¹⁸¹Ta: 99.988%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "330.13, 330.13, 330.13 pm",
+        "lattice_constants": "330.13, 330.13, 330.13",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.07e-8,
@@ -8273,7 +8273,7 @@ pTable = [
         "isotopes_stable": "¹⁸⁰W, ¹⁸²W, ¹⁸³W, ¹⁸⁴W, ¹⁸⁶W",
         "isotopic_abundances": "¹⁸⁰W: 0.12%, ¹⁸²W: 26.5%, ¹⁸³W: 14.31%, ¹⁸⁴W: 30.64%, ¹⁸⁶W: 28.43%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "316.52, 316.52, 316.52 pm",
+        "lattice_constants": "316.52, 316.52, 316.52",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.59e-9,
@@ -8383,7 +8383,7 @@ pTable = [
         "isotopes_stable": "¹⁸⁵Re",
         "isotopic_abundances": "¹⁸⁵Re: 37.4%, ¹⁸⁷Re: 62.6%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "276.1, 276.1, 445.6 pm",
+        "lattice_constants": "276.1, 276.1, 445.6",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 4.56e-9,
@@ -8491,7 +8491,7 @@ pTable = [
         "isotopes_stable": "¹⁸⁴Os, ¹⁸⁷Os, ¹⁸⁸Os, ¹⁸⁹Os, ¹⁹⁰Os, ¹⁹²Os",
         "isotopic_abundances": "¹⁸⁴Os: 0.02%, ¹⁸⁶Os: 1.59%, ¹⁸⁷Os: 1.96%, ¹⁸⁸Os: 13.24%, ¹⁸⁹Os: 16.15%, ¹⁹⁰Os: 26.26%, ¹⁹²Os: 40.78%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "273.44, 273.44, 431.73 pm",
+        "lattice_constants": "273.44, 273.44, 431.73",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 6e-10,
@@ -8597,7 +8597,7 @@ pTable = [
         "isotopes_stable": "¹⁹¹Ir, ¹⁹³Ir",
         "isotopic_abundances": "¹⁹¹Ir: 37.3%, ¹⁹³Ir: 62.7%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "383.9, 383.9, 383.9 pm",
+        "lattice_constants": "383.9, 383.9, 383.9",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.67e-9,
@@ -8706,7 +8706,7 @@ pTable = [
         "isotopes_stable": "¹⁹²Pt, ¹⁹⁴Pt, ¹⁹⁵Pt, ¹⁹⁶Pt, ¹⁹⁸Pt",
         "isotopic_abundances": "¹⁹⁰Pt: 0.014%, ¹⁹²Pt: 0.782%, ¹⁹⁴Pt: 32.967%, ¹⁹⁵Pt: 33.832%, ¹⁹⁶Pt: 25.242%, ¹⁹⁸Pt: 7.163%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "392.42, 392.42, 392.42 pm",
+        "lattice_constants": "392.42, 392.42, 392.42",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": 1.22e-8,
@@ -8815,7 +8815,7 @@ pTable = [
         "isotopes_stable": "¹⁹⁷Au",
         "isotopic_abundances": "¹⁹⁷Au: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "407.82, 407.82, 407.82 pm",
+        "lattice_constants": "407.82, 407.82, 407.82",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.78e-9,
@@ -8922,7 +8922,7 @@ pTable = [
         "isotopes_stable": "¹⁹⁶Hg, ¹⁹⁸Hg, ¹⁹⁹Hg, ²⁰⁰Hg, ²⁰¹Hg, ²⁰²Hg, ²⁰⁴Hg",
         "isotopic_abundances": "¹⁹⁶Hg: 0.15%, ¹⁹⁸Hg: 9.97%, ¹⁹⁹Hg: 16.87%, ²⁰⁰Hg: 23.1%, ²⁰¹Hg: 13.18%, ²⁰²Hg: 29.86%, ²⁰⁴Hg: 6.87%",
         "lattice_angles": "1.23081, 1.23081, 1.23081",
-        "lattice_constants": "300.5, 300.5, 300.5 pm",
+        "lattice_constants": "300.5, 300.5, 300.5",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -2.1e-9,
@@ -9030,7 +9030,7 @@ pTable = [
         "isotopes_stable": "²⁰³Tl, ²⁰⁵Tl",
         "isotopic_abundances": "²⁰³Tl: 29.524%, ²⁰⁵Tl: 70.476%",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "345.66, 345.66, 552.48 pm",
+        "lattice_constants": "345.66, 345.66, 552.48",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -3e-9,
@@ -9143,7 +9143,7 @@ pTable = [
         "isotopes_stable": "²⁰⁴Pb, ²⁰⁶Pb, ²⁰⁷Pb, ²⁰⁸Pb",
         "isotopic_abundances": "²⁰⁴Pb: 1.4%, ²⁰⁶Pb: 24.1%, ²⁰⁷Pb: 22.1%, ²⁰⁸Pb: 52.4%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "495.08, 495.08, 495.08 pm",
+        "lattice_constants": "495.08, 495.08, 495.08",
         "lifetime": "Stable",
         "magnetic_susceptibility": {
             "mass": -1.5e-9,
@@ -9257,7 +9257,7 @@ pTable = [
         "isotopes_stable": "None",
         "isotopic_abundances": "²⁰⁹Bi: 100%",
         "lattice_angles": "π/2, 1.925622, π/2",
-        "lattice_constants": "667.4, 611.7, 330.4 pm",
+        "lattice_constants": "667.4, 611.7, 330.4",
         "lifetime": 27587519025880000000,
         "magnetic_susceptibility": {
             "mass": -1.7e-8,
@@ -9352,7 +9352,7 @@ pTable = [
         "isotopes_known": "¹⁸⁸Po, ¹⁸⁹Po, ¹⁹⁰Po, ¹⁹¹Po, ¹⁹²Po, ¹⁹³Po, ¹⁹⁴Po, ¹⁹⁵Po, ¹⁹⁶Po, ¹⁹⁷Po, ¹⁹⁸Po, ¹⁹⁹Po, ²⁰⁰Po, ²⁰¹Po, ²⁰²Po, ²⁰³Po, ²⁰⁴Po, ²⁰⁵Po, ²⁰⁶Po, ²⁰⁷Po, ²⁰⁸Po, ²⁰⁹Po, ²¹⁰Po, ²¹¹Po, ²¹²Po, ²¹³Po, ²¹⁴Po, ²¹⁵Po, ²¹⁶Po, ²¹⁷Po, ²¹⁸Po, ²¹⁹Po, ²²⁰Po",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "335.9, 335.9, 335.9 pm",
+        "lattice_constants": "335.9, 335.9, 335.9",
         "lifetime": 147.1334348047,
         "melting_point": 527,
         "molar_volume": 0.00002272727272727,
@@ -9636,7 +9636,7 @@ pTable = [
         "isotopes_known": "²⁰²Ra, ²⁰³Ra, ²⁰⁴Ra, ²⁰⁵Ra, ²⁰⁶Ra, ²⁰⁷Ra, ²⁰⁸Ra, ²⁰⁹Ra, ²¹⁰Ra, ²¹¹Ra, ²¹²Ra, ²¹³Ra, ²¹⁴Ra, ²¹⁵Ra, ²¹⁶Ra, ²¹⁷Ra, ²¹⁸Ra, ²¹⁹Ra, ²²⁰Ra, ²²¹Ra, ²²²Ra, ²²³Ra, ²²⁴Ra, ²²⁵Ra, ²²⁶Ra, ²²⁷Ra, ²²⁸Ra, ²²⁹Ra, ²³⁰Ra, ²³¹Ra, ²³²Ra, ²³³Ra, ²³⁴Ra",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "514.8, 514.8, 514.8 pm",
+        "lattice_constants": "514.8, 514.8, 514.8",
         "lifetime": 2314.814814815,
         "melting_point": 1233,
         "molar_volume": 0.0000452,
@@ -9714,14 +9714,14 @@ pTable = [
         "isotopes_known": "²⁰⁶Ac, ²⁰⁷Ac, ²⁰⁸Ac, ²⁰⁹Ac, ²¹⁰Ac, ²¹¹Ac, ²¹²Ac, ²¹³Ac, ²¹⁴Ac, ²¹⁵Ac, ²¹⁶Ac, ²¹⁷Ac, ²¹⁸Ac, ²¹⁹Ac, ²²⁰Ac, ²²¹Ac, ²²²Ac, ²²³Ac, ²²⁴Ac, ²²⁵Ac, ²²⁶Ac, ²²⁷Ac, ²²⁸Ac, ²²⁹Ac, ²³⁰Ac, ²³¹Ac, ²³²Ac, ²³³Ac, ²³⁴Ac, ²³⁵Ac, ²³⁶Ac",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "567, 567, 567 pm",
+        "lattice_constants": "567, 567, 567",
         "lifetime": 31.43106291223,
         "melting_point": 1500,
         "molar_volume": 0.00002254220456802,
         "neutron_cross_section": 880,
         "neutron_mass_absorption": 0.078,
         "oxidation_states": "2,3c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "2D3/2",
         "radius": {
@@ -9787,7 +9787,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 18, 10, 2",
-        "group": 4,
+        "group": 3,
         "half-life": 14060121765.6,
         "hardness": {
             "vickers": 350,
@@ -9810,7 +9810,7 @@ pTable = [
         "isotopes_stable": "²³²Th",
         "isotopic_abundances": "²³²Th: 100%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "508.42, 508.42, 508.42 pm",
+        "lattice_constants": "508.42, 508.42, 508.42",
         "lifetime": 20284753932.01,
         "magnetic_susceptibility": {
             "mass": 7.2e-9,
@@ -9828,7 +9828,7 @@ pTable = [
         "neutron_cross_section": 7.4,
         "neutron_mass_absorption": 0.001,
         "oxidation_states": "2,3,4c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "poisson_ratio": 0.27,
         "quantum_numbers": "3F2",
@@ -9893,7 +9893,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 20, 9, 2",
-        "group": 5,
+        "group": 3,
         "half-life": 32787.92491121,
         "heat": {
             "specific": 99.1,
@@ -9906,7 +9906,7 @@ pTable = [
         "isotopes_known": "²¹²Pa, ²¹³Pa, ²¹⁴Pa, ²¹⁵Pa, ²¹⁶Pa, ²¹⁷Pa, ²¹⁸Pa, ²¹⁹Pa, ²²⁰Pa, ²²¹Pa, ²²²Pa, ²²³Pa, ²²⁴Pa, ²²⁵Pa, ²²⁶Pa, ²²⁷Pa, ²²⁸Pa, ²²⁹Pa, ²³⁰Pa, ²³¹Pa, ²³²Pa, ²³³Pa, ²³⁴Pa, ²³⁵Pa, ²³⁶Pa, ²³⁷Pa, ²³⁸Pa, ²³⁹Pa, ²⁴⁰Pa",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "392.5, 392.5, 323.8 pm",
+        "lattice_constants": "392.5, 392.5, 323.8",
         "lifetime": 47279.29984779,
         "magnetic_susceptibility": {
             "mass": 3.25e-8,
@@ -9918,7 +9918,7 @@ pTable = [
         "molar_volume": 0.0000150316,
         "neutron_cross_section": 200,
         "oxidation_states": "2,3,4,5c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "4K11/2",
         "radius": {
@@ -9986,7 +9986,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 21, 9, 2",
-        "group": 6,
+        "group": 3,
         "half-life": 4471080669.711,
         "hardness": {
             "vickers": 1960,
@@ -10007,7 +10007,7 @@ pTable = [
         "isotopes_stable": "None",
         "isotopic_abundances": "²³⁴U: 0.0055%, ²³⁵U: 0.72%, ²³⁸U: 99.2745%",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "285.37, 586.95, 495.48 pm",
+        "lattice_constants": "285.37, 586.95, 495.48",
         "lifetime": 6449771689.498,
         "magnetic_susceptibility": {
             "mass": 2.16e-8,
@@ -10025,7 +10025,7 @@ pTable = [
         "neutron_cross_section": 7.57,
         "neutron_mass_absorption": 0.0005,
         "oxidation_states": "2,3,4,5,6c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "poisson_ratio": 0.23,
         "quantum_numbers": "5L6",
@@ -10093,7 +10093,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 22, 9, 2",
-        "group": 7,
+        "group": 3,
         "half-life": 2145484.525622,
         "heat": {
             "vaporization": 335,
@@ -10106,13 +10106,13 @@ pTable = [
         "isotopes_known": "²²⁵Np, ²²⁶Np, ²²⁷Np, ²²⁸Np, ²²⁹Np, ²³⁰Np, ²³¹Np, ²³²Np, ²³³Np, ²³⁴Np, ²³⁵Np, ²³⁶Np, ²³⁷Np, ²³⁸Np, ²³⁹Np, ²⁴⁰Np, ²⁴¹Np, ²⁴²Np, ²⁴³Np, ²⁴⁴Np",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, π/2",
-        "lattice_constants": "666.3, 472.3, 488.7 pm",
+        "lattice_constants": "666.3, 472.3, 488.7",
         "lifetime": 3095192.795535,
         "melting_point": 912,
         "molar_volume": 0.00001158924205379,
         "neutron_cross_section": 180,
         "oxidation_states": "3,4,5c,6,7",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "6L11/2",
         "radius": {
@@ -10177,7 +10177,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 24, 8, 2",
-        "group": 8,
+        "group": 3,
         "half-life": 79274479.95941,
         "heat": {
             "vaporization": 325,
@@ -10189,7 +10189,7 @@ pTable = [
         "isotopes_known": "²²⁸Pu, ²²⁹Pu, ²³⁰Pu, ²³¹Pu, ²³²Pu, ²³³Pu, ²³⁴Pu, ²³⁵Pu, ²³⁶Pu, ²³⁷Pu, ²³⁸Pu, ²³⁹Pu, ²⁴⁰Pu, ²⁴¹Pu, ²⁴²Pu, ²⁴³Pu, ²⁴⁴Pu, ²⁴⁵Pu, ²⁴⁶Pu, ²⁴⁷Pu",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, 1.776571, π/2",
-        "lattice_constants": "618.3, 482.2, 1096.3 pm",
+        "lattice_constants": "618.3, 482.2, 1096.3",
         "lifetime": 114155251.1416,
         "magnetic_susceptibility": {
             "mass": 3.17e-8,
@@ -10205,7 +10205,7 @@ pTable = [
         "molar_volume": 0.00001231328219621,
         "neutron_cross_section": 1.7,
         "oxidation_states": "3,4c,5,6,7,8",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "poisson_ratio": 0.21,
         "quantum_numbers": "7F0",
@@ -10268,7 +10268,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 25, 8, 2",
-        "group": 9,
+        "group": 3,
         "half-life": 7388.381532217,
         "heat": {
             "molar": 62.7
@@ -10279,7 +10279,7 @@ pTable = [
         "isotopes_known": "²³¹Am, ²³²Am, ²³³Am, ²³⁴Am, ²³⁵Am, ²³⁶Am, ²³⁷Am, ²³⁸Am, ²³⁹Am, ²⁴⁰Am, ²⁴¹Am, ²⁴²Am, ²⁴³Am, ²⁴⁴Am, ²⁴⁵Am, ²⁴⁶Am, ²⁴⁷Am, ²⁴⁸Am, ²⁴⁹Am",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "346.81, 346.81, 1124.1 pm",
+        "lattice_constants": "346.81, 346.81, 1124.1",
         "lifetime": 10654.49010654,
         "magnetic_susceptibility": {
             "mass": 5.15e-8,
@@ -10291,7 +10291,7 @@ pTable = [
         "molar_volume": 0.00001777615215801,
         "neutron_cross_section": 74,
         "oxidation_states": "2,3c,4,5,6",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "8S7/2",
         "radius": {
@@ -10349,7 +10349,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 25, 9, 2",
-        "group": 10,
+        "group": 3,
         "half-life": 15601217.65601,
         "ionization_energies": [
             581
@@ -10357,13 +10357,13 @@ pTable = [
         "isotopes_known": "²³³Cm, ²³⁴Cm, ²³⁵Cm, ²³⁶Cm, ²³⁷Cm, ²³⁸Cm, ²³⁹Cm, ²⁴⁰Cm, ²⁴¹Cm, ²⁴²Cm, ²⁴³Cm, ²⁴⁴Cm, ²⁴⁵Cm, ²⁴⁶Cm, ²⁴⁷Cm, ²⁴⁸Cm, ²⁴⁹Cm, ²⁵⁰Cm, ²⁵¹Cm, ²⁵²Cm",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "349.6, 349.6, 1133.1 pm",
+        "lattice_constants": "349.6, 349.6, 1133.1",
         "lifetime": 22513952.30847,
         "melting_point": 1613,
         "molar_volume": 0.00001828275351591,
         "neutron_cross_section": 60,
         "oxidation_states": "3c,4",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "9D2",
         "series": "actinide",
@@ -10421,7 +10421,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 27, 8, 2",
-        "group": 11,
+        "group": 3,
         "half-life": 1379.375951294,
         "ionization_energies": [
             601
@@ -10429,13 +10429,13 @@ pTable = [
         "isotopes_known": "²³⁵Bk, ²³⁶Bk, ²³⁷Bk, ²³⁸Bk, ²³⁹Bk, ²⁴⁰Bk, ²⁴¹Bk, ²⁴²Bk, ²⁴³Bk, ²⁴⁴Bk, ²⁴⁵Bk, ²⁴⁶Bk, ²⁴⁷Bk, ²⁴⁸Bk, ²⁴⁹Bk, ²⁵⁰Bk, ²⁵¹Bk, ²⁵²Bk, ²⁵³Bk, ²⁵⁴Bk",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "341.6, 341.6, 1106.9 pm",
+        "lattice_constants": "341.6, 341.6, 1106.9",
         "lifetime": 1991.37493658,
         "melting_point": 1259,
         "molar_volume": 0.00001671177266576,
         "neutron_cross_section": 710,
         "oxidation_states": "3c,4",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "6H15/2",
         "series": "actinide",
@@ -10489,7 +10489,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 28, 8, 2",
-        "group": 12,
+        "group": 3,
         "half-life": 900.5580923389,
         "ionization_energies": [
             608
@@ -10497,13 +10497,13 @@ pTable = [
         "isotopes_known": "²³⁷Cf, ²³⁸Cf, ²³⁹Cf, ²⁴⁰Cf, ²⁴¹Cf, ²⁴²Cf, ²⁴³Cf, ²⁴⁴Cf, ²⁴⁵Cf, ²⁴⁶Cf, ²⁴⁷Cf, ²⁴⁸Cf, ²⁴⁹Cf, ²⁵⁰Cf, ²⁵¹Cf, ²⁵²Cf, ²⁵³Cf, ²⁵⁴Cf, ²⁵⁵Cf, ²⁵⁶Cf",
         "isotopes_stable": "None",
         "lattice_angles": "π/2, π/2, 2 π/3",
-        "lattice_constants": "338, 338, 1102.5 pm",
+        "lattice_constants": "338, 338, 1102.5",
         "lifetime": 1300.101471334,
         "melting_point": 1173,
         "molar_volume": 0.00001662251655629,
         "neutron_cross_section": 2900,
         "oxidation_states": "2,3c,4",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "5I8",
         "series": "actinide",
@@ -10553,7 +10553,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 29, 8, 2",
-        "group": 13,
+        "group": 3,
         "half-life": 1.292174023338,
         "ionization_energies": [
             619
@@ -10564,7 +10564,7 @@ pTable = [
         "melting_point": 1133,
         "neutron_cross_section": 160,
         "oxidation_states": "2,3c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "5I15/2",
         "series": "actinide",
@@ -10610,7 +10610,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 30, 8, 2",
-        "group": 14,
+        "group": 3,
         "half-life": 100.4976851852,
         "ionization_energies": [
             627
@@ -10621,7 +10621,7 @@ pTable = [
         "melting_point": 1800,
         "neutron_cross_section": 5800,
         "oxidation_states": "2,3c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "3H6",
         "series": "actinide",
@@ -10667,7 +10667,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 31, 8, 2",
-        "group": 15,
+        "group": 3,
         "half-life": 51.50462962963,
         "ionization_energies": [
             635
@@ -10677,7 +10677,7 @@ pTable = [
         "lifetime": 74.30555555556,
         "melting_point": 1100,
         "oxidation_states": "2,3c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "2F7/2",
         "series": "actinide",
@@ -10723,7 +10723,7 @@ pTable = [
             2
         ],
         "energy_levels": "2, 8, 18, 32, 32, 8, 2",
-        "group": 16,
+        "group": 3,
         "half-life": 2.777777777778,
         "ionization_energies": [
             642
@@ -10733,7 +10733,7 @@ pTable = [
         "lifetime": 5.555555555556,
         "melting_point": 1100,
         "oxidation_states": "2c,3",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "1S0",
         "series": "actinide",
@@ -10779,7 +10779,7 @@ pTable = [
             3
         ],
         "energy_levels": "2, 8, 18, 32, 32, 8, 3",
-        "group": 17,
+        "group": 3,
         "half-life": 10,
         "ionization_energies": [
             470
@@ -10789,7 +10789,7 @@ pTable = [
         "lifetime": 14.44444444444,
         "melting_point": 1900,
         "oxidation_states": "3c",
-        "period": 10,
+        "period": 7,
         "phase": "Solid",
         "quantum_numbers": "2P1/2",
         "series": "actinide",
