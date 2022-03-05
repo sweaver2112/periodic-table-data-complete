@@ -24,6 +24,7 @@ pTableUnits =
         "thermal": "W/mK",
         "electric": "MS/m"
     },
+    "curie_point": "K",
     "density": {
         "shear": "GPa",
         "young": "GPa",
@@ -34,7 +35,7 @@ pTableUnits =
     "electron_affinity": "kJ/mol",
     "electronegativity_pauling": "kJ/mol",
     "energy_levels": "e⁻️",
-    "half-life": "year",
+    "half_life": "year",
     "hardness": {
         "radius": "pm",
         "vickers": "MPa",
@@ -62,6 +63,7 @@ pTableUnits =
     "modulus": {
         "bulk": "GPa"
     },
+    "neel_point": "K",
     "radius": {
         "calculated": "pm",
         "empirical": "pm",
@@ -70,6 +72,7 @@ pTableUnits =
     },
     "resistivity": "m Ω",
     "speed_of_sound": "m/s",
+    "superconducting_point": "K",
     "thermal_expansion": "K⁻¹"
 };
 
@@ -124,7 +127,7 @@ pTable = [
         "energy_levels": "1",
         "gas_phase": "Diatomic",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 14300,
             "vaporization": 0.452,
@@ -215,7 +218,7 @@ pTable = [
         "energy_levels": "2",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 5193.1,
             "vaporization": 0.083,
@@ -309,7 +312,7 @@ pTable = [
         ],
         "energy_levels": "2, 1",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 0.6
         },
@@ -413,7 +416,7 @@ pTable = [
         ],
         "energy_levels": "2, 2",
         "group": 2,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1670,
             "brinell": 600,
@@ -521,7 +524,7 @@ pTable = [
         ],
         "energy_levels": "2, 3",
         "group": 13,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 49000,
             "mohs": 9.3
@@ -624,7 +627,7 @@ pTable = [
         ],
         "energy_levels": "2, 4",
         "group": 14,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 0.5
         },
@@ -678,7 +681,7 @@ pTable = [
         "space_group_name": "P63/mmc",
         "space_group_number": 194,
         "speed_of_sound": 18350,
-        "summary": "<p>Carbon (from Latin: carbo \"coal\") is a chemical element with the symbol C and atomic number 6. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds. It belongs to group 14 of the periodic table. Carbon makes up only about 0.025 percent of Earth's crust. Three isotopes occur naturally, 12C and 13C being stable, while 14C is a radionuclide, decaying with a half-life of about 5,730 years. Carbon is one of the few elements known since antiquity.</p><p>Carbon is the 15th most abundant element in the Earth's crust, and the fourth most abundant element in the universe by mass after hydrogen, helium, and oxygen. Carbon's abundance, its unique diversity of organic compounds, and its unusual ability to form polymers at the temperatures commonly encountered on Earth enables this element to serve as a common element of all known life. It is the second most abundant element in the human body by mass (about 18.5%) after oxygen.</p><p>The atoms of carbon can bond together in diverse ways, resulting in various allotropes of carbon. Well-known allotropes include graphite, diamond, amorphous carbon and fullerenes. The physical properties of carbon vary widely with the allotropic form. For example, graphite is opaque and black while diamond is highly transparent. Graphite is soft enough to form a streak on paper (hence its name, from the Greek verb \"γράφειν\" which means \"to write\"), while diamond is the hardest naturally occurring material known. Graphite is a good electrical conductor while diamond has a low electrical conductivity. Under normal conditions, diamond, carbon nanotubes, and graphene have the highest thermal conductivities of all known materials. All carbon allotropes are solids under normal conditions, with graphite being the most thermodynamically stable form at standard temperature and pressure. They are chemically resistant and require high temperature to react even with oxygen.</p><p>The most common oxidation state of carbon in inorganic compounds is +4, while +2 is found in carbon monoxide and transition metal carbonyl complexes. The largest sources of inorganic carbon are limestones, dolomites and carbon dioxide, but significant quantities occur in organic deposits of coal, peat, oil, and methane clathrates. Carbon forms a vast number of compounds, more than any other element, with almost ten million compounds described to date, and yet that number is but a fraction of the number of theoretically possible compounds under standard conditions. For this reason, carbon has often been referred to as the \"king of the elements\".</p>",
+        "summary": "<p>Carbon (from Latin: carbo \"coal\") is a chemical element with the symbol C and atomic number 6. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds. It belongs to group 14 of the periodic table. Carbon makes up only about 0.025 percent of Earth's crust. Three isotopes occur naturally, 12C and 13C being stable, while 14C is a radionuclide, decaying with a half_life of about 5,730 years. Carbon is one of the few elements known since antiquity.</p><p>Carbon is the 15th most abundant element in the Earth's crust, and the fourth most abundant element in the universe by mass after hydrogen, helium, and oxygen. Carbon's abundance, its unique diversity of organic compounds, and its unusual ability to form polymers at the temperatures commonly encountered on Earth enables this element to serve as a common element of all known life. It is the second most abundant element in the human body by mass (about 18.5%) after oxygen.</p><p>The atoms of carbon can bond together in diverse ways, resulting in various allotropes of carbon. Well-known allotropes include graphite, diamond, amorphous carbon and fullerenes. The physical properties of carbon vary widely with the allotropic form. For example, graphite is opaque and black while diamond is highly transparent. Graphite is soft enough to form a streak on paper (hence its name, from the Greek verb \"γράφειν\" which means \"to write\"), while diamond is the hardest naturally occurring material known. Graphite is a good electrical conductor while diamond has a low electrical conductivity. Under normal conditions, diamond, carbon nanotubes, and graphene have the highest thermal conductivities of all known materials. All carbon allotropes are solids under normal conditions, with graphite being the most thermodynamically stable form at standard temperature and pressure. They are chemically resistant and require high temperature to react even with oxygen.</p><p>The most common oxidation state of carbon in inorganic compounds is +4, while +2 is found in carbon monoxide and transition metal carbonyl complexes. The largest sources of inorganic carbon are limestones, dolomites and carbon dioxide, but significant quantities occur in organic deposits of coal, peat, oil, and methane clathrates. Carbon forms a vast number of compounds, more than any other element, with almost ten million compounds described to date, and yet that number is but a fraction of the number of theoretically possible compounds under standard conditions. For this reason, carbon has often been referred to as the \"king of the elements\".</p>",
         "thermal_expansion": 0.0000071,
         "valence_electrons": 4
     },
@@ -733,7 +736,7 @@ pTable = [
         "energy_levels": "2, 5",
         "gas_phase": "Diatomic",
         "group": 15,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 1040,
             "vaporization": 2.79,
@@ -833,7 +836,7 @@ pTable = [
         "energy_levels": "2, 6",
         "gas_phase": "Diatomic",
         "group": 16,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 919,
             "vaporization": 3.41,
@@ -934,7 +937,7 @@ pTable = [
         "energy_levels": "2, 7",
         "gas_phase": "Diatomic",
         "group": 17,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 824,
             "vaporization": 3.27,
@@ -1026,7 +1029,7 @@ pTable = [
         "energy_levels": "2, 8",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 1030,
             "vaporization": 1.75,
@@ -1130,7 +1133,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 1",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 0.69,
             "mohs": 0.5
@@ -1244,7 +1247,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 2",
         "group": 2,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 260,
             "mohs": 2.5
@@ -1361,7 +1364,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 3",
         "group": 13,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 167,
             "brinell": 245,
@@ -1480,7 +1483,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 4",
         "group": 14,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 6.5
         },
@@ -1596,7 +1599,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 5",
         "group": 15,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 769.7,
             "vaporization": 12.4,
@@ -1709,7 +1712,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 6",
         "group": 16,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 2
         },
@@ -1827,7 +1830,7 @@ pTable = [
         "energy_levels": "2, 8, 7",
         "gas_phase": "Diatomic",
         "group": 17,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 478.2,
             "vaporization": 10.2,
@@ -1939,7 +1942,7 @@ pTable = [
         "energy_levels": "2, 8, 8",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 520.33,
             "vaporization": 6.5,
@@ -2053,7 +2056,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 8, 1",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 0.363,
             "mohs": 0.4
@@ -2173,7 +2176,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 8, 2",
         "group": 2,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 167,
             "mohs": 1.75
@@ -2296,7 +2299,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 750
         },
@@ -2419,7 +2422,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 10, 2",
         "group": 4,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 970,
             "brinell": 716,
@@ -2547,7 +2550,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 11, 2",
         "group": 5,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 628,
             "brinell": 628,
@@ -2677,7 +2680,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 13, 1",
         "group": 6,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1060,
             "brinell": 1120,
@@ -2807,7 +2810,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 13, 2",
         "group": 7,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 196,
             "mohs": 6
@@ -2881,7 +2884,7 @@ pTable = [
         "space_group_name": "I_43m",
         "space_group_number": 217,
         "speed_of_sound": 5150,
-        "summary": "<p>Manganese is a chemical element with the symbol Mn and atomic number 25. It is a hard brittle silvery metal, often found in minerals in combination with iron. Manganese is a transition metal with a multifaceted array of industrial alloy uses, particularly in stainless steels. It improves strength, workability, and resistance to wear. Manganese oxide is used as an oxidising agent, as a rubber additive, in glass making, fertilisers, and ceramics. Manganese sulfate can be used as a fungicide.</p><p>Manganese is also an essential human dietary element, important in macronutrient metabolism, bone formation, and free radical defense systems. It is a critical component in dozens of proteins and enzymes.[3] It is found mostly in the bones, but also the liver, kidneys, and brain.[4] In the human brain, the manganese is bound to manganese metalloproteins, most notably glutamine synthetase in astrocytes.</p><p>Manganese was first isolated in 1774. It is familiar in the laboratory in the form of the deep violet salt potassium permanganate. It occurs at the active sites in some enzymes.[5] Of particular interest is the use of a Mn-O cluster, the oxygen-evolving complex, in the production of oxygen by plants.</p>",
+        "summary": "<p>Manganese is a chemical element with the symbol Mn and atomic number 25. It is a hard brittle silvery metal, often found in minerals in combination with iron. Manganese is a transition metal with a multifaceted array of industrial alloy uses, particularly in stainless steels. It improves strength, workability, and resistance to wear. Manganese oxide is used as an oxidising agent, as a rubber additive, in glass making, fertilisers, and ceramics. Manganese sulfate can be used as a fungicide.</p><p>Manganese is also an essential human dietary element, important in macronutrient metabolism, bone formation, and free radical defense systems. It is a critical component in dozens of proteins and enzymes. It is found mostly in the bones, but also the liver, kidneys, and brain. In the human brain, the manganese is bound to manganese metalloproteins, most notably glutamine synthetase in astrocytes.</p><p>Manganese was first isolated in 1774. It is familiar in the laboratory in the form of the deep violet salt potassium permanganate. It occurs at the active sites in some enzymes. Of particular interest is the use of a Mn-O cluster, the oxygen-evolving complex, in the production of oxygen by plants.</p>",
         "thermal_expansion": 0.0000217,
         "valence_electrons": 4
     },
@@ -2937,7 +2940,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 14, 2",
         "group": 8,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 608,
             "brinell": 490,
@@ -3065,7 +3068,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 15, 2",
         "group": 9,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1043,
             "brinell": 700,
@@ -3194,7 +3197,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 16, 2",
         "group": 10,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 638,
             "brinell": 700,
@@ -3324,7 +3327,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 1",
         "group": 11,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 369,
             "brinell": 874,
@@ -3460,7 +3463,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 2",
         "group": 12,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 412,
             "mohs": 2.5
@@ -3588,7 +3591,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 3",
         "group": 13,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 60,
             "mohs": 1.5
@@ -3692,7 +3695,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 4",
         "group": 14,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 6
         },
@@ -3794,7 +3797,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 5",
         "group": 15,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 1440,
             "mohs": 3.5
@@ -3903,7 +3906,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 6",
         "group": 16,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 736,
             "mohs": 2
@@ -4016,7 +4019,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 7",
         "group": 17,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 947.3,
             "vaporization": 14.8,
@@ -4119,7 +4122,7 @@ pTable = [
         "energy_levels": "2, 8, 18, 8",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 248.05,
             "vaporization": 9.02,
@@ -4245,7 +4248,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 8, 1",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 0.216,
             "mohs": 0.3
@@ -4303,7 +4306,7 @@ pTable = [
         "space_group_name": "Im_3m",
         "space_group_number": 229,
         "speed_of_sound": 1300,
-        "summary": "<p>Rubidium is the chemical element with the symbol Rb and atomic number 37. Rubidium is a very soft, silvery-white metal in the alkali metal group. Rubidium metal shares similarities to potassium metal and caesium metal in physical appearance, softness and conductivity. Rubidium cannot be stored under atmospheric oxygen, as a highly exothermic reaction will ensue, sometimes even resulting in the metal catching fire.</p><p>Rubidium is the first alkali metal in the group to have a density higher than water, so it sinks, unlike the metals above it in the group. Rubidium has a standard atomic weight of 85.4678. On Earth, natural rubidium comprises two isotopes: 72% is a stable isotope 85Rb, and 28% is slightly radioactive 87Rb, with a half-life of 48.8 billion years—more than three times as long as the estimated age of the universe.</p><p>German chemists Robert Bunsen and Gustav Kirchhoff discovered rubidium in 1861 by the newly developed technique, flame spectroscopy. The name comes from the Latin word rubidus, meaning deep red, the color of its emission spectrum. Rubidium's compounds have various chemical and electronic applications. Rubidium metal is easily vaporized and has a convenient spectral absorption range, making it a frequent target for laser manipulation of atoms. Rubidium is not a known nutrient for any living organisms. However, rubidium ions have similar properties and the same charge as potassium ions, and are actively taken up and treated by animal cells in similar ways.</p>",
+        "summary": "<p>Rubidium is the chemical element with the symbol Rb and atomic number 37. Rubidium is a very soft, silvery-white metal in the alkali metal group. Rubidium metal shares similarities to potassium metal and caesium metal in physical appearance, softness and conductivity. Rubidium cannot be stored under atmospheric oxygen, as a highly exothermic reaction will ensue, sometimes even resulting in the metal catching fire.</p><p>Rubidium is the first alkali metal in the group to have a density higher than water, so it sinks, unlike the metals above it in the group. Rubidium has a standard atomic weight of 85.4678. On Earth, natural rubidium comprises two isotopes: 72% is a stable isotope 85Rb, and 28% is slightly radioactive 87Rb, with a half_life of 48.8 billion years—more than three times as long as the estimated age of the universe.</p><p>German chemists Robert Bunsen and Gustav Kirchhoff discovered rubidium in 1861 by the newly developed technique, flame spectroscopy. The name comes from the Latin word rubidus, meaning deep red, the color of its emission spectrum. Rubidium's compounds have various chemical and electronic applications. Rubidium metal is easily vaporized and has a convenient spectral absorption range, making it a frequent target for laser manipulation of atoms. Rubidium is not a known nutrient for any living organisms. However, rubidium ions have similar properties and the same charge as potassium ions, and are actively taken up and treated by animal cells in similar ways.</p>",
         "valence_electrons": 1
     },
     {
@@ -4356,7 +4359,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 8, 2",
         "group": 2,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 1.5
         },
@@ -4468,7 +4471,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 589
         },
@@ -4585,7 +4588,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 10, 2",
         "group": 4,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 903,
             "brinell": 650,
@@ -4695,7 +4698,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 12, 1",
         "group": 5,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1320,
             "brinell": 736,
@@ -4810,7 +4813,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 13, 1",
         "group": 6,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1530,
             "brinell": 1500,
@@ -4944,7 +4947,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 13, 2",
         "group": 7,
-        "half-life": 211098.4271943,
+        "half_life": 211098.4271943,
         "heat": {
             "specific": 63,
             "vaporization": 550,
@@ -4984,7 +4987,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Technetium",
         "space_group_name": "P63/mmc",
         "space_group_number": 194,
-        "summary": "<p>Technetium is a chemical element with the symbol Tc and atomic number 43. It is the lightest element whose isotopes are all radioactive, none of which is stable other than the fully ionized state of 97Tc. Nearly all available technetium is produced as a synthetic element. Naturally occurring technetium is a spontaneous fission product in uranium ore and thorium ore, the most common source, or the product of neutron capture in molybdenum ores. The silvery gray, crystalline transition metal lies between manganese and rhenium in group 7 of the periodic table, and its chemical properties are intermediate between those of both adjacent elements. The most common naturally occurring isotope is 99Tc, in traces only.</p><p>Many of technetium's properties had been predicted by Dmitri Mendeleev before it was discovered. Mendeleev noted a gap in his periodic table and gave the undiscovered element the provisional name ekamanganese (Em). In 1937, technetium (specifically the technetium-97 isotope) became the first predominantly artificial element to be produced, hence its name (from the Greek τεχνητός, meaning \"Craft, Art or Artificial\", + -ium).</p><p>One short-lived gamma ray-emitting nuclear isomer, technetium-99m, is used in nuclear medicine for a wide variety of tests, such as bone cancer diagnoses. The ground state of the nuclide technetium-99 is used as a gamma-ray-free source of beta particles. Long-lived technetium isotopes produced commercially are byproducts of the fission of uranium-235 in nuclear reactors and are extracted from nuclear fuel rods. Because even the longest-lived isotope of technetium has a relatively short half-life (4.21 million years), the 1952 detection of technetium in red giants helped to prove that stars can produce heavier elements.</p>",
+        "summary": "<p>Technetium is a chemical element with the symbol Tc and atomic number 43. It is the lightest element whose isotopes are all radioactive, none of which is stable other than the fully ionized state of 97Tc. Nearly all available technetium is produced as a synthetic element. Naturally occurring technetium is a spontaneous fission product in uranium ore and thorium ore, the most common source, or the product of neutron capture in molybdenum ores. The silvery gray, crystalline transition metal lies between manganese and rhenium in group 7 of the periodic table, and its chemical properties are intermediate between those of both adjacent elements. The most common naturally occurring isotope is 99Tc, in traces only.</p><p>Many of technetium's properties had been predicted by Dmitri Mendeleev before it was discovered. Mendeleev noted a gap in his periodic table and gave the undiscovered element the provisional name ekamanganese (Em). In 1937, technetium (specifically the technetium-97 isotope) became the first predominantly artificial element to be produced, hence its name (from the Greek τεχνητός, meaning \"Craft, Art or Artificial\", + -ium).</p><p>One short-lived gamma ray-emitting nuclear isomer, technetium-99m, is used in nuclear medicine for a wide variety of tests, such as bone cancer diagnoses. The ground state of the nuclide technetium-99 is used as a gamma-ray-free source of beta particles. Long-lived technetium isotopes produced commercially are byproducts of the fission of uranium-235 in nuclear reactors and are extracted from nuclear fuel rods. Because even the longest-lived isotope of technetium has a relatively short half_life (4.21 million years), the 1952 detection of technetium in red giants helped to prove that stars can produce heavier elements.</p>",
         "superconducting_point": 7.7,
         "valence_electrons": 6
     },
@@ -5038,7 +5041,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 15, 1",
         "group": 8,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 2160,
             "mohs": 6.5
@@ -5146,7 +5149,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 16, 1",
         "group": 9,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1246,
             "brinell": 1100,
@@ -5253,7 +5256,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18",
         "group": 10,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 461,
             "brinell": 37.3,
@@ -5360,7 +5363,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 1",
         "group": 11,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 251,
             "brinell": 24.5,
@@ -5471,7 +5474,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 2",
         "group": 12,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 203,
             "mohs": 2
@@ -5581,7 +5584,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 3",
         "group": 13,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 8.83,
             "mohs": 1.2
@@ -5689,7 +5692,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 4",
         "group": 14,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 51,
             "mohs": 1.5
@@ -5800,7 +5803,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 5",
         "group": 15,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 294,
             "mohs": 3
@@ -5907,7 +5910,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 6",
         "group": 16,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 180,
             "mohs": 2.25
@@ -6021,7 +6024,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 7",
         "group": 17,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 429,
             "vaporization": 20.9,
@@ -6119,7 +6122,7 @@ pTable = [
         "energy_levels": "2, 8, 18, 18, 8",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 158.32,
             "vaporization": 12.64,
@@ -6220,7 +6223,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 8, 1",
         "group": 1,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 0.14,
             "mohs": 0.2
@@ -6270,7 +6273,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Cesium",
         "space_group_name": "Im_3m",
         "space_group_number": 229,
-        "summary": "<p>Caesium (IUPAC spelling) (also spelled cesium in American English) is a chemical element with the symbol Cs and atomic number 55. It is a soft, silvery-golden alkali metal with a melting point of 28.5 °C (83.3 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium has physical and chemical properties similar to those of rubidium and potassium. The most reactive of all metals, it is pyrophoric and reacts with water even at −116 °C (−177 °F). It is the least electronegative element, with a value of 0.79 on the Pauling scale. It has only one stable isotope, caesium-133. Caesium is mined mostly from pollucite, while the radioisotopes, especially caesium-137, a fission product, are extracted from waste produced by nuclear reactors.</p><p>The German chemist Robert Bunsen and physicist Gustav Kirchhoff discovered caesium in 1860 by the newly developed method of flame spectroscopy. The first small-scale applications for caesium were as a \"getter\" in vacuum tubes and in photoelectric cells. In 1967, acting on Einstein's proof that the speed of light is the most constant dimension in the universe, the International System of Units used two specific wave counts from an emission spectrum of caesium-133 to co-define the second and the metre. Since then, caesium has been widely used in highly accurate atomic clocks.</p><p>Since the 1990s, the largest application of the element has been as caesium formate for drilling fluids, but it has a range of applications in the production of electricity, in electronics, and in chemistry. The radioactive isotope caesium-137 has a half-life of about 30 years and is used in medical applications, industrial gauges, and hydrology. Nonradioactive caesium compounds are only mildly toxic, but the pure metal's tendency to react explosively with water means that caesium is considered a hazardous material, and the radioisotopes present a significant health and ecological hazard in the environment.</p>",
+        "summary": "<p>Caesium (IUPAC spelling) (also spelled cesium in American English) is a chemical element with the symbol Cs and atomic number 55. It is a soft, silvery-golden alkali metal with a melting point of 28.5 °C (83.3 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium has physical and chemical properties similar to those of rubidium and potassium. The most reactive of all metals, it is pyrophoric and reacts with water even at −116 °C (−177 °F). It is the least electronegative element, with a value of 0.79 on the Pauling scale. It has only one stable isotope, caesium-133. Caesium is mined mostly from pollucite, while the radioisotopes, especially caesium-137, a fission product, are extracted from waste produced by nuclear reactors.</p><p>The German chemist Robert Bunsen and physicist Gustav Kirchhoff discovered caesium in 1860 by the newly developed method of flame spectroscopy. The first small-scale applications for caesium were as a \"getter\" in vacuum tubes and in photoelectric cells. In 1967, acting on Einstein's proof that the speed of light is the most constant dimension in the universe, the International System of Units used two specific wave counts from an emission spectrum of caesium-133 to co-define the second and the metre. Since then, caesium has been widely used in highly accurate atomic clocks.</p><p>Since the 1990s, the largest application of the element has been as caesium formate for drilling fluids, but it has a range of applications in the production of electricity, in electronics, and in chemistry. The radioactive isotope caesium-137 has a half_life of about 30 years and is used in medical applications, industrial gauges, and hydrology. Nonradioactive caesium compounds are only mildly toxic, but the pure metal's tendency to react explosively with water means that caesium is considered a hazardous material, and the radioisotopes present a significant health and ecological hazard in the environment.</p>",
         "valence_electrons": 1
     },
     {
@@ -6325,7 +6328,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 8, 2",
         "group": 2,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "mohs": 1.25
         },
@@ -6431,7 +6434,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 18, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 491,
             "brinell": 363,
@@ -6542,7 +6545,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 19, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 270,
             "brinell": 412,
@@ -6652,7 +6655,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 21, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 400,
             "brinell": 481
@@ -6760,7 +6763,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 22, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 343,
             "brinell": 265
@@ -6866,7 +6869,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 23, 8, 2",
         "group": 3,
-        "half-life": 17.72577371892,
+        "half_life": 17.72577371892,
         "heat": {
             "vaporization": 290,
             "fusion": 7.7
@@ -6955,7 +6958,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 24, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 412,
             "brinell": 441
@@ -7061,7 +7064,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 25, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 167
         },
@@ -7169,7 +7172,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 25, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 570
         },
@@ -7270,7 +7273,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 27, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 863,
             "brinell": 677
@@ -7378,7 +7381,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 28, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 540,
             "brinell": 500
@@ -7488,7 +7491,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 29, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 481,
             "brinell": 746
@@ -7596,7 +7599,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 30, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 589,
             "brinell": 814
@@ -7706,7 +7709,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 31, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 520,
             "brinell": 471
@@ -7812,7 +7815,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 8, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 206,
             "brinell": 343
@@ -7920,7 +7923,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 9, 2",
         "group": 3,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1160,
             "brinell": 893
@@ -7974,7 +7977,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Lutetium",
         "space_group_name": "P63/mmc",
         "space_group_number": 194,
-        "summary": "<p>Lutetium is a chemical element with the symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry air, but not in moist air. Lutetium is the last element in the lanthanide series, and it is traditionally counted among the rare earths. Lutetium is generally considered the first element of the 6th-period transition metals by those who study the matter, although there has been some dispute on this point.</p><p>Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in the mineral ytterbia, which was previously thought to consist entirely of ytterbium. The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each other of publishing results influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element, but in 1949 the spelling was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 proposed by Welsbach was used by many German scientists until the 1950s.</p><p>Lutetium is not a particularly abundant element, although it is significantly more common than silver in the earth's crust. It has few specific uses. Lutetium-176 is a relatively abundant (2.5%) radioactive isotope with a half-life of about 38 billion years, used to determine the age of minerals and meteorites. Lutetium usually occurs in association with the element yttrium and is sometimes used in metal alloys and as a catalyst in various chemical reactions. 177Lu-DOTA-TATE is used for radionuclide therapy (see Nuclear medicine) on neuroendocrine tumours. Lutetium has the highest Brinell hardness of any lanthanide, at 890–1300 MPa.</p>",
+        "summary": "<p>Lutetium is a chemical element with the symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry air, but not in moist air. Lutetium is the last element in the lanthanide series, and it is traditionally counted among the rare earths. Lutetium is generally considered the first element of the 6th-period transition metals by those who study the matter, although there has been some dispute on this point.</p><p>Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in the mineral ytterbia, which was previously thought to consist entirely of ytterbium. The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each other of publishing results influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element, but in 1949 the spelling was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 proposed by Welsbach was used by many German scientists until the 1950s.</p><p>Lutetium is not a particularly abundant element, although it is significantly more common than silver in the earth's crust. It has few specific uses. Lutetium-176 is a relatively abundant (2.5%) radioactive isotope with a half_life of about 38 billion years, used to determine the age of minerals and meteorites. Lutetium usually occurs in association with the element yttrium and is sometimes used in metal alloys and as a catalyst in various chemical reactions. 177Lu-DOTA-TATE is used for radionuclide therapy (see Nuclear medicine) on neuroendocrine tumours. Lutetium has the highest Brinell hardness of any lanthanide, at 890–1300 MPa.</p>",
         "superconducting_point": 0.1,
         "thermal_expansion": 0.00001,
         "valence_electrons": 3
@@ -8031,7 +8034,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 10, 2",
         "group": 4,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1760,
             "brinell": 1700,
@@ -8142,7 +8145,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 11, 2",
         "group": 5,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 873,
             "brinell": 800,
@@ -8253,7 +8256,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 12, 2",
         "group": 6,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 3430,
             "brinell": 2570,
@@ -8361,7 +8364,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 13, 2",
         "group": 7,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 2450,
             "brinell": 1320,
@@ -8472,7 +8475,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 14, 2",
         "group": 8,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 3920,
             "mohs": 7
@@ -8577,7 +8580,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 15, 2",
         "group": 9,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 1760,
             "brinell": 1670,
@@ -8686,7 +8689,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 17, 1",
         "group": 10,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 549,
             "brinell": 392,
@@ -8795,7 +8798,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 1",
         "group": 11,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "vickers": 216,
             "brinell": 25,
@@ -8906,7 +8909,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 2",
         "group": 12,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "heat": {
             "specific": 139.5,
             "vaporization": 59.2,
@@ -9010,7 +9013,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 3",
         "group": 13,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 26.4,
             "mohs": 1.2
@@ -9121,7 +9124,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 4",
         "group": 14,
-        "half-life": "Stable",
+        "half_life": "Stable",
         "hardness": {
             "brinell": 38.3,
             "mohs": 1.5
@@ -9234,7 +9237,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 5",
         "group": 15,
-        "half-life": 19025875190260000000,
+        "half_life": 19025875190260000000,
         "hardness": {
             "brinell": 94.2,
             "mohs": 2.25
@@ -9290,7 +9293,7 @@ pTable = [
         "space_group_name": "C12/m1",
         "space_group_number": 12,
         "speed_of_sound": 1790,
-        "summary": "<p>Bismuth is a chemical element with the symbol Bi and atomic number 83. It is a pentavalent post-transition metal and one of the pnictogens with chemical properties resembling its lighter group 15 siblings arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores. The free element is 86% as dense as lead. It is a brittle metal with a silvery-white color when freshly produced, but surface oxidation can give it an iridescent tinge in numerous colours. Bismuth is the most naturally diamagnetic element and has one of the lowest values of thermal conductivity among metals.</p><p>Bismuth was long considered the element with the highest atomic mass that is stable, but in 2003 it was discovered to be extremely weakly radioactive: its only primordial isotope, bismuth-209, decays via alpha decay with a half-life more than a billion times the estimated age of the universe. Because of its tremendously long half-life, bismuth may still be considered stable for almost all purposes.</p><p>Bismuth metal has been known since ancient times, although it was often confused with lead and tin, which share some physical properties. The etymology is uncertain, but the word may come from the German words weiße Masse or Wismuth (\"white mass\"), translated in the mid-sixteenth century to New Latin bisemutum or bisemutium.</p>",
+        "summary": "<p>Bismuth is a chemical element with the symbol Bi and atomic number 83. It is a pentavalent post-transition metal and one of the pnictogens with chemical properties resembling its lighter group 15 siblings arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores. The free element is 86% as dense as lead. It is a brittle metal with a silvery-white color when freshly produced, but surface oxidation can give it an iridescent tinge in numerous colours. Bismuth is the most naturally diamagnetic element and has one of the lowest values of thermal conductivity among metals.</p><p>Bismuth was long considered the element with the highest atomic mass that is stable, but in 2003 it was discovered to be extremely weakly radioactive: its only primordial isotope, bismuth-209, decays via alpha decay with a half_life more than a billion times the estimated age of the universe. Because of its tremendously long half_life, bismuth may still be considered stable for almost all purposes.</p><p>Bismuth metal has been known since ancient times, although it was often confused with lead and tin, which share some physical properties. The etymology is uncertain, but the word may come from the German words weiße Masse or Wismuth (\"white mass\"), translated in the mid-sixteenth century to New Latin bisemutum or bisemutium.</p>",
         "thermal_expansion": 0.0000134,
         "valence_electrons": 5
     },
@@ -9340,7 +9343,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 6",
         "group": 16,
-        "half-life": 102.1055301877,
+        "half_life": 102.1055301877,
         "heat": {
             "vaporization": 100,
             "fusion": 13,
@@ -9370,7 +9373,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Polonium",
         "space_group_name": "Pm-3m",
         "space_group_number": 221,
-        "summary": "<p>Polonium is a chemical element with the symbol Po and atomic number 84. Polonium is a chalcogen. A rare and highly radioactive metal with no stable isotopes, polonium is chemically similar to selenium and tellurium, though its metallic character resembles that of its horizontal neighbors in the periodic table: thallium, lead, and bismuth. Due to the short half-life of all its isotopes, its natural occurrence is limited to tiny traces of the fleeting polonium-210 (with a half-life of 138 days) in uranium ores, as it is the penultimate daughter of natural uranium-238. Though slightly longer-lived isotopes exist, they are much more difficult to produce. Today, polonium is usually produced in milligram quantities by the neutron irradiation of bismuth. Due to its intense radioactivity, which results in the radiolysis of chemical bonds and radioactive self-heating, its chemistry has mostly been investigated on the trace scale only.</p><p>Polonium was discovered in July 1898 by Marie and Pierre Curie, when it was extracted from the uranium ore pitchblende and identified solely by its strong radioactivity: it was the first element to be so discovered. Polonium was named after Marie Curie's homeland of Poland. Polonium has few applications, and those are related to its radioactivity: heaters in space probes, antistatic devices, sources of neutrons and alpha particles, and poison. It is extremely dangerous to humans.</p>",
+        "summary": "<p>Polonium is a chemical element with the symbol Po and atomic number 84. Polonium is a chalcogen. A rare and highly radioactive metal with no stable isotopes, polonium is chemically similar to selenium and tellurium, though its metallic character resembles that of its horizontal neighbors in the periodic table: thallium, lead, and bismuth. Due to the short half_life of all its isotopes, its natural occurrence is limited to tiny traces of the fleeting polonium-210 (with a half_life of 138 days) in uranium ores, as it is the penultimate daughter of natural uranium-238. Though slightly longer-lived isotopes exist, they are much more difficult to produce. Today, polonium is usually produced in milligram quantities by the neutron irradiation of bismuth. Due to its intense radioactivity, which results in the radiolysis of chemical bonds and radioactive self-heating, its chemistry has mostly been investigated on the trace scale only.</p><p>Polonium was discovered in July 1898 by Marie and Pierre Curie, when it was extracted from the uranium ore pitchblende and identified solely by its strong radioactivity: it was the first element to be so discovered. Polonium was named after Marie Curie's homeland of Poland. Polonium has few applications, and those are related to its radioactivity: heaters in space probes, antistatic devices, sources of neutrons and alpha particles, and poison. It is extremely dangerous to humans.</p>",
         "valence_electrons": 6
     },
     {
@@ -9415,7 +9418,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 7",
         "group": 17,
-        "half-life": 8.055555555556,
+        "half_life": 8.055555555556,
         "heat": {
             "vaporization": 40,
             "fusion": 6
@@ -9436,7 +9439,7 @@ pTable = [
         },
         "series": "metalloid",
         "source": "https://en.wikipedia.org/wiki/Astatine",
-        "summary": "<p>Astatine is a chemical element with the symbol At and atomic number 85. It is the rarest naturally occurring element in the Earth's crust, occurring only as the decay product of various heavier elements. All of astatine's isotopes are short-lived; the most stable is astatine-210, with a half-life of 8.1 hours. A sample of the pure element has never been assembled, because any macroscopic specimen would be immediately vaporized by the heat of its own radioactivity.</p><p>The bulk properties of astatine are not known with certainty. Many of them have been estimated based on the element's position on the periodic table as a heavier analog of iodine, and a member of the halogens (the group of elements including fluorine, chlorine, bromine, and iodine). However, astatine also falls roughly along the dividing line between metals and nonmetals, and some metallic behavior has also been observed and predicted for it. Astatine is likely to have a dark or lustrous appearance and may be a semiconductor or possibly a metal. Chemically, several anionic species of astatine are known and most of its compounds resemble those of iodine, but it also sometimes displays metallic characteristics and shows some similarities to silver.</p><p>The first synthesis of the element was in 1940 by Dale R. Corson, Kenneth Ross MacKenzie, and Emilio G. Segrè at the University of California, Berkeley, who named it from the Greek astatos (ἄστατος), meaning \"unstable\". Four isotopes of astatine were subsequently found to be naturally occurring, although much less than one gram is present at any given time in the Earth's crust. Neither the most stable isotope astatine-210, nor the medically useful astatine-211, occur naturally; they can only be produced synthetically, usually by bombarding bismuth-209 with alpha particles.</p>",
+        "summary": "<p>Astatine is a chemical element with the symbol At and atomic number 85. It is the rarest naturally occurring element in the Earth's crust, occurring only as the decay product of various heavier elements. All of astatine's isotopes are short-lived; the most stable is astatine-210, with a half_life of 8.1 hours. A sample of the pure element has never been assembled, because any macroscopic specimen would be immediately vaporized by the heat of its own radioactivity.</p><p>The bulk properties of astatine are not known with certainty. Many of them have been estimated based on the element's position on the periodic table as a heavier analog of iodine, and a member of the halogens (the group of elements including fluorine, chlorine, bromine, and iodine). However, astatine also falls roughly along the dividing line between metals and nonmetals, and some metallic behavior has also been observed and predicted for it. Astatine is likely to have a dark or lustrous appearance and may be a semiconductor or possibly a metal. Chemically, several anionic species of astatine are known and most of its compounds resemble those of iodine, but it also sometimes displays metallic characteristics and shows some similarities to silver.</p><p>The first synthesis of the element was in 1940 by Dale R. Corson, Kenneth Ross MacKenzie, and Emilio G. Segrè at the University of California, Berkeley, who named it from the Greek astatos (ἄστατος), meaning \"unstable\". Four isotopes of astatine were subsequently found to be naturally occurring, although much less than one gram is present at any given time in the Earth's crust. Neither the most stable isotope astatine-210, nor the medically useful astatine-211, occur naturally; they can only be produced synthetically, usually by bombarding bismuth-209 with alpha particles.</p>",
         "valence_electrons": 7
     },
     {
@@ -9489,7 +9492,7 @@ pTable = [
         "energy_levels": "2, 8, 18, 32, 18, 8",
         "gas_phase": "Monoatomic",
         "group": 18,
-        "half-life": 3.82349537037,
+        "half_life": 3.82349537037,
         "heat": {
             "specific": 93.65,
             "vaporization": 17,
@@ -9514,7 +9517,7 @@ pTable = [
         },
         "series": "noble gas",
         "source": "https://en.wikipedia.org/wiki/Radon",
-        "summary": "<p>Radon is a chemical element with the symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas. It occurs naturally in minute quantities as an intermediate step in the normal radioactive decay chains through which thorium and uranium slowly decay into lead and various other short-lived radioactive elements. Radon itself is the immediate decay product of radium. Its most stable isotope, 222Rn, has a half-life of only 3.8 days, making it one of the rarest elements. Since thorium and uranium are two of the most common radioactive elements on Earth, while also having three isotopes with half-lives on the order of several billion years, radon will be present on Earth long into the future despite its short half-life. The decay of radon produces many other short-lived nuclides, known as radon daughters, ending at stable isotopes of lead.</p><p>Unlike all other intermediate elements in the aforementioned decay chains, radon is, under standard conditions, gaseous and easily inhaled, and therefore a health hazard. It is often the single largest contributor to an individual's background radiation dose, but due to local differences in geology, the level of exposure to radon gas differs from place to place. A common source is uranium-containing minerals in the ground, and therefore it accumulates in subterranean areas such as basements. Radon can also occur in some ground water like spring waters and hot springs.</p><p>Epidemiological studies have shown a clear link between breathing high concentrations of radon and incidence of lung cancer. Radon is a contaminant that affects indoor air quality worldwide. According to the United States Environmental Protection Agency (EPA), radon is the second most frequent cause of lung cancer, after cigarette smoking, causing 21,000 lung cancer deaths per year in the United States. About 2,900 of these deaths occur among people who have never smoked. While radon is the second most frequent cause of lung cancer, it is the number one cause among non-smokers, according to EPA policy-oriented estimates. Significant uncertainties exist for the health effects of low-dose exposures. Unlike the gaseous radon itself, radon daughters are solids and stick to surfaces, such as airborne dust particles, which can cause lung cancer if inhaled.</p>",
+        "summary": "<p>Radon is a chemical element with the symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas. It occurs naturally in minute quantities as an intermediate step in the normal radioactive decay chains through which thorium and uranium slowly decay into lead and various other short-lived radioactive elements. Radon itself is the immediate decay product of radium. Its most stable isotope, 222Rn, has a half_life of only 3.8 days, making it one of the rarest elements. Since thorium and uranium are two of the most common radioactive elements on Earth, while also having three isotopes with half-lives on the order of several billion years, radon will be present on Earth long into the future despite its short half_life. The decay of radon produces many other short-lived nuclides, known as radon daughters, ending at stable isotopes of lead.</p><p>Unlike all other intermediate elements in the aforementioned decay chains, radon is, under standard conditions, gaseous and easily inhaled, and therefore a health hazard. It is often the single largest contributor to an individual's background radiation dose, but due to local differences in geology, the level of exposure to radon gas differs from place to place. A common source is uranium-containing minerals in the ground, and therefore it accumulates in subterranean areas such as basements. Radon can also occur in some ground water like spring waters and hot springs.</p><p>Epidemiological studies have shown a clear link between breathing high concentrations of radon and incidence of lung cancer. Radon is a contaminant that affects indoor air quality worldwide. According to the United States Environmental Protection Agency (EPA), radon is the second most frequent cause of lung cancer, after cigarette smoking, causing 21,000 lung cancer deaths per year in the United States. About 2,900 of these deaths occur among people who have never smoked. While radon is the second most frequent cause of lung cancer, it is the number one cause among non-smokers, according to EPA policy-oriented estimates. Significant uncertainties exist for the health effects of low-dose exposures. Unlike the gaseous radon itself, radon daughters are solids and stick to surfaces, such as airborne dust particles, which can cause lung cancer if inhaled.</p>",
         "valence_electrons": 6
     },
     {
@@ -9553,7 +9556,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 8, 1",
         "group": 1,
-        "half-life": 21.66666666667,
+        "half_life": 21.66666666667,
         "heat": {
             "vaporization": 65,
             "fusion": 2
@@ -9571,7 +9574,7 @@ pTable = [
         "quantum_numbers": "2S1/2",
         "series": "alkali metal",
         "source": "https://en.wikipedia.org/wiki/Francium",
-        "summary": "<p>Francium is a chemical element with the symbol Fr and atomic number 87. Prior to its discovery, it was referred to as eka-caesium. It is extremely radioactive; its most stable isotope, francium-223 (originally called actinium K after the natural decay chain it appears in), has a half-life of only 22 minutes. It is the second-most electropositive element, behind only caesium, and is the second rarest naturally occurring element (after astatine). The isotopes of francium decay quickly into astatine, radium, and radon. The electronic structure of a francium atom is 7s1, and so the element is classed as an alkali metal.</p><p>Bulk francium has never been seen. Because of the general appearance of the other elements in its periodic table column, it is assumed that francium would appear as a highly reactive metal, if enough could be collected together to be viewed as a bulk solid or liquid. Obtaining such a sample is highly improbable, since the extreme heat of decay resulting from its short half-life would immediately vaporize any viewable quantity of the element.</p><p>Francium was discovered by Marguerite Perey in France (from which the element takes its name) in 1939. It was the last element first discovered in nature, rather than by synthesis. Outside the laboratory, francium is extremely rare, with trace amounts found in uranium and thorium ores, where the isotope francium-223 continually forms and decays. As little as 20–30 g (one ounce) exists at any given time throughout the Earth's crust; aside from francium-221, its other isotopes are entirely synthetic. The largest amount produced in the laboratory was a cluster of more than 300,000 atoms.</p>",
+        "summary": "<p>Francium is a chemical element with the symbol Fr and atomic number 87. Prior to its discovery, it was referred to as eka-caesium. It is extremely radioactive; its most stable isotope, francium-223 (originally called actinium K after the natural decay chain it appears in), has a half_life of only 22 minutes. It is the second-most electropositive element, behind only caesium, and is the second rarest naturally occurring element (after astatine). The isotopes of francium decay quickly into astatine, radium, and radon. The electronic structure of a francium atom is 7s1, and so the element is classed as an alkali metal.</p><p>Bulk francium has never been seen. Because of the general appearance of the other elements in its periodic table column, it is assumed that francium would appear as a highly reactive metal, if enough could be collected together to be viewed as a bulk solid or liquid. Obtaining such a sample is highly improbable, since the extreme heat of decay resulting from its short half_life would immediately vaporize any viewable quantity of the element.</p><p>Francium was discovered by Marguerite Perey in France (from which the element takes its name) in 1939. It was the last element first discovered in nature, rather than by synthesis. Outside the laboratory, francium is extremely rare, with trace amounts found in uranium and thorium ores, where the isotope francium-223 continually forms and decays. As little as 20–30 g (one ounce) exists at any given time throughout the Earth's crust; aside from francium-221, its other isotopes are entirely synthetic. The largest amount produced in the laboratory was a cluster of more than 300,000 atoms.</p>",
         "valence_electrons": 1
     },
     {
@@ -9623,7 +9626,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 8, 2",
         "group": 2,
-        "half-life": 1585.489599188,
+        "half_life": 1585.489599188,
         "heat": {
             "specific": 92,
             "vaporization": 125,
@@ -9653,7 +9656,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Radium",
         "space_group_name": "Im_3m",
         "space_group_number": 229,
-        "summary": "<p>Radium is a chemical element with the symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is silvery-white, but it readily reacts with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2). All isotopes of radium are highly radioactive, with the most stable isotope being radium-226, which has a half-life of 1600 years and decays into radon gas (specifically the isotope radon-222). When radium decays, ionizing radiation is a by-product, which can excite fluorescent chemicals and cause radioluminescence.</p><p>Radium, in the form of radium chloride, was discovered by Marie and Pierre Curie in 1898 from ore mined at Jáchymov. They extracted the radium compound from uraninite and published the discovery at the French Academy of Sciences five days later. Radium was isolated in its metallic state by Marie Curie and André-Louis Debierne through the electrolysis of radium chloride in 1911.</p><p>In nature, radium is found in uranium and (to a lesser extent) thorium ores in trace amounts as small as a seventh of a gram per ton of uraninite. Radium is not necessary for living organisms, and adverse health effects are likely when it is incorporated into biochemical processes because of its radioactivity and chemical reactivity. Currently, other than its use in nuclear medicine, radium has no commercial applications; formerly, it was used as a radioactive source for radioluminescent devices and also in radioactive quackery for its supposed curative powers. Today, these former applications are no longer in vogue because radium's toxicity has become known, and less dangerous isotopes are used instead in radioluminescent devices.</p>",
+        "summary": "<p>Radium is a chemical element with the symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is silvery-white, but it readily reacts with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2). All isotopes of radium are highly radioactive, with the most stable isotope being radium-226, which has a half_life of 1600 years and decays into radon gas (specifically the isotope radon-222). When radium decays, ionizing radiation is a by-product, which can excite fluorescent chemicals and cause radioluminescence.</p><p>Radium, in the form of radium chloride, was discovered by Marie and Pierre Curie in 1898 from ore mined at Jáchymov. They extracted the radium compound from uraninite and published the discovery at the French Academy of Sciences five days later. Radium was isolated in its metallic state by Marie Curie and André-Louis Debierne through the electrolysis of radium chloride in 1911.</p><p>In nature, radium is found in uranium and (to a lesser extent) thorium ores in trace amounts as small as a seventh of a gram per ton of uraninite. Radium is not necessary for living organisms, and adverse health effects are likely when it is incorporated into biochemical processes because of its radioactivity and chemical reactivity. Currently, other than its use in nuclear medicine, radium has no commercial applications; formerly, it was used as a radioactive source for radioluminescent devices and also in radioactive quackery for its supposed curative powers. Today, these former applications are no longer in vogue because radium's toxicity has become known, and less dangerous isotopes are used instead in radioluminescent devices.</p>",
         "valence_electrons": 2
     },
     {
@@ -9700,7 +9703,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 9, 2",
         "group": 3,
-        "half-life": 21.78652968037,
+        "half_life": 21.78652968037,
         "heat": {
             "specific": 120,
             "vaporization": 400,
@@ -9731,7 +9734,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Actinium",
         "space_group_name": "Fm_3m",
         "space_group_number": 225,
-        "summary": "<p>Actinium is a chemical element with the symbol Ac and atomic number 89. It was first isolated by Friedrich Oskar Giesel in 1902, who gave it the name emanium; the element got its name by being wrongly identified with a substance André-Louis Debierne found in 1899 and called actinium. Actinium gave the name to the actinide series, a group of 15 similar elements between actinium and lawrencium in the periodic table. Together with polonium, radium, and radon, actinium was one of the first non-primordial radioactive elements to be isolated.</p><p>A soft, silvery-white radioactive metal, actinium reacts rapidly with oxygen and moisture in air forming a white coating of actinium oxide that prevents further oxidation. As with most lanthanides and many actinides, actinium assumes oxidation state +3 in nearly all its chemical compounds. Actinium is found only in traces in uranium and thorium ores as the isotope 227Ac, which decays with a half-life of 21.772 years, predominantly emitting beta and sometimes alpha particles, and 228Ac, which is beta active with a half-life of 6.15 hours. One tonne of natural uranium in ore contains about 0.2 milligrams of actinium-227, and one tonne of thorium contains about 5 nanograms of actinium-228. The close similarity of physical and chemical properties of actinium and lanthanum makes separation of actinium from the ore impractical. Instead, the element is prepared, in milligram amounts, by the neutron irradiation of 226Ra in a nuclear reactor. Owing to its scarcity, high price and radioactivity, actinium has no significant industrial use. Its current applications include a neutron source and an agent for radiation therapy.</p>",
+        "summary": "<p>Actinium is a chemical element with the symbol Ac and atomic number 89. It was first isolated by Friedrich Oskar Giesel in 1902, who gave it the name emanium; the element got its name by being wrongly identified with a substance André-Louis Debierne found in 1899 and called actinium. Actinium gave the name to the actinide series, a group of 15 similar elements between actinium and lawrencium in the periodic table. Together with polonium, radium, and radon, actinium was one of the first non-primordial radioactive elements to be isolated.</p><p>A soft, silvery-white radioactive metal, actinium reacts rapidly with oxygen and moisture in air forming a white coating of actinium oxide that prevents further oxidation. As with most lanthanides and many actinides, actinium assumes oxidation state +3 in nearly all its chemical compounds. Actinium is found only in traces in uranium and thorium ores as the isotope 227Ac, which decays with a half_life of 21.772 years, predominantly emitting beta and sometimes alpha particles, and 228Ac, which is beta active with a half_life of 6.15 hours. One tonne of natural uranium in ore contains about 0.2 milligrams of actinium-227, and one tonne of thorium contains about 5 nanograms of actinium-228. The close similarity of physical and chemical properties of actinium and lanthanum makes separation of actinium from the ore impractical. Instead, the element is prepared, in milligram amounts, by the neutron irradiation of 226Ra in a nuclear reactor. Owing to its scarcity, high price and radioactivity, actinium has no significant industrial use. Its current applications include a neutron source and an agent for radiation therapy.</p>",
         "valence_electrons": 3
     },
     {
@@ -9788,7 +9791,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 18, 10, 2",
         "group": 3,
-        "half-life": 14060121765.6,
+        "half_life": 14060121765.6,
         "hardness": {
             "vickers": 350,
             "brinell": 400,
@@ -9841,7 +9844,7 @@ pTable = [
         "space_group_name": "Fm_3m",
         "space_group_number": 225,
         "speed_of_sound": 2490,
-        "summary": "<p>Thorium is a weakly radioactive metallic chemical element with the symbol Th and atomic number 90. Thorium is silvery and tarnishes black when it is exposed to air, forming thorium dioxide; it is moderately soft, malleable, and has a high melting point. Thorium is an electropositive actinide whose chemistry is dominated by the +4 oxidation state; it is quite reactive and can ignite in air when finely divided.</p><p>All known thorium isotopes are unstable. The most stable isotope, 232Th, has a half-life of 14.05 billion years, or about the age of the universe; it decays very slowly via alpha decay, starting a decay chain named the thorium series that ends at stable 208Pb. On Earth, thorium and uranium are the only significantly radioactive elements that still occur naturally in large quantities as primordial elements. Thorium is estimated to be over three times as abundant as uranium in the Earth's crust, and is chiefly refined from monazite sands as a by-product of extracting rare-earth metals.</p><p>Thorium was discovered in 1828 by the Norwegian amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jacob Berzelius, who named it after Thor, the Norse god of thunder. Its first applications were developed in the late 19th century. Thorium's radioactivity was widely acknowledged during the first decades of the 20th century. In the second half of the century, thorium was replaced in many uses due to concerns about its radioactivity.</p><p>Thorium is still being used as an alloying element in TIG welding electrodes but is slowly being replaced in the field with different compositions. It was also material in high-end optics and scientific instrumentation, used in some broadcast vacuum tubes, and as the light source in gas mantles, but these uses have become marginal. It has been suggested as a replacement for uranium as nuclear fuel in nuclear reactors, and several thorium reactors have been built. Thorium is also used in strengthening magnesium, coating tungsten wire in electrical equipment, controlling the grain size of tungsten in electric lamps, high-temperature crucibles, and glasses including camera and scientific instrument lenses. Other uses for thorium include heat-resistant ceramics, aircraft engines, and in light bulbs. Ocean science has utilized (231)Pa/(230)Th isotope ratios to understand the ancient ocean.</p>",
+        "summary": "<p>Thorium is a weakly radioactive metallic chemical element with the symbol Th and atomic number 90. Thorium is silvery and tarnishes black when it is exposed to air, forming thorium dioxide; it is moderately soft, malleable, and has a high melting point. Thorium is an electropositive actinide whose chemistry is dominated by the +4 oxidation state; it is quite reactive and can ignite in air when finely divided.</p><p>All known thorium isotopes are unstable. The most stable isotope, 232Th, has a half_life of 14.05 billion years, or about the age of the universe; it decays very slowly via alpha decay, starting a decay chain named the thorium series that ends at stable 208Pb. On Earth, thorium and uranium are the only significantly radioactive elements that still occur naturally in large quantities as primordial elements. Thorium is estimated to be over three times as abundant as uranium in the Earth's crust, and is chiefly refined from monazite sands as a by-product of extracting rare-earth metals.</p><p>Thorium was discovered in 1828 by the Norwegian amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jacob Berzelius, who named it after Thor, the Norse god of thunder. Its first applications were developed in the late 19th century. Thorium's radioactivity was widely acknowledged during the first decades of the 20th century. In the second half of the century, thorium was replaced in many uses due to concerns about its radioactivity.</p><p>Thorium is still being used as an alloying element in TIG welding electrodes but is slowly being replaced in the field with different compositions. It was also material in high-end optics and scientific instrumentation, used in some broadcast vacuum tubes, and as the light source in gas mantles, but these uses have become marginal. It has been suggested as a replacement for uranium as nuclear fuel in nuclear reactors, and several thorium reactors have been built. Thorium is also used in strengthening magnesium, coating tungsten wire in electrical equipment, controlling the grain size of tungsten in electric lamps, high-temperature crucibles, and glasses including camera and scientific instrument lenses. Other uses for thorium include heat-resistant ceramics, aircraft engines, and in light bulbs. Ocean science has utilized (231)Pa/(230)Th isotope ratios to understand the ancient ocean.</p>",
         "superconducting_point": 1.38,
         "thermal_expansion": 0.000011,
         "valence_electrons": 4
@@ -9894,7 +9897,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 20, 9, 2",
         "group": 3,
-        "half-life": 32787.92491121,
+        "half_life": 32787.92491121,
         "heat": {
             "specific": 99.1,
             "vaporization": 470,
@@ -9929,7 +9932,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Protactinium",
         "space_group_name": "I4/mmm",
         "space_group_number": 139,
-        "summary": "<p>Protactinium (formerly protoactinium) is a chemical element with the symbol Pa and atomic number 91. It is a dense, silvery-gray actinide metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds in which protactinium is usually present in the oxidation state +5, but it can also assume +4 and even +3 or +2 states. Concentrations of protactinium in the Earth's crust are typically a few parts per trillion, but may reach up to a few parts per million in some uraninite ore deposits. Because of its scarcity, high radioactivity and high toxicity, there are currently no uses for protactinium outside scientific research, and for this purpose, protactinium is mostly extracted from spent nuclear fuel.</p><p>Protactinium was first identified in 1913 by Kazimierz Fajans and Oswald Helmuth Göhring and named brevium because of the short half-life of the specific isotope studied, i.e. protactinium-234. A more stable isotope of protactinium, 231Pa, was discovered in 1917/18 by Otto Hahn and Lise Meitner, and they chose the name proto-actinium, but the IUPAC finally named it \"protactinium\" in 1949 and confirmed Hahn and Meitner as discoverers. The new name meant \"(nuclear) precursor of actinium\" and reflected that actinium is a product of radioactive decay of protactinium. John Arnold Cranston (working with Frederick Soddy and Ada Hitchins) is also credited with discovering the most stable isotope in 1915, but delayed his announcement due to being called up for service in the First World War.</p><p>The longest-lived and most abundant (nearly 100%) naturally occurring isotope of protactinium, protactinium-231, has a half-life of 32,760 years and is a decay product of uranium-235. Much smaller trace amounts of the short-lived protactinium-234 and its nuclear isomer protactinium-234m occur in the decay chain of uranium-238. Protactinium-233 results from the decay of thorium-233 as part of the chain of events used to produce uranium-233 by neutron irradiation of thorium-232. It is an undesired intermediate product in thorium-based nuclear reactors and is therefore removed from the active zone of the reactor during the breeding process. Analysis of the relative concentrations of various uranium, thorium and protactinium isotopes in water and minerals is used in radiometric dating of sediments which are up to 175,000 years old and in modeling of various geological processes. Ocean science utilize the element to understand the ancient ocean.</p>",
+        "summary": "<p>Protactinium (formerly protoactinium) is a chemical element with the symbol Pa and atomic number 91. It is a dense, silvery-gray actinide metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds in which protactinium is usually present in the oxidation state +5, but it can also assume +4 and even +3 or +2 states. Concentrations of protactinium in the Earth's crust are typically a few parts per trillion, but may reach up to a few parts per million in some uraninite ore deposits. Because of its scarcity, high radioactivity and high toxicity, there are currently no uses for protactinium outside scientific research, and for this purpose, protactinium is mostly extracted from spent nuclear fuel.</p><p>Protactinium was first identified in 1913 by Kazimierz Fajans and Oswald Helmuth Göhring and named brevium because of the short half_life of the specific isotope studied, i.e. protactinium-234. A more stable isotope of protactinium, 231Pa, was discovered in 1917/18 by Otto Hahn and Lise Meitner, and they chose the name proto-actinium, but the IUPAC finally named it \"protactinium\" in 1949 and confirmed Hahn and Meitner as discoverers. The new name meant \"(nuclear) precursor of actinium\" and reflected that actinium is a product of radioactive decay of protactinium. John Arnold Cranston (working with Frederick Soddy and Ada Hitchins) is also credited with discovering the most stable isotope in 1915, but delayed his announcement due to being called up for service in the First World War.</p><p>The longest-lived and most abundant (nearly 100%) naturally occurring isotope of protactinium, protactinium-231, has a half_life of 32,760 years and is a decay product of uranium-235. Much smaller trace amounts of the short-lived protactinium-234 and its nuclear isomer protactinium-234m occur in the decay chain of uranium-238. Protactinium-233 results from the decay of thorium-233 as part of the chain of events used to produce uranium-233 by neutron irradiation of thorium-232. It is an undesired intermediate product in thorium-based nuclear reactors and is therefore removed from the active zone of the reactor during the breeding process. Analysis of the relative concentrations of various uranium, thorium and protactinium isotopes in water and minerals is used in radiometric dating of sediments which are up to 175,000 years old and in modeling of various geological processes. Ocean science utilize the element to understand the ancient ocean.</p>",
         "superconducting_point": 1.41,
         "valence_electrons": 5
     },
@@ -9987,7 +9990,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 21, 9, 2",
         "group": 3,
-        "half-life": 4471080669.711,
+        "half_life": 4471080669.711,
         "hardness": {
             "vickers": 1960,
             "brinell": 2400,
@@ -10039,7 +10042,7 @@ pTable = [
         "space_group_name": "Cmcm",
         "space_group_number": 63,
         "speed_of_sound": 3155,
-        "summary": "<p>Uranium is a chemical element with the symbol U and atomic number 92. It is a silvery-grey metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons. Uranium is weakly radioactive because all isotopes of uranium are unstable; the half-lives of its naturally occurring isotopes range between 159,200 years and 4.5 billion years. The most common isotopes in natural uranium are uranium-238 (which has 146 neutrons and accounts for over 99% of uranium on Earth) and uranium-235 (which has 143 neutrons). Uranium has the highest atomic weight of the primordially occurring elements. Its density is about 70% higher than that of lead, and slightly lower than that of gold or tungsten. It occurs naturally in low concentrations of a few parts per million in soil, rock and water, and is commercially extracted from uranium-bearing minerals such as uraninite.</p><p>In nature, uranium is found as uranium-238 (99.2739–99.2752%), uranium-235 (0.7198–0.7202%), and a very small amount of uranium-234 (0.0050–0.0059%). Uranium decays slowly by emitting an alpha particle. The half-life of uranium-238 is about 4.47 billion years and that of uranium-235 is 704 million years, making them useful in dating the age of the Earth.</p><p>Many contemporary uses of uranium exploit its unique nuclear properties. Uranium-235 is the only naturally occurring fissile isotope, which makes it widely used in nuclear power plants and nuclear weapons. However, because of the tiny amounts found in nature, uranium needs to undergo enrichment so that enough uranium-235 is present. Uranium-238 is fissionable by fast neutrons, and is fertile, meaning it can be transmuted to fissile plutonium-239 in a nuclear reactor. Another fissile isotope, uranium-233, can be produced from natural thorium and is studied for future industrial use in nuclear technology. Uranium-238 has a small probability for spontaneous fission or even induced fission with fast neutrons; uranium-235 and to a lesser degree uranium-233 have a much higher fission cross-section for slow neutrons. In sufficient concentration, these isotopes maintain a sustained nuclear chain reaction. This generates the heat in nuclear power reactors, and produces the fissile material for nuclear weapons. Depleted uranium (238U) is used in kinetic energy penetrators and armor plating. Uranium is used as a colorant in uranium glass, producing lemon yellow to green colors. Uranium glass fluoresces green in ultraviolet light. It was also used for tinting and shading in early photography.</p><p>The 1789 discovery of uranium in the mineral pitchblende is credited to Martin Heinrich Klaproth, who named the new element after the recently discovered planet Uranus. Eugène-Melchior Péligot was the first person to isolate the metal and its radioactive properties were discovered in 1896 by Henri Becquerel. Research by Otto Hahn, Lise Meitner, Enrico Fermi and others, such as J. Robert Oppenheimer starting in 1934 led to its use as a fuel in the nuclear power industry and in Little Boy, the first nuclear weapon used in war. An ensuing arms race during the Cold War between the United States and the Soviet Union produced tens of thousands of nuclear weapons that used uranium metal and uranium-derived plutonium-239. The security of those weapons is closely monitored. Since around 2000, plutonium obtained by dismantling cold war era bombs is used as fuel for nuclear reactors.</p><p>The development and deployment of these nuclear reactors continue on a global base. There is increasing interest in these power plants as they are powerful sources of CO2-free energy. In 2019, 440 nuclear power reactors produced 2586 TWh (billion kWh) of CO2-free electricity worldwide, more than the global installations of solar and wind power combined.</p>",
+        "summary": "<p>Uranium is a chemical element with the symbol U and atomic number 92. It is a silvery-grey metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons. Uranium is weakly radioactive because all isotopes of uranium are unstable; the half-lives of its naturally occurring isotopes range between 159,200 years and 4.5 billion years. The most common isotopes in natural uranium are uranium-238 (which has 146 neutrons and accounts for over 99% of uranium on Earth) and uranium-235 (which has 143 neutrons). Uranium has the highest atomic weight of the primordially occurring elements. Its density is about 70% higher than that of lead, and slightly lower than that of gold or tungsten. It occurs naturally in low concentrations of a few parts per million in soil, rock and water, and is commercially extracted from uranium-bearing minerals such as uraninite.</p><p>In nature, uranium is found as uranium-238 (99.2739–99.2752%), uranium-235 (0.7198–0.7202%), and a very small amount of uranium-234 (0.0050–0.0059%). Uranium decays slowly by emitting an alpha particle. The half_life of uranium-238 is about 4.47 billion years and that of uranium-235 is 704 million years, making them useful in dating the age of the Earth.</p><p>Many contemporary uses of uranium exploit its unique nuclear properties. Uranium-235 is the only naturally occurring fissile isotope, which makes it widely used in nuclear power plants and nuclear weapons. However, because of the tiny amounts found in nature, uranium needs to undergo enrichment so that enough uranium-235 is present. Uranium-238 is fissionable by fast neutrons, and is fertile, meaning it can be transmuted to fissile plutonium-239 in a nuclear reactor. Another fissile isotope, uranium-233, can be produced from natural thorium and is studied for future industrial use in nuclear technology. Uranium-238 has a small probability for spontaneous fission or even induced fission with fast neutrons; uranium-235 and to a lesser degree uranium-233 have a much higher fission cross-section for slow neutrons. In sufficient concentration, these isotopes maintain a sustained nuclear chain reaction. This generates the heat in nuclear power reactors, and produces the fissile material for nuclear weapons. Depleted uranium (238U) is used in kinetic energy penetrators and armor plating. Uranium is used as a colorant in uranium glass, producing lemon yellow to green colors. Uranium glass fluoresces green in ultraviolet light. It was also used for tinting and shading in early photography.</p><p>The 1789 discovery of uranium in the mineral pitchblende is credited to Martin Heinrich Klaproth, who named the new element after the recently discovered planet Uranus. Eugène-Melchior Péligot was the first person to isolate the metal and its radioactive properties were discovered in 1896 by Henri Becquerel. Research by Otto Hahn, Lise Meitner, Enrico Fermi and others, such as J. Robert Oppenheimer starting in 1934 led to its use as a fuel in the nuclear power industry and in Little Boy, the first nuclear weapon used in war. An ensuing arms race during the Cold War between the United States and the Soviet Union produced tens of thousands of nuclear weapons that used uranium metal and uranium-derived plutonium-239. The security of those weapons is closely monitored. Since around 2000, plutonium obtained by dismantling cold war era bombs is used as fuel for nuclear reactors.</p><p>The development and deployment of these nuclear reactors continue on a global base. There is increasing interest in these power plants as they are powerful sources of CO2-free energy. In 2019, 440 nuclear power reactors produced 2586 TWh (billion kWh) of CO2-free electricity worldwide, more than the global installations of solar and wind power combined.</p>",
         "superconducting_point": 0.69,
         "thermal_expansion": 0.0000139,
         "valence_electrons": 6
@@ -10094,7 +10097,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 22, 9, 2",
         "group": 3,
-        "half-life": 2145484.525622,
+        "half_life": 2145484.525622,
         "heat": {
             "vaporization": 335,
             "fusion": 10,
@@ -10178,7 +10181,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 24, 8, 2",
         "group": 3,
-        "half-life": 79274479.95941,
+        "half_life": 79274479.95941,
         "heat": {
             "vaporization": 325,
             "molar": 35.5
@@ -10218,7 +10221,7 @@ pTable = [
         "space_group_name": "P121/m1",
         "space_group_number": 11,
         "speed_of_sound": 2260,
-        "summary": "<p>Plutonium is a radioactive chemical element with the symbol Pu and atomic number 94. It is an actinide metal of silvery-gray appearance that tarnishes when exposed to air, and forms a dull coating when oxidized. The element normally exhibits six allotropes and four oxidation states. It reacts with carbon, halogens, nitrogen, silicon, and hydrogen. When exposed to moist air, it forms oxides and hydrides that can expand the sample up to 70% in volume, which in turn flake off as a powder that is pyrophoric. It is radioactive and can accumulate in bones, which makes the handling of plutonium dangerous.</p><p>Plutonium was first synthetically produced and isolated in late 1940 and early 1941, by a deuteron bombardment of uranium-238 in the 1.5-metre (60 in) cyclotron at the University of California, Berkeley. First, neptunium-238 (half-life 2.1 days) was synthesized, which subsequently beta-decayed to form the new element with atomic number 94 and atomic weight 238 (half-life 88 years). Since uranium had been named after the planet Uranus and neptunium after the planet Neptune, element 94 was named after Pluto, which at the time was considered to be a planet as well. Wartime secrecy prevented the University of California team from publishing its discovery until 1948.</p><p>Plutonium is the element with the highest atomic number to occur in nature. Trace quantities arise in natural uranium-238 deposits when uranium-238 captures neutrons emitted by decay of other uranium-238 atoms.</p><p>Both plutonium-239 and plutonium-241 are fissile, meaning that they can sustain a nuclear chain reaction, leading to applications in nuclear weapons and nuclear reactors. Plutonium-240 exhibits a high rate of spontaneous fission, raising the neutron flux of any sample containing it. The presence of plutonium-240 limits a plutonium sample's usability for weapons or its quality as reactor fuel, and the percentage of plutonium-240 determines its grade (weapons-grade, fuel-grade, or reactor-grade). Plutonium-238 has a half-life of 87.7 years and emits alpha particles. It is a heat source in radioisotope thermoelectric generators, which are used to power some spacecraft. Plutonium isotopes are expensive and inconvenient to separate, so particular isotopes are usually manufactured in specialized reactors.</p><p>Producing plutonium in useful quantities for the first time was a major part of the Manhattan Project during World War II that developed the first atomic bombs. The Fat Man bombs used in the Trinity nuclear test in July 1945, and in the bombing of Nagasaki in August 1945, had plutonium cores. Human radiation experiments studying plutonium were conducted without informed consent, and several criticality accidents, some lethal, occurred after the war. Disposal of plutonium waste from nuclear power plants and dismantled nuclear weapons built during the Cold War is a nuclear-proliferation and environmental concern. Other sources of plutonium in the environment are fallout from numerous above-ground nuclear tests, now banned.</p>",
+        "summary": "<p>Plutonium is a radioactive chemical element with the symbol Pu and atomic number 94. It is an actinide metal of silvery-gray appearance that tarnishes when exposed to air, and forms a dull coating when oxidized. The element normally exhibits six allotropes and four oxidation states. It reacts with carbon, halogens, nitrogen, silicon, and hydrogen. When exposed to moist air, it forms oxides and hydrides that can expand the sample up to 70% in volume, which in turn flake off as a powder that is pyrophoric. It is radioactive and can accumulate in bones, which makes the handling of plutonium dangerous.</p><p>Plutonium was first synthetically produced and isolated in late 1940 and early 1941, by a deuteron bombardment of uranium-238 in the 1.5-metre (60 in) cyclotron at the University of California, Berkeley. First, neptunium-238 (half_life 2.1 days) was synthesized, which subsequently beta-decayed to form the new element with atomic number 94 and atomic weight 238 (half_life 88 years). Since uranium had been named after the planet Uranus and neptunium after the planet Neptune, element 94 was named after Pluto, which at the time was considered to be a planet as well. Wartime secrecy prevented the University of California team from publishing its discovery until 1948.</p><p>Plutonium is the element with the highest atomic number to occur in nature. Trace quantities arise in natural uranium-238 deposits when uranium-238 captures neutrons emitted by decay of other uranium-238 atoms.</p><p>Both plutonium-239 and plutonium-241 are fissile, meaning that they can sustain a nuclear chain reaction, leading to applications in nuclear weapons and nuclear reactors. Plutonium-240 exhibits a high rate of spontaneous fission, raising the neutron flux of any sample containing it. The presence of plutonium-240 limits a plutonium sample's usability for weapons or its quality as reactor fuel, and the percentage of plutonium-240 determines its grade (weapons-grade, fuel-grade, or reactor-grade). Plutonium-238 has a half_life of 87.7 years and emits alpha particles. It is a heat source in radioisotope thermoelectric generators, which are used to power some spacecraft. Plutonium isotopes are expensive and inconvenient to separate, so particular isotopes are usually manufactured in specialized reactors.</p><p>Producing plutonium in useful quantities for the first time was a major part of the Manhattan Project during World War II that developed the first atomic bombs. The Fat Man bombs used in the Trinity nuclear test in July 1945, and in the bombing of Nagasaki in August 1945, had plutonium cores. Human radiation experiments studying plutonium were conducted without informed consent, and several criticality accidents, some lethal, occurred after the war. Disposal of plutonium waste from nuclear power plants and dismantled nuclear weapons built during the Cold War is a nuclear-proliferation and environmental concern. Other sources of plutonium in the environment are fallout from numerous above-ground nuclear tests, now banned.</p>",
         "valence_electrons": 6
     },
     {
@@ -10269,7 +10272,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 25, 8, 2",
         "group": 3,
-        "half-life": 7388.381532217,
+        "half_life": 7388.381532217,
         "heat": {
             "molar": 62.7
         },
@@ -10350,7 +10353,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 25, 9, 2",
         "group": 3,
-        "half-life": 15601217.65601,
+        "half_life": 15601217.65601,
         "ionization_energies": [
             581
         ],
@@ -10422,7 +10425,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 27, 8, 2",
         "group": 3,
-        "half-life": 1379.375951294,
+        "half_life": 1379.375951294,
         "ionization_energies": [
             601
         ],
@@ -10442,7 +10445,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Berkelium",
         "space_group_name": "P63/mmc",
         "space_group_number": 194,
-        "summary": "<p>Berkelium is a transuranic radioactive chemical element with the symbol Bk and atomic number 97. It is a member of the actinide and transuranium element series. It is named after the city of Berkeley, California, the location of the Lawrence Berkeley National Laboratory (then the University of California Radiation Laboratory) where it was discovered in December 1949. Berkelium was the fifth transuranium element discovered after neptunium, plutonium, curium and americium.</p><p>The major isotope of berkelium, 249Bk, is synthesized in minute quantities in dedicated high-flux nuclear reactors, mainly at the Oak Ridge National Laboratory in Tennessee, USA, and at the Research Institute of Atomic Reactors in Dimitrovgrad, Russia. The production of the second-most important isotope, 247Bk, involves the irradiation of the rare isotope 244Cm with high-energy alpha particles.</p><p>Just over one gram of berkelium has been produced in the United States since 1967. There is no practical application of berkelium outside scientific research which is mostly directed at the synthesis of heavier transuranic elements and transactinides. A 22-milligram batch of berkelium-249 was prepared during a 250-day irradiation period and then purified for a further 90 days at Oak Ridge in 2009. This sample was used to synthesize the new element tennessine for the first time in 2009 at the Joint Institute for Nuclear Research, Russia, after it was bombarded with calcium-48 ions for 150 days. This was the culmination of the Russia–US collaboration on the synthesis of the heaviest elements on the periodic table.</p><p>Berkelium is a soft, silvery-white, radioactive metal. The berkelium-249 isotope emits low-energy electrons and thus is relatively safe to handle. It decays with a half-life of 330 days to californium-249, which is a strong emitter of ionizing alpha particles. This gradual transformation is an important consideration when studying the properties of elemental berkelium and its chemical compounds, since the formation of californium brings not only chemical contamination, but also free-radical effects and self-heating from the emitted alpha particles.</p>",
+        "summary": "<p>Berkelium is a transuranic radioactive chemical element with the symbol Bk and atomic number 97. It is a member of the actinide and transuranium element series. It is named after the city of Berkeley, California, the location of the Lawrence Berkeley National Laboratory (then the University of California Radiation Laboratory) where it was discovered in December 1949. Berkelium was the fifth transuranium element discovered after neptunium, plutonium, curium and americium.</p><p>The major isotope of berkelium, 249Bk, is synthesized in minute quantities in dedicated high-flux nuclear reactors, mainly at the Oak Ridge National Laboratory in Tennessee, USA, and at the Research Institute of Atomic Reactors in Dimitrovgrad, Russia. The production of the second-most important isotope, 247Bk, involves the irradiation of the rare isotope 244Cm with high-energy alpha particles.</p><p>Just over one gram of berkelium has been produced in the United States since 1967. There is no practical application of berkelium outside scientific research which is mostly directed at the synthesis of heavier transuranic elements and transactinides. A 22-milligram batch of berkelium-249 was prepared during a 250-day irradiation period and then purified for a further 90 days at Oak Ridge in 2009. This sample was used to synthesize the new element tennessine for the first time in 2009 at the Joint Institute for Nuclear Research, Russia, after it was bombarded with calcium-48 ions for 150 days. This was the culmination of the Russia–US collaboration on the synthesis of the heaviest elements on the periodic table.</p><p>Berkelium is a soft, silvery-white, radioactive metal. The berkelium-249 isotope emits low-energy electrons and thus is relatively safe to handle. It decays with a half_life of 330 days to californium-249, which is a strong emitter of ionizing alpha particles. This gradual transformation is an important consideration when studying the properties of elemental berkelium and its chemical compounds, since the formation of californium brings not only chemical contamination, but also free-radical effects and self-heating from the emitted alpha particles.</p>",
         "valence_electrons": 4
     },
     {
@@ -10490,7 +10493,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 28, 8, 2",
         "group": 3,
-        "half-life": 900.5580923389,
+        "half_life": 900.5580923389,
         "ionization_energies": [
             608
         ],
@@ -10510,7 +10513,7 @@ pTable = [
         "source": "https://en.wikipedia.org/wiki/Californium",
         "space_group_name": "P63/mmc",
         "space_group_number": 194,
-        "summary": "<p>Californium is a radioactive chemical element with the symbol Cf and atomic number 98. The element was first synthesized in 1950 at the Lawrence Berkeley National Laboratory (then the University of California Radiation Laboratory), by bombarding curium with alpha particles (helium-4 ions). It is an actinide element, the sixth transuranium element to be synthesized, and has the second-highest atomic mass of all the elements that have been produced in amounts large enough to see with the unaided eye (after einsteinium). The element was named after the university and the U.S. state of California.</p><p>Two crystalline forms exist for californium under normal pressure: one above and one below 900 °C (1,650 °F). A third form exists at high pressure. Californium slowly tarnishes in air at room temperature. Compounds of californium are dominated by the +3 oxidation state. The most stable of californium's twenty known isotopes is californium-251, which has a half-life of 898 years. This short half-life means the element is not found in significant quantities in the Earth's crust. Californium-252, with a half-life of about 2.645 years, is the most common isotope used and is produced at the Oak Ridge National Laboratory in the United States and the Research Institute of Atomic Reactors in Russia.</p><p>Californium is one of the few transuranium elements that have practical applications. Most of these applications exploit the property of certain isotopes of californium to emit neutrons. For example, californium can be used to help start up nuclear reactors, and it is employed as a source of neutrons when studying materials using neutron diffraction and neutron spectroscopy. Californium can also be used in nuclear synthesis of higher mass elements; oganesson (element 118) was synthesized by bombarding californium-249 atoms with calcium-48 ions. Users of californium must take into account radiological concerns and the element's ability to disrupt the formation of red blood cells by bioaccumulating in skeletal tissue.</p>",
+        "summary": "<p>Californium is a radioactive chemical element with the symbol Cf and atomic number 98. The element was first synthesized in 1950 at the Lawrence Berkeley National Laboratory (then the University of California Radiation Laboratory), by bombarding curium with alpha particles (helium-4 ions). It is an actinide element, the sixth transuranium element to be synthesized, and has the second-highest atomic mass of all the elements that have been produced in amounts large enough to see with the unaided eye (after einsteinium). The element was named after the university and the U.S. state of California.</p><p>Two crystalline forms exist for californium under normal pressure: one above and one below 900 °C (1,650 °F). A third form exists at high pressure. Californium slowly tarnishes in air at room temperature. Compounds of californium are dominated by the +3 oxidation state. The most stable of californium's twenty known isotopes is californium-251, which has a half_life of 898 years. This short half_life means the element is not found in significant quantities in the Earth's crust. Californium-252, with a half_life of about 2.645 years, is the most common isotope used and is produced at the Oak Ridge National Laboratory in the United States and the Research Institute of Atomic Reactors in Russia.</p><p>Californium is one of the few transuranium elements that have practical applications. Most of these applications exploit the property of certain isotopes of californium to emit neutrons. For example, californium can be used to help start up nuclear reactors, and it is employed as a source of neutrons when studying materials using neutron diffraction and neutron spectroscopy. Californium can also be used in nuclear synthesis of higher mass elements; oganesson (element 118) was synthesized by bombarding californium-249 atoms with calcium-48 ions. Users of californium must take into account radiological concerns and the element's ability to disrupt the formation of red blood cells by bioaccumulating in skeletal tissue.</p>",
         "valence_electrons": 4
     },
     {
@@ -10554,7 +10557,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 29, 8, 2",
         "group": 3,
-        "half-life": 1.292174023338,
+        "half_life": 1.292174023338,
         "ionization_energies": [
             619
         ],
@@ -10569,7 +10572,7 @@ pTable = [
         "quantum_numbers": "5I15/2",
         "series": "actinide",
         "source": "https://en.wikipedia.org/wiki/Einsteinium",
-        "summary": "<p>Einsteinium is a synthetic element with the symbol Es and atomic number 99. Einsteinium is a member of the actinide series and it is the seventh transuranic element. It was named in honor of Albert Einstein.</p><p>Einsteinium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952. Its most common isotope einsteinium-253 (half-life 20.47 days) is produced artificially from decay of californium-253 in a few dedicated high-power nuclear reactors with a total yield on the order of one milligram per year. The reactor synthesis is followed by a complex process of separating einsteinium-253 from other actinides and products of their decay. Other isotopes are synthesized in various laboratories, but in much smaller amounts, by bombarding heavy actinide elements with light ions. Owing to the small amounts of produced einsteinium and the short half-life of its most easily produced isotope, there are currently almost no practical applications for it outside basic scientific research. In particular, einsteinium was used to synthesize, for the first time, 17 atoms of the new element mendelevium in 1955.</p><p>Einsteinium is a soft, silvery, paramagnetic metal. Its chemistry is typical of the late actinides, with a preponderance of the +3 oxidation state; the +2 oxidation state is also accessible, especially in solids. The high radioactivity of einsteinium-253 produces a visible glow and rapidly damages its crystalline metal lattice, with released heat of about 1000 watts per gram. Difficulty in studying its properties is due to einsteinium-253's decay to berkelium-249 and then californium-249 at a rate of about 3% per day. The isotope of einsteinium with the longest half-life, einsteinium-252 (half-life 471.7 days) would be more suitable for investigation of physical properties, but it has proven far more difficult to produce and is available only in minute quantities, and not in bulk. Einsteinium is the element with the highest atomic number which has been observed in macroscopic quantities in its pure form, and this was the common short-lived isotope einsteinium-253.</p><p>Like all synthetic transuranic elements, isotopes of einsteinium are very radioactive and are considered highly dangerous to health on ingestion.</p>",
+        "summary": "<p>Einsteinium is a synthetic element with the symbol Es and atomic number 99. Einsteinium is a member of the actinide series and it is the seventh transuranic element. It was named in honor of Albert Einstein.</p><p>Einsteinium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952. Its most common isotope einsteinium-253 (half_life 20.47 days) is produced artificially from decay of californium-253 in a few dedicated high-power nuclear reactors with a total yield on the order of one milligram per year. The reactor synthesis is followed by a complex process of separating einsteinium-253 from other actinides and products of their decay. Other isotopes are synthesized in various laboratories, but in much smaller amounts, by bombarding heavy actinide elements with light ions. Owing to the small amounts of produced einsteinium and the short half_life of its most easily produced isotope, there are currently almost no practical applications for it outside basic scientific research. In particular, einsteinium was used to synthesize, for the first time, 17 atoms of the new element mendelevium in 1955.</p><p>Einsteinium is a soft, silvery, paramagnetic metal. Its chemistry is typical of the late actinides, with a preponderance of the +3 oxidation state; the +2 oxidation state is also accessible, especially in solids. The high radioactivity of einsteinium-253 produces a visible glow and rapidly damages its crystalline metal lattice, with released heat of about 1000 watts per gram. Difficulty in studying its properties is due to einsteinium-253's decay to berkelium-249 and then californium-249 at a rate of about 3% per day. The isotope of einsteinium with the longest half_life, einsteinium-252 (half_life 471.7 days) would be more suitable for investigation of physical properties, but it has proven far more difficult to produce and is available only in minute quantities, and not in bulk. Einsteinium is the element with the highest atomic number which has been observed in macroscopic quantities in its pure form, and this was the common short-lived isotope einsteinium-253.</p><p>Like all synthetic transuranic elements, isotopes of einsteinium are very radioactive and are considered highly dangerous to health on ingestion.</p>",
         "valence_electrons": 4
     },
     {
@@ -10611,7 +10614,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 30, 8, 2",
         "group": 3,
-        "half-life": 100.4976851852,
+        "half_life": 100.4976851852,
         "ionization_energies": [
             627
         ],
@@ -10626,7 +10629,7 @@ pTable = [
         "quantum_numbers": "3H6",
         "series": "actinide",
         "source": "https://en.wikipedia.org/wiki/Fermium",
-        "summary": "<p>Fermium is a synthetic element with the symbol Fm and atomic number 100. It is an actinide and the heaviest element that can be formed by neutron bombardment of lighter elements, and hence the last element that can be prepared in macroscopic quantities, although pure fermium metal has not yet been prepared. A total of 19 isotopes are known, with 257Fm being the longest-lived with a half-life of 100.5 days.</p><p>It was discovered in the debris of the first hydrogen bomb explosion in 1952, and named after Enrico Fermi, one of the pioneers of nuclear physics. Its chemistry is typical for the late actinides, with a preponderance of the +3 oxidation state but also an accessible +2 oxidation state. Owing to the small amounts of produced fermium and all of its isotopes having relatively short half-lives, there are currently no uses for it outside basic scientific research.</p>",
+        "summary": "<p>Fermium is a synthetic element with the symbol Fm and atomic number 100. It is an actinide and the heaviest element that can be formed by neutron bombardment of lighter elements, and hence the last element that can be prepared in macroscopic quantities, although pure fermium metal has not yet been prepared. A total of 19 isotopes are known, with 257Fm being the longest-lived with a half_life of 100.5 days.</p><p>It was discovered in the debris of the first hydrogen bomb explosion in 1952, and named after Enrico Fermi, one of the pioneers of nuclear physics. Its chemistry is typical for the late actinides, with a preponderance of the +3 oxidation state but also an accessible +2 oxidation state. Owing to the small amounts of produced fermium and all of its isotopes having relatively short half-lives, there are currently no uses for it outside basic scientific research.</p>",
         "valence_electrons": 3
     },
     {
@@ -10668,7 +10671,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 31, 8, 2",
         "group": 3,
-        "half-life": 51.50462962963,
+        "half_life": 51.50462962963,
         "ionization_energies": [
             635
         ],
@@ -10682,7 +10685,7 @@ pTable = [
         "quantum_numbers": "2F7/2",
         "series": "actinide",
         "source": "https://en.wikipedia.org/wiki/Mendelevium",
-        "summary": "<p>Mendelevium is a synthetic element with the symbol Md (formerly Mv) and atomic number 101. A metallic radioactive transuranium element in the actinide series, it is the first element by atomic number that currently cannot be produced in macroscopic quantities through neutron bombardment of lighter elements. It is the third-to-last actinide and the ninth transuranic element. It can only be produced in particle accelerators by bombarding lighter elements with charged particles. A total of seventeen mendelevium isotopes are known, the most stable being 258Md with a half-life of 51 days; nevertheless, the shorter-lived 256Md (half-life 1.17 hours) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Mendelevium was discovered by bombarding einsteinium with alpha particles in 1955, the same method still used to produce it today. It was named after Dmitri Mendeleev, father of the periodic table of the chemical elements. Using available microgram quantities of the isotope einsteinium-253, over a million mendelevium atoms may be produced each hour. The chemistry of mendelevium is typical for the late actinides, with a preponderance of the +3 oxidation state but also an accessible +2 oxidation state. All known isotopes of mendelevium have relatively short half-lives; there are currently no uses for it outside basic scientific research, and only small amounts are produced.</p>",
+        "summary": "<p>Mendelevium is a synthetic element with the symbol Md (formerly Mv) and atomic number 101. A metallic radioactive transuranium element in the actinide series, it is the first element by atomic number that currently cannot be produced in macroscopic quantities through neutron bombardment of lighter elements. It is the third-to-last actinide and the ninth transuranic element. It can only be produced in particle accelerators by bombarding lighter elements with charged particles. A total of seventeen mendelevium isotopes are known, the most stable being 258Md with a half_life of 51 days; nevertheless, the shorter-lived 256Md (half_life 1.17 hours) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Mendelevium was discovered by bombarding einsteinium with alpha particles in 1955, the same method still used to produce it today. It was named after Dmitri Mendeleev, father of the periodic table of the chemical elements. Using available microgram quantities of the isotope einsteinium-253, over a million mendelevium atoms may be produced each hour. The chemistry of mendelevium is typical for the late actinides, with a preponderance of the +3 oxidation state but also an accessible +2 oxidation state. All known isotopes of mendelevium have relatively short half-lives; there are currently no uses for it outside basic scientific research, and only small amounts are produced.</p>",
         "valence_electrons": 3
     },
     {
@@ -10724,7 +10727,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 8, 2",
         "group": 3,
-        "half-life": 2.777777777778,
+        "half_life": 2.777777777778,
         "ionization_energies": [
             642
         ],
@@ -10738,7 +10741,7 @@ pTable = [
         "quantum_numbers": "1S0",
         "series": "actinide",
         "source": "https://en.wikipedia.org/wiki/Nobelium",
-        "summary": "<p>Nobelium is a synthetic chemical element with the symbol No and atomic number 102. It is named in honor of Alfred Nobel, the inventor of dynamite and benefactor of science. A radioactive metal, it is the tenth transuranic element and is the penultimate member of the actinide series. Like all elements with atomic number over 100, nobelium can only be produced in particle accelerators by bombarding lighter elements with charged particles. A total of twelve nobelium isotopes are known to exist; the most stable is 259No with a half-life of 58 minutes, but the shorter-lived 255No (half-life 3.1 minutes) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Chemistry experiments have confirmed that nobelium behaves as a heavier homolog to ytterbium in the periodic table. The chemical properties of nobelium are not completely known: they are mostly only known in aqueous solution. Before nobelium's discovery, it was predicted that it would show a stable +2 oxidation state as well as the +3 state characteristic of the other actinides: these predictions were later confirmed, as the +2 state is much more stable than the +3 state in aqueous solution and it is difficult to keep nobelium in the +3 state.</p><p>In the 1950s and 1960s, many claims of the discovery of nobelium were made from laboratories in Sweden, the Soviet Union, and the United States. Although the Swedish scientists soon retracted their claims, the priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) credited the Soviet team with the discovery, but retained nobelium, the Swedish proposal, as the name of the element due to its long-standing use in the literature.</p>",
+        "summary": "<p>Nobelium is a synthetic chemical element with the symbol No and atomic number 102. It is named in honor of Alfred Nobel, the inventor of dynamite and benefactor of science. A radioactive metal, it is the tenth transuranic element and is the penultimate member of the actinide series. Like all elements with atomic number over 100, nobelium can only be produced in particle accelerators by bombarding lighter elements with charged particles. A total of twelve nobelium isotopes are known to exist; the most stable is 259No with a half_life of 58 minutes, but the shorter-lived 255No (half_life 3.1 minutes) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Chemistry experiments have confirmed that nobelium behaves as a heavier homolog to ytterbium in the periodic table. The chemical properties of nobelium are not completely known: they are mostly only known in aqueous solution. Before nobelium's discovery, it was predicted that it would show a stable +2 oxidation state as well as the +3 state characteristic of the other actinides: these predictions were later confirmed, as the +2 state is much more stable than the +3 state in aqueous solution and it is difficult to keep nobelium in the +3 state.</p><p>In the 1950s and 1960s, many claims of the discovery of nobelium were made from laboratories in Sweden, the Soviet Union, and the United States. Although the Swedish scientists soon retracted their claims, the priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) credited the Soviet team with the discovery, but retained nobelium, the Swedish proposal, as the name of the element due to its long-standing use in the literature.</p>",
         "valence_electrons": 3
     },
     {
@@ -10780,7 +10783,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 8, 3",
         "group": 3,
-        "half-life": 10,
+        "half_life": 10,
         "ionization_energies": [
             470
         ],
@@ -10794,7 +10797,7 @@ pTable = [
         "quantum_numbers": "2P1/2",
         "series": "actinide",
         "source": "https://en.wikipedia.org/wiki/Lawrencium",
-        "summary": "<p>Lawrencium is a synthetic chemical element with the symbol Lr (formerly Lw) and atomic number 103. It is named in honor of Ernest Lawrence, inventor of the cyclotron, a device that was used to discover many artificial radioactive elements. A radioactive metal, lawrencium is the eleventh transuranic element and is also the final member of the actinide series. Like all elements with atomic number over 100, lawrencium can only be produced in particle accelerators by bombarding lighter elements with charged particles. Fourteen isotopes of lawrencium are currently known; the most stable is 266Lr with a half-life of 11 hours, but the shorter-lived 260Lr (half-life 2.7 minutes) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Chemistry experiments have confirmed that lawrencium behaves as a heavier homolog to lutetium in the periodic table, and is a trivalent element. It thus could also be classified as the first of the 7th-period transition metals: however, its electron configuration is anomalous for its position in the periodic table, having an s2p configuration instead of the s2d configuration of its homolog lutetium. This means that lawrencium may be more volatile than expected for its position in the periodic table and have a volatility comparable to that of lead.</p><p>In the 1950s, 1960s, and 1970s, many claims of the synthesis of lawrencium of varying quality were made from laboratories in the Soviet Union and the United States. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and while the International Union of Pure and Applied Chemistry (IUPAC) initially established lawrencium as the official name for the element and gave the American team credit for the discovery, this was reevaluated in 1997, giving both teams shared credit for the discovery but not changing the element's name.</p>",
+        "summary": "<p>Lawrencium is a synthetic chemical element with the symbol Lr (formerly Lw) and atomic number 103. It is named in honor of Ernest Lawrence, inventor of the cyclotron, a device that was used to discover many artificial radioactive elements. A radioactive metal, lawrencium is the eleventh transuranic element and is also the final member of the actinide series. Like all elements with atomic number over 100, lawrencium can only be produced in particle accelerators by bombarding lighter elements with charged particles. Fourteen isotopes of lawrencium are currently known; the most stable is 266Lr with a half_life of 11 hours, but the shorter-lived 260Lr (half_life 2.7 minutes) is most commonly used in chemistry because it can be produced on a larger scale.</p><p>Chemistry experiments have confirmed that lawrencium behaves as a heavier homolog to lutetium in the periodic table, and is a trivalent element. It thus could also be classified as the first of the 7th-period transition metals: however, its electron configuration is anomalous for its position in the periodic table, having an s2p configuration instead of the s2d configuration of its homolog lutetium. This means that lawrencium may be more volatile than expected for its position in the periodic table and have a volatility comparable to that of lead.</p><p>In the 1950s, 1960s, and 1970s, many claims of the synthesis of lawrencium of varying quality were made from laboratories in the Soviet Union and the United States. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and while the International Union of Pure and Applied Chemistry (IUPAC) initially established lawrencium as the official name for the element and gave the American team credit for the discovery, this was reevaluated in 1997, giving both teams shared credit for the discovery but not changing the element's name.</p>",
         "valence_electrons": 3
     },
     {
@@ -10835,7 +10838,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 10, 2",
         "group": 4,
-        "half-life": 13.05555555556,
+        "half_life": 13.05555555556,
         "ionization_energies": [
             580
         ],
@@ -10849,7 +10852,7 @@ pTable = [
         "quantum_numbers": "3F2",
         "series": "transition metal",
         "source": "https://en.wikipedia.org/wiki/Rutherfordium",
-        "summary": "<p>Rutherfordium is a synthetic chemical element with the symbol Rf and atomic number 104, named after New Zealand physicist Ernest Rutherford. As a synthetic element, it is not found in nature and can only be created in a laboratory. It is radioactive; the most stable known isotope, 267Rf, has a half-life of approximately 1.3 hours.</p><p>In the periodic table of the elements, it is a d-block element and the second of the fourth-row transition elements. It is a member of the 7th period and belongs to the group 4 elements. Chemistry experiments have confirmed that rutherfordium behaves as the heavier homologue to hafnium in group 4. The chemical properties of rutherfordium are characterized only partly. They compare well with the chemistry of the other group 4 elements, even though some calculations had indicated that the element might show significantly different properties due to relativistic effects.</p><p>In the 1960s, small amounts of rutherfordium were produced in the Joint Institute for Nuclear Research in the Soviet Union and at the Lawrence Berkeley National Laboratory in California. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) established rutherfordium as the official name for the element.</p>",
+        "summary": "<p>Rutherfordium is a synthetic chemical element with the symbol Rf and atomic number 104, named after New Zealand physicist Ernest Rutherford. As a synthetic element, it is not found in nature and can only be created in a laboratory. It is radioactive; the most stable known isotope, 267Rf, has a half_life of approximately 1.3 hours.</p><p>In the periodic table of the elements, it is a d-block element and the second of the fourth-row transition elements. It is a member of the 7th period and belongs to the group 4 elements. Chemistry experiments have confirmed that rutherfordium behaves as the heavier homologue to hafnium in group 4. The chemical properties of rutherfordium are characterized only partly. They compare well with the chemistry of the other group 4 elements, even though some calculations had indicated that the element might show significantly different properties due to relativistic effects.</p><p>In the 1960s, small amounts of rutherfordium were produced in the Joint Institute for Nuclear Research in the Soviet Union and at the Lawrence Berkeley National Laboratory in California. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) established rutherfordium as the official name for the element.</p>",
         "valence_electrons": 4
     },
     {
@@ -10889,7 +10892,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 11, 2",
         "group": 5,
-        "half-life": 5.555555555556,
+        "half_life": 5.555555555556,
         "isotopes_known": "²⁵⁵Db, ²⁵⁶Db, ²⁵⁷Db, ²⁵⁸Db, ²⁵⁹Db, ²⁶⁰Db, ²⁶¹Db, ²⁶²Db, ²⁶³Db, ²⁶⁴Db, ²⁶⁵Db, ²⁶⁶Db, ²⁶⁷Db, ²⁶⁸Db, ²⁶⁹Db, ²⁷⁰Db",
         "isotopes_stable": "None",
         "lifetime": 8.333333333333,
@@ -10899,7 +10902,7 @@ pTable = [
         "quantum_numbers": "4F3/2",
         "series": "transition metal",
         "source": "https://en.wikipedia.org/wiki/Dubnium",
-        "summary": "<p>Dubnium is a synthetic chemical element with the symbol Db and atomic number 105. Dubnium is highly radioactive: the most stable known isotope, dubnium-268, has a half-life of about 28 hours. This greatly limits extended research on dubnium.</p><p>Dubnium does not occur naturally on Earth and is produced artificially. The Soviet Joint Institute for Nuclear Research (JINR) claimed the first discovery of the element in 1968, followed by the American Lawrence Berkeley Laboratory in 1970. Both teams proposed their names for the new element and used them without formal approval. The long-standing dispute was resolved in 1993 by an official investigation of the discovery claims by the Transfermium Working Group, formed by the International Union of Pure and Applied Chemistry and the International Union of Pure and Applied Physics, resulting in credit for the discovery being officially shared between both teams. The element was formally named dubnium in 1997 after the town of Dubna, the site of the JINR.</p><p>Theoretical research establishes dubnium as a member of group 5 in the 6d series of transition metals, placing it under vanadium, niobium, and tantalum. Dubnium should share most properties, such as its valence electron configuration and having a dominant +5 oxidation state, with the other group 5 elements, with a few anomalies due to relativistic effects. A limited investigation of dubnium chemistry has confirmed this. Solution chemistry experiments have revealed that dubnium often behaves more like niobium rather than tantalum, breaking periodic trends.</p>",
+        "summary": "<p>Dubnium is a synthetic chemical element with the symbol Db and atomic number 105. Dubnium is highly radioactive: the most stable known isotope, dubnium-268, has a half_life of about 28 hours. This greatly limits extended research on dubnium.</p><p>Dubnium does not occur naturally on Earth and is produced artificially. The Soviet Joint Institute for Nuclear Research (JINR) claimed the first discovery of the element in 1968, followed by the American Lawrence Berkeley Laboratory in 1970. Both teams proposed their names for the new element and used them without formal approval. The long-standing dispute was resolved in 1993 by an official investigation of the discovery claims by the Transfermium Working Group, formed by the International Union of Pure and Applied Chemistry and the International Union of Pure and Applied Physics, resulting in credit for the discovery being officially shared between both teams. The element was formally named dubnium in 1997 after the town of Dubna, the site of the JINR.</p><p>Theoretical research establishes dubnium as a member of group 5 in the 6d series of transition metals, placing it under vanadium, niobium, and tantalum. Dubnium should share most properties, such as its valence electron configuration and having a dominant +5 oxidation state, with the other group 5 elements, with a few anomalies due to relativistic effects. A limited investigation of dubnium chemistry has confirmed this. Solution chemistry experiments have revealed that dubnium often behaves more like niobium rather than tantalum, breaking periodic trends.</p>",
         "valence_electrons": 5
     },
     {
@@ -10939,7 +10942,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 12, 2",
         "group": 6,
-        "half-life": 1.944444444444,
+        "half_life": 1.944444444444,
         "isotopes_known": "²⁵⁸Sg, ²⁵⁹Sg, ²⁶⁰Sg, ²⁶¹Sg, ²⁶²Sg, ²⁶³Sg, ²⁶⁴Sg, ²⁶⁵Sg, ²⁶⁶Sg, ²⁶⁷Sg, ²⁶⁸Sg, ²⁶⁹Sg, ²⁷⁰Sg, ²⁷¹Sg, ²⁷²Sg, ²⁷³Sg",
         "isotopes_stable": "None",
         "lifetime": 2.777777777778,
@@ -10949,7 +10952,7 @@ pTable = [
         "quantum_numbers": "5D0",
         "series": "transition metal",
         "source": "https://en.wikipedia.org/wiki/Seaborgium",
-        "summary": "<p>Seaborgium is a synthetic chemical element with the symbol Sg and atomic number 106. It is named after the American nuclear chemist Glenn T. Seaborg. As a synthetic element, it can be created in a laboratory but is not found in nature. It is also radioactive; the most stable known isotope, 269Sg, has a half-life of approximately 14 minutes.</p><p>In the periodic table of the elements, it is a d-block transactinide element. It is a member of the 7th period and belongs to the group 6 elements as the fourth member of the 6d series of transition metals. Chemistry experiments have confirmed that seaborgium behaves as the heavier homologue to tungsten in group 6. The chemical properties of seaborgium are characterized only partly, but they compare well with the chemistry of the other group 6 elements.</p><p>In 1974, a few atoms of seaborgium were produced in laboratories in the Soviet Union and in the United States. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) established seaborgium as the official name for the element. It is one of only two elements named after a living person at the time of naming, the other being oganesson, element 118.</p>",
+        "summary": "<p>Seaborgium is a synthetic chemical element with the symbol Sg and atomic number 106. It is named after the American nuclear chemist Glenn T. Seaborg. As a synthetic element, it can be created in a laboratory but is not found in nature. It is also radioactive; the most stable known isotope, 269Sg, has a half_life of approximately 14 minutes.</p><p>In the periodic table of the elements, it is a d-block transactinide element. It is a member of the 7th period and belongs to the group 6 elements as the fourth member of the 6d series of transition metals. Chemistry experiments have confirmed that seaborgium behaves as the heavier homologue to tungsten in group 6. The chemical properties of seaborgium are characterized only partly, but they compare well with the chemistry of the other group 6 elements.</p><p>In 1974, a few atoms of seaborgium were produced in laboratories in the Soviet Union and in the United States. The priority of the discovery and therefore the naming of the element was disputed between Soviet and American scientists, and it was not until 1997 that the International Union of Pure and Applied Chemistry (IUPAC) established seaborgium as the official name for the element. It is one of only two elements named after a living person at the time of naming, the other being oganesson, element 118.</p>",
         "valence_electrons": 6
     },
     {
@@ -10989,7 +10992,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 13, 2",
         "group": 7,
-        "half-life": 1.5,
+        "half_life": 1.5,
         "isotopes_known": "²⁶⁰Bh, ²⁶¹Bh, ²⁶²Bh, ²⁶³Bh, ²⁶⁴Bh, ²⁶⁵Bh, ²⁶⁶Bh, ²⁶⁷Bh, ²⁶⁸Bh, ²⁶⁹Bh, ²⁷⁰Bh, ²⁷¹Bh, ²⁷²Bh, ²⁷³Bh, ²⁷⁴Bh, ²⁷⁵Bh",
         "isotopes_stable": "None",
         "lifetime": 2.166666666667,
@@ -10999,7 +11002,7 @@ pTable = [
         "quantum_numbers": "6S5/2",
         "series": "transition metal",
         "source": "https://en.wikipedia.org/wiki/Bohrium",
-        "summary": "<p>Bohrium is a synthetic chemical element with the symbol Bh and atomic number 107. It is named after Danish physicist Niels Bohr. As a synthetic element, it can be created in a laboratory but is not found in nature. All known isotopes of bohrium are extremely radioactive; the most stable known isotope is 270Bh with a half-life of approximately 61 seconds, though the unconfirmed 278Bh may have a longer half-life of about 690 seconds.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and belongs to the group 7 elements as the fifth member of the 6d series of transition metals. Chemistry experiments have confirmed that bohrium behaves as the heavier homologue to rhenium in group 7. The chemical properties of bohrium are characterized only partly, but they compare well with the chemistry of the other group 7 elements.</p>",
+        "summary": "<p>Bohrium is a synthetic chemical element with the symbol Bh and atomic number 107. It is named after Danish physicist Niels Bohr. As a synthetic element, it can be created in a laboratory but is not found in nature. All known isotopes of bohrium are extremely radioactive; the most stable known isotope is 270Bh with a half_life of approximately 61 seconds, though the unconfirmed 278Bh may have a longer half_life of about 690 seconds.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and belongs to the group 7 elements as the fifth member of the 6d series of transition metals. Chemistry experiments have confirmed that bohrium behaves as the heavier homologue to rhenium in group 7. The chemical properties of bohrium are characterized only partly, but they compare well with the chemistry of the other group 7 elements.</p>",
         "valence_electrons": 7
     },
     {
@@ -11039,7 +11042,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 14, 2",
         "group": 8,
-        "half-life": 1.111111111111,
+        "half_life": 1.111111111111,
         "isotopes_known": "²⁶³Hs, ²⁶⁴Hs, ²⁶⁵Hs, ²⁶⁶Hs, ²⁶⁷Hs, ²⁶⁸Hs, ²⁶⁹Hs, ²⁷⁰Hs, ²⁷¹Hs, ²⁷²Hs, ²⁷³Hs, ²⁷⁴Hs, ²⁷⁵Hs, ²⁷⁶Hs, ²⁷⁷Hs",
         "isotopes_stable": "None",
         "lifetime": 1.388888888889,
@@ -11089,7 +11092,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 15, 2",
         "group": 9,
-        "half-life": 30,
+        "half_life": 30,
         "isotopes_known": "²⁶⁵Mt, ²⁶⁶Mt, ²⁶⁷Mt, ²⁶⁸Mt, ²⁶⁹Mt, ²⁷⁰Mt, ²⁷¹Mt, ²⁷²Mt, ²⁷³Mt, ²⁷⁴Mt, ²⁷⁵Mt, ²⁷⁶Mt, ²⁷⁷Mt, ²⁷⁸Mt, ²⁷⁹Mt",
         "isotopes_stable": "None",
         "lifetime": 43.33333333333,
@@ -11098,7 +11101,7 @@ pTable = [
         "quantum_numbers": "4F9/2",
         "series": "unknown, probably transition metal",
         "source": "https://en.wikipedia.org/wiki/Meitnerium",
-        "summary": "<p>Meitnerium is a synthetic chemical element with the symbol Mt and atomic number 109. It is an extremely radioactive synthetic element (an element not found in nature, but can be created in a laboratory). The most stable known isotope, meitnerium-278, has a half-life of 4.5 seconds, although the unconfirmed meitnerium-282 may have a longer half-life of 67 seconds. The GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany, first created this element in 1982. It is named after Lise Meitner.</p><p>In the periodic table, meitnerium is a d-block transactinide element. It is a member of the 7th period and is placed in the group 9 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to iridium in group 9 as the seventh member of the 6d series of transition metals. Meitnerium is calculated to have similar properties to its lighter homologues, cobalt, rhodium, and iridium.</p>"
+        "summary": "<p>Meitnerium is a synthetic chemical element with the symbol Mt and atomic number 109. It is an extremely radioactive synthetic element (an element not found in nature, but can be created in a laboratory). The most stable known isotope, meitnerium-278, has a half_life of 4.5 seconds, although the unconfirmed meitnerium-282 may have a longer half_life of 67 seconds. The GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany, first created this element in 1982. It is named after Lise Meitner.</p><p>In the periodic table, meitnerium is a d-block transactinide element. It is a member of the 7th period and is placed in the group 9 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to iridium in group 9 as the seventh member of the 6d series of transition metals. Meitnerium is calculated to have similar properties to its lighter homologues, cobalt, rhodium, and iridium.</p>"
     },
     {
         "name": "Darmstadtium",
@@ -11137,7 +11140,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 16, 2",
         "group": 10,
-        "half-life": 4,
+        "half_life": 4,
         "isotopes_known": "²⁶⁷Ds, ²⁶⁸Ds, ²⁶⁹Ds, ²⁷⁰Ds, ²⁷¹Ds, ²⁷²Ds, ²⁷³Ds, ²⁷⁴Ds, ²⁷⁵Ds, ²⁷⁶Ds, ²⁷⁷Ds, ²⁷⁸Ds, ²⁷⁹Ds, ²⁸⁰Ds, ²⁸¹Ds",
         "isotopes_stable": "None",
         "lifetime": 5.833333333333,
@@ -11146,7 +11149,7 @@ pTable = [
         "quantum_numbers": "3D3",
         "series": "unknown, probably transition metal",
         "source": "https://en.wikipedia.org/wiki/Darmstadtium",
-        "summary": "<p>Darmstadtium is a chemical element with the symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half-life of approximately 12.7 seconds. Darmstadtium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research in the city of Darmstadt, Germany, after which it was named.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and is placed in the group 10 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to platinum in group 10 as the eighth member of the 6d series of transition metals. Darmstadtium is calculated to have similar properties to its lighter homologues, nickel, palladium, and platinum.</p>"
+        "summary": "<p>Darmstadtium is a chemical element with the symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half_life of approximately 12.7 seconds. Darmstadtium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research in the city of Darmstadt, Germany, after which it was named.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and is placed in the group 10 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to platinum in group 10 as the eighth member of the 6d series of transition metals. Darmstadtium is calculated to have similar properties to its lighter homologues, nickel, palladium, and platinum.</p>"
     },
     {
         "name": "Roentgenium",
@@ -11186,7 +11189,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 17, 2",
         "group": 11,
-        "half-life": 10,
+        "half_life": 10,
         "isotopes_known": "²⁷²Rg, ²⁷³Rg, ²⁷⁴Rg, ²⁷⁵Rg, ²⁷⁶Rg, ²⁷⁷Rg, ²⁷⁸Rg, ²⁷⁹Rg, ²⁸⁰Rg, ²⁸¹Rg, ²⁸²Rg, ²⁸³Rg",
         "isotopes_stable": "None",
         "lifetime": 14.5,
@@ -11195,7 +11198,7 @@ pTable = [
         "quantum_numbers": "2S1/2",
         "series": "unknown, probably transition metal",
         "source": "https://en.wikipedia.org/wiki/Roentgenium",
-        "summary": "<p>Roentgenium is a chemical element with the symbol Rg and atomic number 111. It is an extremely radioactive synthetic element that can be created in a laboratory but is not found in nature. The most stable known isotope, roentgenium-282, has a half-life of 100 seconds, although the unconfirmed roentgenium-286 may have a longer half-life of about 10.7 minutes. Roentgenium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany. It is named after the physicist Wilhelm Röntgen (also spelled Roentgen), who discovered X-rays. Only a few roentgenium atoms have ever been synthesized, and they contain no current practical application beyond that of scientific study.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and is placed in the group 11 elements, although no chemical experiments have been carried out to confirm that it behaves as the heavier homologue to gold in group 11 as the ninth member of the 6d series of transition metals. Roentgenium is calculated to have similar properties to its lighter homologues, copper, silver, and gold, although it may show some differences from them. Roentgenium is thought to be a solid at room temperature and to have a metallic appearance in its regular state.</p>"
+        "summary": "<p>Roentgenium is a chemical element with the symbol Rg and atomic number 111. It is an extremely radioactive synthetic element that can be created in a laboratory but is not found in nature. The most stable known isotope, roentgenium-282, has a half_life of 100 seconds, although the unconfirmed roentgenium-286 may have a longer half_life of about 10.7 minutes. Roentgenium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany. It is named after the physicist Wilhelm Röntgen (also spelled Roentgen), who discovered X-rays. Only a few roentgenium atoms have ever been synthesized, and they contain no current practical application beyond that of scientific study.</p><p>In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and is placed in the group 11 elements, although no chemical experiments have been carried out to confirm that it behaves as the heavier homologue to gold in group 11 as the ninth member of the 6d series of transition metals. Roentgenium is calculated to have similar properties to its lighter homologues, copper, silver, and gold, although it may show some differences from them. Roentgenium is thought to be a solid at room temperature and to have a metallic appearance in its regular state.</p>"
     },
     {
         "name": "Copernicium",
@@ -11235,7 +11238,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 2",
         "group": 12,
-        "half-life": 40,
+        "half_life": 40,
         "isotopes_known": "²⁷⁷Cn, ²⁷⁸Cn, ²⁷⁹Cn, ²⁸⁰Cn, ²⁸¹Cn, ²⁸²Cn, ²⁸³Cn, ²⁸⁴Cn, ²⁸⁵Cn",
         "isotopes_stable": "None",
         "lifetime": 58.33333333333,
@@ -11244,7 +11247,7 @@ pTable = [
         "quantum_numbers": "1S0",
         "series": "unknown, probably transition metal",
         "source": "https://en.wikipedia.org/wiki/Copernicium",
-        "summary": "<p>Copernicium is a synthetic chemical element with the symbol Cn and atomic number 112. Its known isotopes are extremely radioactive, and have only been created in a laboratory. The most stable known isotope, copernicium-285, has a half-life of approximately 28 seconds. Copernicium was first created in 1996 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany. It is named after the astronomer Nicolaus Copernicus.</p><p>In the periodic table of the elements, copernicium is a d-block transactinide element and a group 12 element. During reactions with gold, it has been shown to be an extremely volatile substance, so much so that it is possibly a gas or a volatile liquid at standard temperature and pressure.</p><p>Copernicium is calculated to have several properties that differ from its lighter homologues in group 12, zinc, cadmium and mercury; due to relativistic effects, it may give up its 6d electrons instead of its 7s ones, and it may have more similarities to the noble gases such as radon rather than its group 12 homologues. Calculations indicate that copernicium may show the oxidation state +4, while mercury shows it in only one compound of disputed existence and zinc and cadmium do not show it at all. It has also been predicted to be more difficult to oxidize copernicium from its neutral state than the other group 12 elements. Predictions vary on whether solid copernicium would be a metal, semiconductor, or insulator.</p>"
+        "summary": "<p>Copernicium is a synthetic chemical element with the symbol Cn and atomic number 112. Its known isotopes are extremely radioactive, and have only been created in a laboratory. The most stable known isotope, copernicium-285, has a half_life of approximately 28 seconds. Copernicium was first created in 1996 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany. It is named after the astronomer Nicolaus Copernicus.</p><p>In the periodic table of the elements, copernicium is a d-block transactinide element and a group 12 element. During reactions with gold, it has been shown to be an extremely volatile substance, so much so that it is possibly a gas or a volatile liquid at standard temperature and pressure.</p><p>Copernicium is calculated to have several properties that differ from its lighter homologues in group 12, zinc, cadmium and mercury; due to relativistic effects, it may give up its 6d electrons instead of its 7s ones, and it may have more similarities to the noble gases such as radon rather than its group 12 homologues. Calculations indicate that copernicium may show the oxidation state +4, while mercury shows it in only one compound of disputed existence and zinc and cadmium do not show it at all. It has also been predicted to be more difficult to oxidize copernicium from its neutral state than the other group 12 elements. Predictions vary on whether solid copernicium would be a metal, semiconductor, or insulator.</p>"
     },
     {
         "name": "Nihonium",
@@ -11285,7 +11288,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 3",
         "group": 13,
-        "half-life": 20,
+        "half_life": 20,
         "isotopes_known": "²⁸³Nh, ²⁸⁴Nh, ²⁸⁵Nh, ²⁸⁶Nh, ²⁸⁷Nh",
         "isotopes_stable": "None",
         "lifetime": 28.33333333333,
@@ -11295,7 +11298,7 @@ pTable = [
         "quantum_numbers": "2P1/2",
         "series": "unknown, probably transition metal",
         "source": "https://en.wikipedia.org/wiki/Ununtrium",
-        "summary": "<p>Nihonium is a synthetic chemical element with the symbol Nh and atomic number 113. It is extremely radioactive; its most stable known isotope, nihonium-286, has a half-life of about 10 seconds. In the periodic table, nihonium is a transactinide element in the p-block. It is a member of period 7 and group 13 (boron group).</p><p>Nihonium was first reported to have been created in 2003 by a Russian–American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan. The confirmation of their claims in the ensuing years involved independent teams of scientists working in the United States, Germany, Sweden, and China, as well as the original claimants in Russia and Japan. In 2015, the IUPAC/IUPAP Joint Working Party recognised the element and assigned the priority of the discovery and naming rights for the element to Riken. The Riken team suggested the name nihonium in 2016, which was approved in the same year. The name comes from the common Japanese name for Japan (日本, nihon).</p><p>Very little is known about nihonium, as it has only been made in very small amounts that decay within seconds. The anomalously long lives of some superheavy nuclides, including some nihonium isotopes, are explained by the \"island of stability\" theory. Experiments support the theory, with the half-lives of the confirmed nihonium isotopes increasing from milliseconds to seconds as neutrons are added and the island is approached. Nihonium has been calculated to have similar properties to its homologues boron, aluminium, gallium, indium, and thallium. All but boron are post-transition metals, and nihonium is expected to be a post-transition metal as well. It should also show several major differences from them; for example, nihonium should be more stable in the +1 oxidation state than the +3 state, like thallium, but in the +1 state nihonium should behave more like silver and astatine than thallium. Preliminary experiments in 2017 showed that elemental nihonium is not very volatile; its chemistry remains largely unexplored.</p>"
+        "summary": "<p>Nihonium is a synthetic chemical element with the symbol Nh and atomic number 113. It is extremely radioactive; its most stable known isotope, nihonium-286, has a half_life of about 10 seconds. In the periodic table, nihonium is a transactinide element in the p-block. It is a member of period 7 and group 13 (boron group).</p><p>Nihonium was first reported to have been created in 2003 by a Russian–American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan. The confirmation of their claims in the ensuing years involved independent teams of scientists working in the United States, Germany, Sweden, and China, as well as the original claimants in Russia and Japan. In 2015, the IUPAC/IUPAP Joint Working Party recognised the element and assigned the priority of the discovery and naming rights for the element to Riken. The Riken team suggested the name nihonium in 2016, which was approved in the same year. The name comes from the common Japanese name for Japan (日本, nihon).</p><p>Very little is known about nihonium, as it has only been made in very small amounts that decay within seconds. The anomalously long lives of some superheavy nuclides, including some nihonium isotopes, are explained by the \"island of stability\" theory. Experiments support the theory, with the half-lives of the confirmed nihonium isotopes increasing from milliseconds to seconds as neutrons are added and the island is approached. Nihonium has been calculated to have similar properties to its homologues boron, aluminium, gallium, indium, and thallium. All but boron are post-transition metals, and nihonium is expected to be a post-transition metal as well. It should also show several major differences from them; for example, nihonium should be more stable in the +1 oxidation state than the +3 state, like thallium, but in the +1 state nihonium should behave more like silver and astatine than thallium. Preliminary experiments in 2017 showed that elemental nihonium is not very volatile; its chemistry remains largely unexplored.</p>"
     },
     {
         "name": "Flerovium",
@@ -11335,7 +11338,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 4",
         "group": 14,
-        "half-life": 1.316666666667,
+        "half_life": 1.316666666667,
         "isotopes_known": "²⁸⁵Fl, ²⁸⁶Fl, ²⁸⁷Fl, ²⁸⁸Fl, ²⁸⁹Fl",
         "isotopes_stable": "None",
         "lifetime": 2,
@@ -11345,7 +11348,7 @@ pTable = [
         "quantum_numbers": "3P0",
         "series": "unknown, probably post-transition metal",
         "source": "https://en.wikipedia.org/wiki/Flerovium",
-        "summary": "<p>Flerovium is a superheavy artificial chemical element with the symbol Fl and atomic number 114. It is an extremely radioactive synthetic element. The element is named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia, where the element was discovered in 1998. The name of the laboratory, in turn, honours the Russian physicist Georgy Flyorov (Флёров in Cyrillic, hence the transliteration of \"yo\" to \"e\"). The name was adopted by IUPAC on 30 May 2012. The name and symbol had previously been proposed for element 102 (nobelium), but not accepted by IUPAC at that time.</p><p>In the periodic table of the elements, it is a transactinide element in the p-block. It is a member of the 7th period and is the heaviest known member of the carbon group; it is also the heaviest element whose chemistry has been investigated. Initial chemical studies performed in 2007–2008 indicated that flerovium was unexpectedly volatile for a group 14 element; in preliminary results it even seemed to exhibit properties similar to those of the noble gases. More recent results show that flerovium's reaction with gold is similar to that of copernicium, showing that it is a very volatile element that may even be gaseous at standard temperature and pressure, that it would show metallic properties, consistent with it being the heavier homologue of lead, and that it would be the least reactive metal in group 14. The question of whether flerovium behaves more like a metal or a noble gas is still unresolved as of 2020.</p><p>About 90 atoms of flerovium have been observed: 58 were synthesized directly, and the rest were made from the radioactive decay of heavier elements. All of these flerovium atoms have been shown to have mass numbers from 284 to 290. The most stable known flerovium isotope, flerovium-289, has a half-life of around 1.9 seconds, but it is possible that the unconfirmed flerovium-290 (with one extra neutron) may have a longer half-life of 19 seconds; this would be one of the longest half-lives of any isotope of any element at these farthest reaches of the periodic table. Flerovium is predicted to be near the centre of the theorized island of stability, and it is expected that heavier flerovium isotopes, especially the possibly magic flerovium-298, may have even longer half-lives.</p>"
+        "summary": "<p>Flerovium is a superheavy artificial chemical element with the symbol Fl and atomic number 114. It is an extremely radioactive synthetic element. The element is named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia, where the element was discovered in 1998. The name of the laboratory, in turn, honours the Russian physicist Georgy Flyorov (Флёров in Cyrillic, hence the transliteration of \"yo\" to \"e\"). The name was adopted by IUPAC on 30 May 2012. The name and symbol had previously been proposed for element 102 (nobelium), but not accepted by IUPAC at that time.</p><p>In the periodic table of the elements, it is a transactinide element in the p-block. It is a member of the 7th period and is the heaviest known member of the carbon group; it is also the heaviest element whose chemistry has been investigated. Initial chemical studies performed in 2007–2008 indicated that flerovium was unexpectedly volatile for a group 14 element; in preliminary results it even seemed to exhibit properties similar to those of the noble gases. More recent results show that flerovium's reaction with gold is similar to that of copernicium, showing that it is a very volatile element that may even be gaseous at standard temperature and pressure, that it would show metallic properties, consistent with it being the heavier homologue of lead, and that it would be the least reactive metal in group 14. The question of whether flerovium behaves more like a metal or a noble gas is still unresolved as of 2020.</p><p>About 90 atoms of flerovium have been observed: 58 were synthesized directly, and the rest were made from the radioactive decay of heavier elements. All of these flerovium atoms have been shown to have mass numbers from 284 to 290. The most stable known flerovium isotope, flerovium-289, has a half_life of around 1.9 seconds, but it is possible that the unconfirmed flerovium-290 (with one extra neutron) may have a longer half_life of 19 seconds; this would be one of the longest half-lives of any isotope of any element at these farthest reaches of the periodic table. Flerovium is predicted to be near the centre of the theorized island of stability, and it is expected that heavier flerovium isotopes, especially the possibly magic flerovium-298, may have even longer half-lives.</p>"
     },
     {
         "name": "Moscovium",
@@ -11386,7 +11389,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 5",
         "group": 15,
-        "half-life": 1,
+        "half_life": 1,
         "isotopes_known": "²⁸⁷Mc, ²⁸⁸Mc, ²⁸⁹Mc, ²⁹⁰Mc, ²⁹¹Mc",
         "isotopes_stable": "None",
         "lifetime": 1.5,
@@ -11396,7 +11399,7 @@ pTable = [
         "quantum_numbers": "4S3/2",
         "series": "unknown, probably post-transition metal",
         "source": "https://en.wikipedia.org/wiki/Ununpentium",
-        "summary": "<p>Moscovium is a synthetic chemical element with the symbol Mc and atomic number 115. It was first synthesized in 2003 by a joint team of Russian and American scientists at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia. In December 2015, it was recognized as one of four new elements by the Joint Working Party of international scientific bodies IUPAC and IUPAP. On 28 November 2016, it was officially named after the Moscow Oblast, in which the JINR is situated.</p><p>Moscovium is an extremely radioactive element: its most stable known isotope, moscovium-290, has a half-life of only 0.65 seconds. In the periodic table, it is a p-block transactinide element. It is a member of the 7th period and is placed in group 15 as the heaviest pnictogen, although it has not been confirmed to behave as a heavier homologue of the pnictogen bismuth. Moscovium is calculated to have some properties similar to its lighter homologues, nitrogen, phosphorus, arsenic, antimony, and bismuth, and to be a post-transition metal, although it should also show several major differences from them. In particular, moscovium should also have significant similarities to thallium, as both have one rather loosely bound electron outside a quasi-closed shell. About 100 atoms of moscovium have been observed to date, all of which have been shown to have mass numbers from 287 to 290.</p>"
+        "summary": "<p>Moscovium is a synthetic chemical element with the symbol Mc and atomic number 115. It was first synthesized in 2003 by a joint team of Russian and American scientists at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia. In December 2015, it was recognized as one of four new elements by the Joint Working Party of international scientific bodies IUPAC and IUPAP. On 28 November 2016, it was officially named after the Moscow Oblast, in which the JINR is situated.</p><p>Moscovium is an extremely radioactive element: its most stable known isotope, moscovium-290, has a half_life of only 0.65 seconds. In the periodic table, it is a p-block transactinide element. It is a member of the 7th period and is placed in group 15 as the heaviest pnictogen, although it has not been confirmed to behave as a heavier homologue of the pnictogen bismuth. Moscovium is calculated to have some properties similar to its lighter homologues, nitrogen, phosphorus, arsenic, antimony, and bismuth, and to be a post-transition metal, although it should also show several major differences from them. In particular, moscovium should also have significant similarities to thallium, as both have one rather loosely bound electron outside a quasi-closed shell. About 100 atoms of moscovium have been observed to date, all of which have been shown to have mass numbers from 287 to 290.</p>"
     },
     {
         "name": "Livermorium",
@@ -11437,7 +11440,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 6",
         "group": 16,
-        "half-life": 120,
+        "half_life": 120,
         "isotopes_known": "²⁸⁹Lv, ²⁹⁰Lv, ²⁹¹Lv, ²⁹²Lv",
         "isotopes_stable": "None",
         "lifetime": 173,
@@ -11447,7 +11450,7 @@ pTable = [
         "quantum_numbers": "3P2",
         "series": "unknown, probably post-transition metal",
         "source": "https://en.wikipedia.org/wiki/Livermorium",
-        "summary": "<p>Livermorium is a synthetic chemical element with the symbol Lv and has an atomic number of 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature. The element is named after the Lawrence Livermore National Laboratory in the United States, which collaborated with the Joint Institute for Nuclear Research (JINR) in Dubna, Russia to discover livermorium during experiments made between 2000 and 2006. The name of the laboratory refers to the city of Livermore, California where it is located, which in turn was named after the rancher and landowner Robert Livermore. The name was adopted by IUPAC on May 30, 2012. Four isotopes of livermorium are known, with mass numbers between 290 and 293 inclusive; the longest-lived among them is livermorium-293 with a half-life of about 60 milliseconds. A fifth possible isotope with mass number 294 has been reported but not yet confirmed.</p><p>In the periodic table, it is a p-block transactinide element. It is a member of the 7th period and is placed in group 16 as the heaviest chalcogen, although it has not been confirmed to behave as the heavier homologue to the chalcogen polonium. Livermorium is calculated to have some similar properties to its lighter homologues (oxygen, sulfur, selenium, tellurium, and polonium), and be a post-transition metal, although it should also show several major differences from them.</p>"
+        "summary": "<p>Livermorium is a synthetic chemical element with the symbol Lv and has an atomic number of 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature. The element is named after the Lawrence Livermore National Laboratory in the United States, which collaborated with the Joint Institute for Nuclear Research (JINR) in Dubna, Russia to discover livermorium during experiments made between 2000 and 2006. The name of the laboratory refers to the city of Livermore, California where it is located, which in turn was named after the rancher and landowner Robert Livermore. The name was adopted by IUPAC on May 30, 2012. Four isotopes of livermorium are known, with mass numbers between 290 and 293 inclusive; the longest-lived among them is livermorium-293 with a half_life of about 60 milliseconds. A fifth possible isotope with mass number 294 has been reported but not yet confirmed.</p><p>In the periodic table, it is a p-block transactinide element. It is a member of the 7th period and is placed in group 16 as the heaviest chalcogen, although it has not been confirmed to behave as the heavier homologue to the chalcogen polonium. Livermorium is calculated to have some similar properties to its lighter homologues (oxygen, sulfur, selenium, tellurium, and polonium), and be a post-transition metal, although it should also show several major differences from them.</p>"
     },
     {
         "name": "Tennessine",
@@ -11486,7 +11489,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 7",
         "group": 17,
-        "half-life": 50,
+        "half_life": 50,
         "isotopes_known": "²⁹¹Ts, ²⁹²Ts, ²⁹³Ts, ²⁹⁴Ts",
         "isotopes_stable": "None",
         "lifetime": 72,
@@ -11537,7 +11540,7 @@ pTable = [
         ],
         "energy_levels": "2, 8, 18, 32, 32, 18, 8",
         "group": 18,
-        "half-life": 5,
+        "half_life": 5,
         "isotopes_known": "²⁹³Og",
         "isotopes_stable": "None",
         "lifetime": 7,
