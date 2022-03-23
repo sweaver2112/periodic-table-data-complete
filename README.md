@@ -20,9 +20,8 @@ http://periodictable.com
 ## Notes
 
 1. The data is not flat - compound values are objects (Hardness, Abundance, Heat Of, Melting Point, Boiling Point, and many more)
-2. Numeric values are numbers, not strings
-3. Summary includes entire Wikipedia first section, consequently it retains the paragraph tags from the source: &lt;p&gt;summary text...&lt;/p&gt;&lt;p&gt;next paragraph...&lt;/p&gt;
-5. Isomorphic units map is included (it has the same structure and names as the pTable)
+2. Summary includes entire Wikipedia first section, consequently it retains the paragraph tags from the source: &lt;p&gt;summary text...&lt;/p&gt;&lt;p&gt;next paragraph...&lt;/p&gt;
+3. Isomorphic units map is included (it has the same structure and names as the pTable)
 
 ## Usage
 
