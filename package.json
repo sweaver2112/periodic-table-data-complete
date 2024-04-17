@@ -1,0 +1,27 @@
+{
+  "name": "periodic-table-data-complete",
+  "version": "1.0.0",
+  "description": "The definitive dataset for chemical elements.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweaver2112/periodic-table-data-complete.git"
+  },
+  "keywords": [
+    "periodic-table",
+    "chemical-elements",
+    "chemistry",
+    "data",
+    "json"
+  ],
+  "author": "Scott Weaver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sweaver2112/periodic-table-data-complete/issues"
+  },
+  "homepage": "https://github.com/sweaver2112/periodic-table-data-complete#readme"
+}

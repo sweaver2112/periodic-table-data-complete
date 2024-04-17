@@ -1,12 +1,12 @@
-# periodic-table-data
+# periodic-table-data-complete
 
 -- powering http://ChemStudent.net --
 
-The definitive data-set for chemical elements.
+The definitive dataset for chemical elements.
 
 Collator: Scott Weaver @sweaver2112
 
-## acknowledgements
+### acknowledgements
 
 https://github.com/Bowserinator/Periodic-Table-JSON,
 
@@ -16,28 +16,50 @@ http://pTable.com,
 
 http://periodictable.com
 
+https://www.convertonline.io/convert/js-to-json
 
 ## Notes
 
 1. The data is not flat - compound values are objects (Hardness, Abundance, Heat Of, Melting Point, Boiling Point, and many more)
 2. Summary includes entire Wikipedia first section, consequently it retains the paragraph tags from the source: &lt;p&gt;summary text...&lt;/p&gt;&lt;p&gt;next paragraph...&lt;/p&gt;
 3. Isomorphic units map is included (it has the same structure and names as the pTable)
+4. Property definitions (such as: melting_point) are included as HTML with link to Wikipedia article
+
+## Installation
+
+`npm install periodic-table-data-complete`
 
 ## Usage
+
+`import { pTable, pTableUnits, pTableProperties } from periodic-table-data-complete`
 
 The PTable is an array of objects, each object representing one chemical element. 
 
 Thus, to find, for example, the universal abundance of Helium (noting that Helium is the 2nd element by atomic number) :
 
-```pTable[1].abundance.universe => 23```
-
+```javascript
+var pt = JSON.parse(pTable)
+pt[1].abundance.universe => 23
+```
 more likely, you'll want to fetch an element by symbol:
 
-```pTable.find(el=>el.symbol=="B")  => Boron object```
+```javascript
+pt.find(el=>el.symbol=="B")  => Boron object
+```
 
-You can get the units by accessing the map with the corresponding property name:
+### Units
 
-```pTableUnits.abundance.universe => "%"``` 
+```javascript
+var units = JSON.parse(pTableUnits)
+units.abundance.universe => "%"
+```
+
+### Property Defintions
+
+```javascript
+var chemical_properties = JSON.parse(pTableProperties)
+chemical_properties.atomic_number => 'The <a target="_blank" href="https://en.wikipedia.org/wiki/Atomic_number">atomic number</a> or proton number (symbol <em>Z</em>) of a chemical element is the number of protons found in the nucleus of every atom of that element. The atomic number uniquely identifies a chemical element. It is identical to the charge number of the nucleus. In an uncharged atom, the atomic number is also equal to the number of electrons.'
+```
 
 ## Hierarchy / Available Properties
 
