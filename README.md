@@ -29,9 +29,7 @@ https://www.convertonline.io/convert/js-to-json
 
 `npm install periodic-table-data-complete`
 
-or
-
-`
+(raw JSON and CSV files are also provided)
 
 ## Usage
 
