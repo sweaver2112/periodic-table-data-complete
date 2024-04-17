@@ -28,11 +28,28 @@ https://www.convertonline.io/convert/js-to-json
 ## Installation
 
 `npm install periodic-table-data-complete`
-*raw JSON and CSV files are also included
+
+or
+
+`
 
 ## Usage
 
-`import { pTable, pTableUnits, pTableProperties } from periodic-table-data-complete`
+as an npm package:
+
+```javascript
+import { pTable, pTableUnits, pTableProperties } from periodic-table-data-complete`
+```
+
+using the source directly:
+
+```HTML
+<script type="module">
+    import { pTable } from "<path to>/pTable.js";
+    import { pTableUnits } from "<path to>/pTableUnits.js";
+    import { pTableProperties } from "<path to>/pTableProperties.js";
+</script>
+```
 
 The PTable is an array of objects, each object representing one chemical element. 
 
