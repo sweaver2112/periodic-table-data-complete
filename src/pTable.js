@@ -3605,7 +3605,7 @@ const pTable = JSON.stringify([
             "electric": 0.002
         },
         "cpk_hex": "668f8f",
-        "crystal_structure": "Face-centered Cubic",
+        "crystal_structure": "Face-centered Diamond-cubic",
         "density": {
             "stp": 5323,
             "liquid": 5600
@@ -3673,8 +3673,8 @@ const pTable = JSON.stringify([
         "resistivity": 0.0005,
         "series": "metalloid",
         "source": "https://en.wikipedia.org/wiki/Germanium",
-        "space_group_name": "Fm_3m",
-        "space_group_number": 225,
+        "space_group_name": "Fd_3m",
+        "space_group_number": 227,
         "speed_of_sound": 5400,
         "summary": "<p>Germanium is a chemical element with the symbol Ge and atomic number 32. It is a lustrous, hard-brittle, grayish-white metalloid in the carbon group, chemically similar to its group neighbors silicon and tin. Pure germanium is a semiconductor with an appearance similar to elemental silicon. Like silicon, germanium naturally reacts and forms complexes with oxygen in nature.</p><p>Because it seldom appears in high concentration, germanium was discovered comparatively late in the history of chemistry. Germanium ranks near fiftieth in relative abundance of the elements in the Earth's crust. In 1869, Dmitri Mendeleev predicted its existence and some of its properties from its position on his periodic table, and called the element ekasilicon. Nearly two decades later, in 1886, Clemens Winkler found the new element along with silver and sulfur, in an uncommon mineral called argyrodite. Although the new element somewhat resembled arsenic and antimony in appearance, the combining ratios in compounds agreed with Mendeleev's predictions for a relative of silicon. Winkler named the element after his country, Germany. Today, germanium is mined primarily from sphalerite (the primary ore of zinc), though germanium is also recovered commercially from silver, lead, and copper ores.</p><p>Elemental germanium is used as a semiconductor in transistors and various other electronic devices. Historically, the first decade of semiconductor electronics was based entirely on germanium. Presently, the major end uses are fibre-optic systems, infrared optics, solar cell applications, and light-emitting diodes (LEDs). Germanium compounds are also used for polymerization catalysts and have most recently found use in the production of nanowires. This element forms a large number of organogermanium compounds, such as tetraethylgermanium, useful in organometallic chemistry. Germanium is considered a technology-critical element.</p><p>Germanium is not thought to be an essential element for any living organism. Some complex organic germanium compounds are being investigated as possible pharmaceuticals, though none have yet proven successful. Similar to silicon and aluminium, naturally-occurring germanium compounds tend to be insoluble in water and thus have little oral toxicity. However, synthetic soluble germanium salts are nephrotoxic, and synthetic chemically reactive germanium compounds with halogens and hydrogen are irritants and toxins.</p>",
         "thermal_expansion": 0.000006,
