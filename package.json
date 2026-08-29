@@ -1,6 +1,6 @@
 {
   "name": "periodic-table-data-complete",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The definitive dataset for chemical elements.",
   "main": "index.js",
   "type": "module",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sweaver2112/periodic-table-data-complete/issues"
   },
-  "homepage": "https://github.com/sweaver2112/periodic-table-data-complete#readme"
+  "homepage": "https://github.com/sweaver2112/periodic-table-data-complete#readme",
+  "dependencies": {
+    "json-2-csv": "^5.6.0"
+  }
 }
