@@ -21,8 +21,6 @@ const pTableUnits = JSON.stringify(
     },
     "curie_point": "K",
     "density": {
-        "shear": "GPa",
-        "young": "GPa",
         "stp": "kg/m³",
         "liquid": "kg/m³"
     },
@@ -56,6 +54,8 @@ const pTableUnits = JSON.stringify(
         "kelvin": "K"
     },
     "modulus": {
+        "shear": "GPa",
+        "young": "GPa",
         "bulk": "GPa"
     },
     "neel_point": "K",

@@ -2058,7 +2058,8 @@ const pTable = JSON.stringify([
         "melting_point": 336.7,
         "modulus": {
             "bulk": 3.1,
-            "shear": 1.3
+            "shear": 1.3,
+            "young": 3.53
         },
         "molar_volume": 0.00004568,
         "neutron_cross_section": 2.1,
